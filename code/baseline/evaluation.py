@@ -1,15 +1,15 @@
 import json
 import torch
 from transformers import LlamaForCausalLM, LlamaTokenizer, BitsAndBytesConfig
-from datasets import load_dataset, load_metric
-from torch.utils.data import DataLoader
+from datasets import load_dataset
+import evaluate
 
 def prediction():
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
     # 加载tokenizer和model
     tokenizer_path = "/root/autodl-tmp/Llama-2-7b-hf"
-    model_path = "/root/RAG_NLIBench/code/baseline/hf_ckpt"  
+    model_path = "/root/autodl-tmp/hf_ckpt"  
 
     model = LlamaForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16, quantization_config=BitsAndBytesConfig(load_in_8bit=True), device_map="auto")
     tokenizer = LlamaTokenizer.from_pretrained(tokenizer_path)
@@ -59,39 +59,50 @@ def prediction():
         # 保存结果到数据结构
         output_data.append(data_point)
         print(i)
-        if i == 2000:
+        if i == 1000:
             break
 
-    # 保存修改后的数据集
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, indent=4, ensure_ascii=False)
+        # 保存修改后的数据集
+        with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'w', encoding='utf-8') as f:
+            json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 def bleu():
-    bleu = load_metric("bleu")
+    bleu = evaluate.load("bleu")
 
     with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
+    refs = []
+    preds = []
     for item in json_data:
         # 准备单个参考文本和预测文本
-        ref = [item['output']]
-        pred = [item['predicted_output']]
+        ref = item['ground_truth']
+        pred = item['predicted_answer']
+
+        refs.append(ref)
+        preds.append(pred)
 
         # 计算单个BLEU分数
-        single_result = bleu.compute(predictions=pred, references=ref)
+        single_result = bleu.compute(predictions=[pred], references=[[ref]])
         single_bleu_score = single_result['bleu']
 
         # 保存结果到数据结构
         item['bleu_score'] = single_bleu_score
         output_data.append(item)
     
+    # 计算整个数据集的BLEU分数
+    final_result = bleu.compute(predictions=preds, references=refs)
+    overall_bleu_score = final_result['bleu']
+
     # 保存修改后的数据集
     with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
+    
+    print(f"Overall BLEU score for the dataset: {overall_bleu_score}")
 
 def rouge_evaluation():
-    rouge = load_metric("rouge")
+    rouge = evaluate.load("rouge")
 
     with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
@@ -120,7 +131,7 @@ def rouge_evaluation():
         json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 def evaluate_with_bertscore():
-    bertscore = load_metric("bertscore")
+    bertscore = evaluate.load("bertscore")
 
     with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
@@ -148,4 +159,4 @@ def evaluate_with_bertscore():
         json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
-    prediction()
+    bleu()
