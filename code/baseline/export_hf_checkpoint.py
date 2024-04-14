@@ -1,3 +1,4 @@
+# 合并模型权重
 import os
 import torch
 from transformers import LlamaForCausalLM, LlamaTokenizer
@@ -5,7 +6,7 @@ from peft import PeftModel
 
 # 设置基本模型路径和微调模型的保存路径
 BASE_MODEL = "/root/autodl-tmp/Llama-2-7b-hf"
-FINETUNED_MODEL_DIR = "/root/RAG_NLIBench/code/baseline/alpaca-lora/lora-alpaca"  # 微调模型的输出目录
+FINETUNED_MODEL_DIR = "/root/RAG_NLIBench/code/baseline/experiments"  # 微调模型的输出目录
 
 # 加载Tokenizer
 tokenizer = LlamaTokenizer.from_pretrained(BASE_MODEL)
@@ -38,7 +39,7 @@ deloreanized_sd = {
 # 保存合并后的模型
 LlamaForCausalLM.save_pretrained(
     base_model,
-    "./merged_model",
+    "./hf_ckpt",
     state_dict=deloreanized_sd,
     max_shard_size="400MB"
 )
