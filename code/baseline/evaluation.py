@@ -78,8 +78,8 @@ def bleu():
     output_data = []
     for item in json_data:
         # 准备单个参考文本和预测文本
-        ref = [item['output']]
-        pred = [item['predicted_output']]
+        ref = [sent_tokenize(item['output'])]
+        pred = sent_tokenize(item['predicted_output'])
 
         # 计算单个BLEU分数
         single_result = bleu.compute(predictions=pred, references=ref)
@@ -154,4 +154,4 @@ def evaluate_with_bertscore():
         json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
-    prediction()
+    bertscore()
