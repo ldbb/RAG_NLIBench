@@ -114,17 +114,17 @@ def bleu():
 
     print(f'BLEU score: {sum_score / len(output_data)}')
 
-def rouge():
+def rouge_evaluation():
     rouge = load_metric("rouge")
 
-    with open('/root/RAG_NLIBench/translation_1.json', 'r', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
     for item in json_data:
         # 准备单个参考文本和预测文本
-        ref = sent_tokenize(item['output'])
-        pred = sent_tokenize(item['predicted_output'])
+        ref = [item['output']]
+        pred = [item['predicted_output']]
 
         # 计算单个ROUGE分数
         single_result = rouge.compute(predictions=pred, references=ref)
@@ -140,20 +140,20 @@ def rouge():
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/RAG_NLIBench/translation_1.json', 'w', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
 
-def bertscore():
+def evaluate_with_bertscore():
     bertscore = load_metric("bertscore")
 
-    with open('/root/RAG_NLIBench/translation_1.json', 'r', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
     for item in json_data:
         # 准备单个参考文本和预测文本
-        ref = sent_tokenize(item['output'])
-        pred = sent_tokenize(item['predicted_output'])
+        ref = [item['output']]
+        pred = [item['predicted_output']]
 
         # 计算单个BERTScore
         single_result = bertscore.compute(predictions=pred, references=ref, lang="en")  # 语言代码根据数据集语言调整
@@ -168,8 +168,8 @@ def bertscore():
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/RAG_NLIBench/translation_1.json', 'w', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
-    bertscore()
+    bleu()

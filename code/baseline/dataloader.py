@@ -7,8 +7,8 @@ from sklearn.model_selection import train_test_split
 root_dir = '/root/autodl-tmp/Instruction-tuning_Datasets/train_data'  
 total_records_to_sample = 62500  # 总共要随机选择的记录数量
 test_ratio = 0.2  # 测试集比例
-output_test_file = '/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset.json'
-output_train_file = '/root/autodl-tmp/Instruction-tuning_Datasets/train_dataset.json'
+output_test_file = '/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_1.json'
+output_train_file = '/root/autodl-tmp/Instruction-tuning_Datasets/train_dataset_1.json'
 
 # 遍历根目录下的所有jsonl文件
 def get_all_jsonl_files(root_dir):
@@ -28,7 +28,8 @@ def read_records(files):
                     data = {
                         "instruction": json_data['instruction'],
                         "input": json_data['input'],
-                        "output": json_data['output']
+                        "output": json_data['output'],
+                        "category": json_data['category']
                     }
                     all_records.append(data)
                 except KeyError as e:
