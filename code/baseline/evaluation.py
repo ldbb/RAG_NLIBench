@@ -62,59 +62,41 @@ def prediction():
         # 保存结果到数据结构
         output_data.append(data_point)
         print(i)
-        if i == 2003:
+        if i == 2000:
             break
 
-        # 保存修改后的数据集
-        with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions_3.json', 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, indent=4, ensure_ascii=False)
+    # 保存修改后的数据集
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 def bleu():
-    bleu = evaluate.load('bleu')
+    bleu = load_metric("bleu")
 
     with open('/root/RAG_NLIBench/translation.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
-    sum_score = 0
     for item in json_data:
         # 准备单个参考文本和预测文本
-        ref = sent_tokenize(item['output'])
-        refs = []
-        for i in ref:
-            items = [i]
-            refs.append(items)
-        
-        pred = sent_tokenize(item['predicted_output'])
+        ref = [item['output']]
+        pred = [item['predicted_output']]
 
         # 计算单个BLEU分数
-        try:
-            single_result = bleu.compute(predictions=pred, references=refs)
-        except ValueError:
-            print(pred)
-            print(refs)
-            continue
+        single_result = bleu.compute(predictions=pred, references=ref)
         single_bleu_score = single_result['bleu']
         sum_score = sum_score + single_bleu_score
 
         # 保存结果到数据结构
-        data = {
-            "category": item['category'],
-            "instruction": item['instruction'],
-            "input": item['input'],
-            "output": item['output'],
-            "predicted_output": item['predicted_output'],
-            "bleu_score": single_bleu_score
-        }
-        output_data.append(data)
+        item['bleu_score'] = single_bleu_score
+        output_data.append(item)
     
     # 保存修改后的数据集
     with open('/root/RAG_NLIBench/translation_1.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
+    
+    print(f"Overall BLEU score for the dataset: {overall_bleu_score}")
 
-    print(f'BLEU score: {sum_score / len(output_data)}')
-
-def rouge():
+def rouge_evaluation():
     rouge = load_metric("rouge")
 
     with open('/root/RAG_NLIBench/translation_1.json', 'r', encoding='utf-8') as f:
@@ -143,7 +125,7 @@ def rouge():
     with open('/root/RAG_NLIBench/translation_1.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
 
-def bertscore():
+def evaluate_with_bertscore():
     bertscore = load_metric("bertscore")
 
     with open('/root/RAG_NLIBench/translation_1.json', 'r', encoding='utf-8') as f:
@@ -172,4 +154,4 @@ def bertscore():
         json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
-    bertscore()
+    prediction()
