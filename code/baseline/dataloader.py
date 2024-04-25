@@ -1,61 +1,109 @@
-import json
 import os
-import random
-from sklearn.model_selection import train_test_split
+import json
+import nltk
 
-# 设置根目录和目标文件数
-root_dir = '/root/autodl-tmp/Instruction-tuning_Datasets/train_data'  
-total_records_to_sample = 62500  # 总共要随机选择的记录数量
-test_ratio = 0.2  # 测试集比例
-output_test_file = '/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_1.json'
-output_train_file = '/root/autodl-tmp/Instruction-tuning_Datasets/train_dataset_1.json'
+def train_data(input_dir):
+    '''
+    This function generates a training dataset from Super Natural Instruction datasets.
+    '''
 
-# 遍历根目录下的所有jsonl文件
-def get_all_jsonl_files(root_dir):
-    for root, dirs, files in os.walk(root_dir):
+    data_list = []
+    output_data = []
+    
+    # Walk through the specified directory to find .json files
+    for root, dirs, files in os.walk(input_dir):
         for file in files:
-            if file.endswith('.jsonl'):
-                yield os.path.join(root, file)
+            if file.endswith('.json'):
+                with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
+                    json_data = json.load(f)
+                    
+                # Loop through the keys 'Positive Examples' and 'Instances'
+                for key in ['Positive Examples', 'Instances']:
+                    for item in json_data[key][:40]:
 
-# 从每个文件中读取所有记录
-def read_records(files):
-    all_records = []
-    for file in files:
-        with open(file, 'r', encoding='utf-8') as f:
-            for line in f:
-                json_data = json.loads(line)
-                try:
-                    data = {
-                        "instruction": json_data['instruction'],
-                        "input": json_data['input'],
-                        "output": json_data['output'],
-                        "category": json_data['category']
-                    }
-                    all_records.append(data)
-                except KeyError as e:
-                    print(f"Missing key {e} in file: {file}")
-                    continue
-    return all_records
+                        # Check if the 'output' is a list and take the first element
+                        if isinstance(item['output'], list):
+                            item['output'] = item['output'][0]
+                            
 
-# 获取所有记录并进行数据划分
-files = list(get_all_jsonl_files(root_dir))
-all_records = read_records(files)
+                            # Create a data dictionary containing 'instruction', 'input', 'output', and 'category'
+                            data = {
+                                "instruction": json_data['Definition'][0],
+                                "input": item['input'],
+                                "output": item['output'],
+                                "category": json_data['Categories'][0]
+                            }
 
-# 随机选取指定数量的记录，如果总记录数小于目标数量，则返回所有记录
-if len(all_records) > total_records_to_sample:
-    selected_records = random.sample(all_records, total_records_to_sample)
-else:
-    selected_records = all_records
+                            # Tokenize the 'instruction' and 'input' and count the number of tokens, if the number of tokens is less than 256, append the data to the data_list and output_data, lora cutoff=256 token, so we choose those data less than 256 token
+                            tokens = nltk.word_tokenize(data['instruction'] + data['input'])
+                            num_token = len(tokens)
 
-# 将选取的数据按照80:20比例分割为训练集和测试集
-train_records, test_records = train_test_split(selected_records, test_size=test_ratio, random_state=42)
+                            if num_token < 256:
+                                data_list.append(data)
+                                output_data.append(data)
 
-# 将训练集和测试集数据保存为JSON文件
-with open(output_train_file, 'w', encoding='utf-8') as f:
-    json.dump(train_records, f, ensure_ascii=False, indent=2)
+                            # If the length of data_list is 40, reset the data_list and break the loop
+                            if len(data_list) == 40:
+                                data_list = []
+                                break  
+    
+    
+    # Write the output_data to a .json file
+    with open(os.path.join(input_dir, 'train.json'), 'w', encoding='utf-8') as file:
+        json.dump(output_data, file, indent=4, ensure_ascii=False)
+    
+    # Print the length of output_data
+    print(len(output_data))
 
-with open(output_test_file, 'w', encoding='utf-8') as f:
-    json.dump(test_records, f, ensure_ascii=False, indent=2)
 
-print(f"完成！已保存训练集{len(train_records)}条记录到{output_train_file}。")
-print(f"完成！已保存测试集{len(test_records)}条记录到{output_test_file}。")
+def test_data(input_dir):
+    '''
+    This function generates a test dataset from Super Natural Instruction datasets.
+    '''
+
+    data_list = []
+    output_data = []
+    
+    # Walk through the specified directory to find .json files
+    for root, dirs, files in os.walk(input_dir):
+        for file in files:
+            if file.endswith('.json'):
+                with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
+                    json_data = json.load(f)
+                    
+                # Loop through the key 'Instances'
+                for key in ['Instances']:
+                    for item in json_data[key][40:]:
+
+                        # Check if the 'output' is a list and take the first element
+                        if isinstance(item['output'], list):
+                            item['output'] = item['output'][0]
+                            
+
+                            # Create a data dictionary containing 'instruction', 'input', 'output', and 'category'
+                            data = {
+                                "instruction": json_data['Definition'][0],
+                                "input": item['input'],
+                                "output": item['output'],
+                                "category": json_data['Categories'][0]
+                            }
+
+                            # Tokenize the 'instruction' and 'input' and count the number of tokens, if the number of tokens is less than 256, append the data to the data_list and output_data, lora cutoff=256 token, so we choose those data less than 256 token
+                            tokens = nltk.word_tokenize(data['instruction'] + data['input'])
+                            num_token = len(tokens)
+
+                            if num_token < 256:
+                                data_list.append(data)
+                                output_data.append(data)
+
+                            # If the length of data_list is 40, reset the data_list and break the loop
+                            if len(data_list) == 40:
+                                data_list = []
+                                break  
+    
+    # Write the output_data to a .json file
+    with open(os.path.join(input_dir, 'test.json'), 'w', encoding='utf-8') as file:
+        json.dump(output_data, file, indent=4, ensure_ascii=False)
+    
+    # Print the length of output_data
+    print(len(output_data))

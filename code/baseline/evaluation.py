@@ -3,7 +3,6 @@ import torch
 from transformers import LlamaForCausalLM, LlamaTokenizer, BitsAndBytesConfig
 from datasets import load_dataset, load_metric
 import evaluate
-from nltk.tokenize import sent_tokenize
 from torch.utils.data import DataLoader
 
 
@@ -12,14 +11,14 @@ def prediction():
 
     # 加载tokenizer和model
     tokenizer_path = "/root/autodl-tmp/Llama-2-7b-hf"
-    model_path = "/root/autodl-tmp/hf_ckpt"  
+    model_path = "/root/RAG_NLIBench/code/baseline/hf_ckpt"  
 
     model = LlamaForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16, quantization_config=BitsAndBytesConfig(load_in_8bit=True), device_map="auto")
     tokenizer = LlamaTokenizer.from_pretrained(tokenizer_path)
 
     # 加载测试数据
-    test_data = load_dataset('json', data_files={'test': '/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset.json'})['test']
-    print(test_data)
+    test_data = load_dataset('json', data_files={'test': '/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/Question_Answering_200.json'})['test']
+    
     # 准备输出文件
     output_data = []
     i = 1
@@ -54,32 +53,35 @@ def prediction():
         try:
             decoded_preds = decoded_preds.split("### Response:")[1].strip()
             data_point['predicted_output'] = decoded_preds
-            i = i + 1
         except (IndexError, RuntimeError) as e:
+            print(decoded_preds)
             print(f"捕获到异常：{e}")
             continue
         
         # 保存结果到数据结构
         output_data.append(data_point)
+        i = i + 1
         print(i)
-        if i == 2000:
-            break
 
-    # 保存修改后的数据集
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_dataset_with_predictions.json', 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, indent=4, ensure_ascii=False)
+        # 保存修改后的数据集
+        with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/Question_Answering_200_1.json', 'w', encoding='utf-8') as f:
+            json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 def bleu():
+    '''
+    evaluate BLEU score
+    '''
     bleu = load_metric("bleu")
 
-    with open('/root/RAG_NLIBench/translation.json', 'r', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
+    sum_score = 0
     for item in json_data:
         # 准备单个参考文本和预测文本
-        ref = [sent_tokenize(item['output'])]
-        pred = sent_tokenize(item['predicted_output'])
+        ref = [[item['output'].split(' ')]]
+        pred = [item['predicted_output'].split(' ')]
 
         # 计算单个BLEU分数
         single_result = bleu.compute(predictions=pred, references=ref)
@@ -87,71 +89,138 @@ def bleu():
         sum_score = sum_score + single_bleu_score
 
         # 保存结果到数据结构
-        item['bleu_score'] = single_bleu_score
+        item['BLEU'] = single_bleu_score
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/RAG_NLIBench/translation_1.json', 'w', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     
-    print(f"Overall BLEU score for the dataset: {overall_bleu_score}")
+    print(f"Overall BLEU score for the dataset: {sum_score / len(output_data)}")
 
-def rouge_evaluation():
+def rouge():
     rouge = load_metric("rouge")
 
-    with open('/root/RAG_NLIBench/translation_1.json', 'r', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
+    sum_rouge_1 = 0
+    sum_rouge_2 = 0
+    sum_rouge_l = 0
     for item in json_data:
         # 准备单个参考文本和预测文本
-        ref = sent_tokenize(item['output'])
-        pred = sent_tokenize(item['predicted_output'])
+        ref = [item['output']]
+        pred = [item['predicted_output']]
 
         # 计算单个ROUGE分数
         single_result = rouge.compute(predictions=pred, references=ref)
         # ROUGE输出通常包含多个分数，如ROUGE-1, ROUGE-2, ROUGE-L
-        rouge_1_score = single_result['rouge1'].mid.fmeasure  # 使用F1分数
+        rouge_1_score = single_result['rouge1'].mid.fmeasure
+        sum_rouge_1 += rouge_1_score
         rouge_2_score = single_result['rouge2'].mid.fmeasure
+        sum_rouge_2 += rouge_2_score
         rouge_l_score = single_result['rougeL'].mid.fmeasure
+        sum_rouge_l += rouge_l_score
 
         # 保存结果到数据结构
-        item['rouge_1_score'] = rouge_1_score
-        item['rouge_2_score'] = rouge_2_score
-        item['rouge_l_score'] = rouge_l_score
+        item['ROUGE_1'] = rouge_1_score
+        item['ROUGE_2'] = rouge_2_score
+        item['ROUGE_l'] = rouge_l_score
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/RAG_NLIBench/translation_1.json', 'w', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
+    print(f'ROUGE_1: {sum_rouge_1 / len(output_data)}')
+    print(f'ROUGE_2: {sum_rouge_2 / len(output_data)}')
+    print(f'ROUGE_l: {sum_rouge_l / len(output_data)}')
 
-def evaluate_with_bertscore():
+def BERTScore():
     bertscore = load_metric("bertscore")
 
-    with open('/root/RAG_NLIBench/translation_1.json', 'r', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
+    sum_bertscore = 0
     for item in json_data:
         # 准备单个参考文本和预测文本
-        ref = sent_tokenize(item['output'])
-        pred = sent_tokenize(item['predicted_output'])
+        ref = [item['output']]
+        pred = [item['predicted_output']]
 
         # 计算单个BERTScore
-        single_result = bertscore.compute(predictions=pred, references=ref, lang="en")  # 语言代码根据数据集语言调整
-        precision = single_result['precision']
-        recall = single_result['recall']
+        single_result = bertscore.compute(predictions=pred, references=ref, lang="en")  
         f1 = single_result['f1']
 
         # 保存结果到数据结构
-        item['bertscore_precision'] = precision[0]  # BERTScore输出是每个预测的列表
-        item['bertscore_recall'] = recall[0]
-        item['bertscore_f1'] = f1[0]
+        item['BERTScore_f1'] = f1[0]
+        sum_bertscore += f1[0]
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/RAG_NLIBench/translation_1.json', 'w', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
+    print(f'BERTScore: {sum_bertscore / len(output_data)}')
+
+def Acc():
+    f1 = load_metric("f1")
+
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/f1/Spam_Classification_20_1.json', 'r', encoding='utf-8') as f:
+        json_data = json.load(f)
+    
+    output_data = []
+    pred = []
+    ref = []
+    sum_acc = 0
+
+    dict_map = {
+        "ham": 0,
+        "Ham": 0,
+        "Spam": 1,
+        "spam": 1
+    }
+    for item in json_data:
+        # 准备单个参考文本和预测文本
+        ref.append(dict_map[item['output']])
+        pred.append(dict_map[item['predicted_output']])
+
+        # 计算单个F1
+        if dict_map[item['output']] == dict_map[item['predicted_output']]:
+            acc_score = 1.0
+        else: 
+            acc_score = 0.0
+
+        # 保存结果到数据结构
+        item['acc'] = acc_score
+        sum_acc += acc_score
+        output_data.append(item)
+    
+    # 保存修改后的数据集
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/f1/Spam_Classification_20_1.json', 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, indent=4, ensure_ascii=False)
+    
+    f1_score = f1.compute(predictions=pred, references=ref)
+    print(f'Acc: {sum_acc / len(output_data)}')
+    print(f1_score['f1'])
+
+def exact_match():
+    exact_match = load_metric("exact_match")
+
+    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/Question_Answering_200_1.json', 'r', encoding='utf-8') as f:
+        json_data = json.load(f)
+    
+    ref = []
+    pred = []
+    for item in json_data:
+        # 准备单个参考文本和预测文本
+        ref.append(item['output'])
+        pred.append(item['predicted_output'])
+    
+    results = exact_match.compute(references=ref, predictions=pred,ignore_case=True, ignore_punctuation=True)
+
+    print(round(results["exact_match"], 2))
 
 if __name__ == '__main__':
-    bertscore()
+    exact_match()
+

@@ -26,10 +26,10 @@ def process_Super_Natural_Instruction():
                             }
                             data_list.append(data)
 
-                            if len(data_list) == 50000:
+                            if len(data_list) == 50:
                                 count_str = str(count)
-                                file_name = 'train_' + count_str + '.jsonl'
-                                with open(os.path.join('./Super-Natural Instruction/train_data', file_name), 'w', encoding='utf-8') as file:
+                                file_name = 'train_' + count_str + '.json'
+                                with open(os.path.join('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore', file_name), 'w', encoding='utf-8') as file:
                                     for item in data_list:
                                         json_string = json.dumps(item, ensure_ascii=False)
                                         file.write(json_string + '\n')

@@ -1,8 +1,0 @@
-['Hello, sorry']
-[['Hi.'], ["I'm sorry."]]
-['She is still there, but there is a lack of liveliness in the mind that does not catch it.', 'as if it had been tuned to another frequency,']
-[["It is always there, but there is a dullness in the mind that doesn't pick it up, like it has been tuned in to another frequency, the frequency of thought."]]
-['But I want to say this very clearly: Parliament is legislative, and that we just have consultative rights when it comes to competition law is really a scandal!']
-[['There is one thing I would like to make quite clear though.'], ['Parliament is a legislative body, but the fact that we have no more than the right of consultation in matters of competition law, of all things, is truly scandalous.']]
-['Babbage thought about using a binary system.', 'The problem with a binary system is that the machine would be absurdly high.']
-[['And he thought about using binary.'], ['The problem with using binary is that the machine would have been so tall, it would have been ridiculous.'], ["As it is, it's enormous."]]

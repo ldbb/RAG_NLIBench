@@ -28,9 +28,9 @@ tokenizer.pad_token_id = (
 )
 tokenizer.padding_side = "left"
 
-data = load_dataset("json", data_files="/root/autodl-tmp/Instruction-tuning_Datasets/train_dataset.json")
+data = load_dataset("json", data_files="/root/autodl-tmp/Instruction-tuning_Datasets/train_1.json")
 
-CUTOFF_LEN = 512
+CUTOFF_LEN = 256
 
 def generate_prompt(data_point):    
     return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.  # noqa: E501
@@ -90,8 +90,8 @@ BATCH_SIZE = 128
 MICRO_BATCH_SIZE = 4
 GRADIENT_ACCUMULATION_STEPS = BATCH_SIZE // MICRO_BATCH_SIZE
 LEARNING_RATE = 3e-4
-TRAIN_STEPS = 500
-OUTPUT_DIR = "experiments_2"
+TRAIN_STEPS = 300
+OUTPUT_DIR = "experiments"
 
 model = prepare_model_for_kbit_training(model)
 config = LoraConfig(
@@ -111,7 +111,7 @@ training_arguments = transformers.TrainingArguments(
     warmup_steps=100,
     max_steps=TRAIN_STEPS,
     learning_rate=LEARNING_RATE,
-    fp16=True,
+    fp16=False,
     logging_steps=10,
     optim="adamw_torch",
     evaluation_strategy="steps",
