@@ -182,7 +182,7 @@ OUTPUT_DIR = "experiments"
 
 - Llama2-7b微调结果：
 
-![loss]([https://github.com/ldbb/RAG_NLIBench/blob/main/imgs/loss.png])
+![Loss Image](imgs/loss.png)
 
 - BLEU，ROUGE，BERTScore测试集结果
 
