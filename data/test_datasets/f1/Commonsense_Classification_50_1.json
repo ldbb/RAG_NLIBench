@@ -1,0 +1,448 @@
+[
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX babysits PersonY's nephew<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX is highschool sweethearts<sep>Tail: to continue the relationship",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX climbs into bed<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX behaves like a PersonY<sep>Tail: Study characteristics",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "Yes",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX makes PersonY feel bad<sep>Tail: to repair relationship",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "Yes",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX never told ___<sep>Tail: to wonder if PersonX is telling the truth",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "Yes",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX obtains PersonY interview<sep>Tail: to get hired",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX gets PersonY start<sep>Tail: to finish it",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "Yes",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX calls the dentist<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX asks for the moon<sep>Tail: to have their friends buy them very expensive things",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX begs for food<sep>Tail: worried",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX moves PersonY's body<sep>Tail: to give thanks",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX becomes PersonY object<sep>Tail: is smothered",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX accepts PersonY invitation<sep>Tail: happy to be invited",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX feels worse<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX babysits PersonX's nephew<sep>Tail: happy",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX is getting fat<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX gets tired of it<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX amends PersonY act<sep>Tail: to peaceful life",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX gives ___ food<sep>Tail: to decline the offer",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX asks ___ if PersonY could have one<sep>Tail: to speak for PersonY",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX asks for the moon<sep>Tail: look at the stars",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "Yes",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX makes hay<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX asks PersonX's grandma<sep>Tail: to make X happy",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "Yes",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX feels bad for PersonY<sep>Tail: to thank PersonX",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX hears the ___ close<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX answers PersonY's letter<sep>Tail: to get a reply",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "Yes",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX knocks ___ out cold<sep>Tail: to stop burglarizing houses",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX 'd better go<sep>Tail: the person feels happy since he arrived at his destination.",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "Yes",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX is skateboarding with PersonX's friends<sep>Tail: to keep skateboarding",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "Yes",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX expresses PersonY thanks<sep>Tail: Person X to do something for them.",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX interprets the ___ in terms<sep>Tail: to protest against PersonX",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX asks if PersonY was okay<sep>Tail: happy that personx cares about them",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX allergic to bees<sep>Tail: anxious",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX affords PersonY protection<sep>Tail: grateful",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX gets an email<sep>Tail: to wait for a response",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX gives ___ a pep talk<sep>Tail: to try again",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "Yes",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX hangs five<sep>Tail: to also surf",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX plans the wedding<sep>Tail: to see locations",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "Yes",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX also decided<sep>Tail: goes to the event",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX inherits from PersonX's mother<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX asks to play<sep>Tail: run around",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX inspires PersonY with confidence<sep>Tail: to benefit from PersonX",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX always ate<sep>Tail: large",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX buys PersonX's clothes<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX fills ___ to the top<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX hath PersonY ear<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX asks to go home<sep>Tail: none",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX affords every ___<sep>Tail: to seize the day.",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "predicted_output": "No",
+        "f1": 1.0,
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "input": "Head: PersonX joins PersonY's band<sep>Tail: to practice",
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will want what is mentioned in the Tail or not. In this task, wanting is a postcondition desire on the part of PersonY and others, respectively. For example, as a result of PersonX giving PersonY gifts, PersonY may want to open the gift. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "predicted_output": "No",
+        "f1": 0.0,
+        "acc": 0.0
+    }
+]

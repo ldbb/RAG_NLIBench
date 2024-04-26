@@ -28,7 +28,7 @@ tokenizer.pad_token_id = (
 )
 tokenizer.padding_side = "left"
 
-data = load_dataset("json", data_files="/root/autodl-tmp/Instruction-tuning_Datasets/train_1.json")
+data = load_dataset("json", data_files="/root/autodl-tmp/Instruction-tuning_Datasets/train.json")
 
 CUTOFF_LEN = 256
 
@@ -90,8 +90,8 @@ BATCH_SIZE = 128
 MICRO_BATCH_SIZE = 4
 GRADIENT_ACCUMULATION_STEPS = BATCH_SIZE // MICRO_BATCH_SIZE
 LEARNING_RATE = 3e-4
-TRAIN_STEPS = 300
-OUTPUT_DIR = "experiments"
+TRAIN_STEPS = 600
+OUTPUT_DIR = "experiments_2"
 
 model = prepare_model_for_kbit_training(model)
 config = LoraConfig(
