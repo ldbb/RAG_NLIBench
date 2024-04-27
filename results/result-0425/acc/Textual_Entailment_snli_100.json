@@ -1,0 +1,522 @@
+[
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A woman is running a marathon while people dressed up in roman costumes follow her. Sentence 2: A man is running in a race.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A woman sporting a freshly baked pie on her head. Sentence 2: A woman is practicing to be a circus clown.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: Baseball field staff washing the clay that rings the outside of a baseball field. Sentence 2: People are working",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "C",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A hostess in a restaurant, wearing a uniform and a black hat is cleaning one of the tables. Sentence 2: One of the waitresses did not show up so the restaurant hostess is bussing tables.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A man, a woman, and a child are relaxing outside. Sentence 2: A couple sits and enjoys the fireplace.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A woman behind a glass smiling and holding the peace sign. Sentence 2: A woman with long hair is smiling and holding a peace sign.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: An Asian boy is leaning against a pole. Sentence 2: The child is leaning against the pole",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Man in gray shirt throws a football into the air. Sentence 2: A man is playing a football",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: Two blond women serve themselves from a platter while sitting at a banquet table with glasses of red wine. Sentence 2: Women dancing at the club.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Two small boys sit on a bench near a carnival ride. Sentence 2: Two boys are waiting for their parents.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A man crossing a natural stone bridge jumps while in the middle of it. Sentence 2: A Girl was running in the bridge.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Two young ladies affectionately hugging each other with their faces touching, as they smile at each other. Sentence 2: The women are lesbians",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: An older man is sitting in a lawn chair with a newspaper in his hand and selling paint cans, lawn chairs, and other items. Sentence 2: An older woman is selling newspapers.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A girl is serving food and a man is staring at her. Sentence 2: A girl is serving food and notices a man is staring at her.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A woman is laughing in a pool while wearing scuba gear. Sentence 2: The woman is wearing scuba gear in the pool.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A woman wearing a fur coat enters through a doorway Sentence 2: The woman enters a club.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: People are watching a race on city streets. Sentence 2: the people were watching a race that was on the city streets",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "C",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A shirtless man is sitting on the ground holding fruit. Sentence 2: A homeless man with no shirt is sitting on the holding fruit.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: Two men Nordic ski racing while others watch from behind. Sentence 2: Two guys have on skis.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A male tennis player runs for a shot. Sentence 2: A boy is running after a tennis shot his friend made.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "C",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: An older woman sits next to a small girl who is wearing a striped dress. Sentence 2: People on the train can't help but stare-down an homeless man at the end of the coach of the train",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A young man sitting at a table in a long room with food counters and customers. Sentence 2: A young man is eating his lunch at a table.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: Bicyclist dressed in black and white with white sunglasses on points at something. Sentence 2: The woman was riding the bike.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A man running in a marathon runs past 3 bagpipe players, and a drummer, all wearing a uniform Sentence 2: The man is wearing shorts.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A crowd of people views newspaper covers in Washington D.C. Sentence 2: The crowd is not looking at anything.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A woman in a tank top and capri pants costume taking a bow in the street. Sentence 2: A woman is happy for the applause after her street performance.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: Two white women, one wearing white and the other black, are laughing and wearing blue pins. Sentence 2: Two ladies,one in white and other in black are wearing blue pins and giggling.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A child in a white shirt is stirring a pot. Sentence 2: A child is making dinner",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A young male is performing stunts on a blue BMX bike. Sentence 2: A man is in a bmx race.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A man in a blue shirt and black pants relaxes with his glasses resting on his forehead. Sentence 2: a young boy runs",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: The Baltimore Orioles are excited after winning a big game. Sentence 2: They have just won the World Series.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A person is working in the garden. Sentence 2: gardener is working",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A dog is digging a hole in the sand. Sentence 2: A dog digs in the sand at a beach.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A family stands in the snowy woods. Sentence 2: The family is playing catch with a football in their backyard.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A motocross rider is traveling along a dirt path with people watching. Sentence 2: A motocross person riding.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Several menu boards are showing items for sale along with prices. Sentence 2: There are several graphics of the food and associated prices.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A blond woman and bald man sitting together. Sentence 2: A pair of people are beside each other.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: An old man standing behind a basket full of green stalks. Sentence 2: The green stalks are vegetables.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: People dressed as angels are walking on a street near Pike's Market in Seattle, Washington (the sign in the background). Sentence 2: Real angels walk through the streets of Seattle",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A pedestrian with a british bag, walking near an art shop. Sentence 2: A person is interested in art.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: The view from a overlook at the public beach. Sentence 2: This is a grassy field.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Kids washing and playing in the sink with water sprayer. Sentence 2: Siblings spraying each other with the water sprayer at the kitchen sink while washing up for dinner.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A family sits outside in the sunset, drinking wine. Sentence 2: A family is drinking coffee at sunrise.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A person is abseiling down a rock face attached to a rope. Sentence 2: A person lowers themselves down the rock face while their spotter watches carefully from below",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: Woman giving a presentation at a Wikimedia event. Sentence 2: A woman delivering a sermon in a church.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "C",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A little brown dog on the end of a leash who's owner is wearing a blue skirt and black flats. Sentence 2: the dog is quite happy",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: The sky appears clear. Sentence 2: The sky has very little to no clouds.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A group of men, women, and children is clustered in a sunny area with benches and a statue. Sentence 2: A family are enjoying a picnic in the sunshine.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: Man with a musical instrument riding on a subway. Sentence 2: A man is on a mode of transportation.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Construction workers are working together to carry a piece of equipment. Sentence 2: The construction workers are building something large.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "C",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: Man in hat waves to the camera, surrounded by other people. Sentence 2: The man in the hat was watching tv",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "C",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A young girl and a woman stand in white dresses stand against a wall. Sentence 2: Two women pose for a photo shoot.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A group of adults and children with a white elephant statue at a festival. Sentence 2: dog swims",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Big brother shows his sister how to play a game in the backyard in the afternoon. Sentence 2: The brother plays with the sister",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A black dog running with a black and white toy in its mouth. Sentence 2: A black dog is playing.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Four women are doing handstands on a basketball court, wearing blue and white shorts and a white tank top. Sentence 2: The women have black eyebrows.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A group of people are sitting on a rocky beach. Sentence 2: A group of people are eating in a mall food court.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A tan woman with a black scarf and a long floral-print dress in sitting on a stone and smiling with her hands in her lap. Sentence 2: A woman poses for a technology magazine's photographer.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A teenage boy hits a tennis ball with a racket. Sentence 2: The teenage boy is swinging a racket.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A long red bench accompanied by little circular tables. Sentence 2: There are many places at switch to sit.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A child is jumping on a trampoline in front of a brick wall and below colored flags. Sentence 2: A child is jumping a trampoline.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A couple just got married. Sentence 2: The newly married couple hates each other.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "C",
+        "input": "Sentence 1: A group of young boys making silly faces. Sentence 2: Children are being silly",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 0.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: Five young boys, two in green jerseys, three in blue, are playing soccer in a field, with a chain link fence in the background. Sentence 2: Five boy are practicing to make the varsity team",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "N",
+        "acc": 1.0
+    },
+    {
+        "category": "Textual Entailment",
+        "output": "N",
+        "input": "Sentence 1: A man performing for a crowd. Sentence 2: A juggler is on the street performing.",
+        "instruction": "In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the letters E, C, and N respectively.",
+        "predicted_output": "E",
+        "acc": 0.0
+    }
+]

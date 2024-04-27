@@ -1,0 +1,584 @@
+[
+    {
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
+        "input": "Text: just happened at work.\n\nmy coworker left work early two days ago to go to a wake, and wasn't in yesterday. so just now i come in and see him at his desk and ask, \"hey dude! how was your wake n bake?\" \n\nhis reply: \"wake n bake? do you even know what a fucking wake is?\"\n\nme: \"...\"\n\nother coworker: \"(a wake is a funeral)\"\n\nme: \"...oh... i thought it had something to do with a baptism...\"\n\nall of us: \"...\"\n\nin the awkward silence i sidled off and am now sitting at my desk eating my sausage and egg mcmuffin.",
+        "output": "TIFU by not knowing what a \"wake\" is",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, you need to generate a suitable title as the output. The output title should be one of the words/phrases used in the passage and must be no longer than five words. ",
+        "input": "Paragraph:    In ice hockey , a combination of a player 's goals and assists are collectively called points . Penalty minutes are the total number of minutes assigned to a player for infractions assessed during the season.Plus @-@ minus is a statistic that tracks when a player was on the ice while goals were scored , both for and against their team , though some in game situations will not effect the statistic . Below is a listing of all player statistics for the Blue Jackets during the season .   Question: what is the suitable title of the passage ?",
+        "output": " Player statistics",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you need to generate an appropriate title for the given summary of some paragraph. The generated title must be short and should include the main topic of the given text. Your summary should be less than 20 words long.",
+        "input": "Wales' 17-day lockdown will start later, with the first minister saying the priority is about \"saving lives not saving Christmas\".",
+        "output": "Wales lockdown to start in bid to 'save lives not Christmas'",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5. Your job is to generate a title for the story that makes complete sense. The title must be short, with less than three words, use simple language, and include the main topic of the story.",
+        "input": "Sentence 1: The candidates were running a tight campaign. Sentence 2: The latest poll said they were tied. Sentence 3: The Republican candidate focused on radio ads. Sentence 4: The Democrat focused on TV. Sentence 5: They fought for every vote they could grab.",
+        "output": "The Poll",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a real-life anecdote of a complex ethical situation, generate a suitable title that describes the main event/root cause of the situation. Imagine that the given text is a social media post, and you have to write the title of the post, so the users can decide to read the main text or not.",
+        "input": "I'm in group therapy, and it is the lead therapist's  (who is also my personal therapist) birthday coming up in a few weeks.  Everyone in the group is making plans to celebrate.  I don't feel like helping, I feel uncomfortable acting like my therapist is my friend.  I'm ok with saying happy birthday and signing cards, but this is far beyond that.  It feels especially weird since we don't celebrate anyone else's birthday as part of the group.  \n\nAITA for not wanting to help with plans / participate?  Am I just being lazy / selfish?",
+        "output": "not wanting to celebrate my therapist's birthday",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
+        "input": "Abstract: A behavioural method of habit reversal, in combination with a hydrocortisone cream, was compared with the use of cream alone in the treatment of 17 patients with atopic dermatitis. The patients were assigned randomly to two groups, one of which received the combination treatment and the other regular ointment treatment. The patients' skin status was assessed before and after treatment, and the patients recorded their scratching during the study. Both groups improved, but the group which received habit-reversal therapy improved significantly more. A strong correlation was found between reduction in scratching and improvement in skin status.",
+        "output": "Behavioural treatment of scratching in patients with atopic dermatitis.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.",
+        "input": "Sentence 1: Stephanie brought her favorite book to school. Sentence 2: During recess, all the students out to the playground. Sentence 3: Stephanie was the only one who stayed behind. Sentence 4: She pulled her book out of the bag and read at her desk. Sentence 5: Getting lost in a book was much more enjoyable to her. Choices: a. Book Worm. b. Wilma flies a kite.",
+        "output": "a",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you have to generate the title of the recipe given its required ingredients and directions.",
+        "input": "ingredients:  '4 c. Chex cereal', '1/2 c. dried fruit bits', '1/2 c. raisins', '1/2 c. yogurt covered peanuts', '1/2 c. candy coated peanut butter pieces',<sep> directions: 'Combine in plastic bag.', 'Shake and enjoy!'",
+        "output": "Joseph'S Trail Mix",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
+        "input": "Text: a little backstory - my grandfather passed away a year ago, leaving a car behind. the deal was then that provided i would drive my little sister to and from school every day, i could use the car untill i moved out of the house. i was 18 at the time and had just gotten my driver licence, so this was a sweet deal.\n\nfast forward two years, i have now moved away, so the time came to give back the car. my perent's planned on selling it since i didn't need it anymore. so in order for it to be nice and shiny, i decided to wash it.\n\nhaving limited supplies (i only juuuust moved in) i decided to just use a washcloth and some soap. but since the front end had some grime on it that i could not get off, my brain turns off and i decided to use a scourer. you can imagine the outcome. i feel like a moron.",
+        "output": "TIFU Washing parents car",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.",
+        "input": "Sentence 1: Liz loved a band that was coming to town. Sentence 2: Her parents weren't sure about letting her go. Sentence 3: Liz did extra chores and did well in school. Sentence 4: Eventually her parents let her go. Sentence 5: Liz had a great time that she will always cherish. Choices: a. Fun Concert. b. The Puppy.",
+        "output": "a",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a real-life anecdote of a complex ethical situation, generate a suitable title that describes the main event/root cause of the situation. Imagine that the given text is a social media post, and you have to write the title of the post, so the users can decide to read the main text or not.",
+        "input": "A friend of mine is always asking to use my Netflix, Cable, Audible passwords and I really want to say no so I usually just try not to respond to her messages when she asks me. I feel like it’s not like socially acceptable to say no lol. AITA for not wanting to share them though?? And if not how can I *nicely* get her to stop asking?? ",
+        "output": "not wanting to share my tv account passwords",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a part of an article. Your task is to generate headline (title) for this text. Preferred headlines are under fifteen words.",
+        "input": "We present Deep Speaker, a neural speaker embedding system that maps utterances to a hypersphere where speaker similarity is measured by cosine similarity. The embeddings generated by Deep Speaker can be used for many tasks, including speaker identification, verification, and clustering. We experiment with ResCNN and GRU architectures to extract the acoustic features, then mean pool to produce utterance-level speaker embeddings, and train using triplet loss based on cosine similarity. Experiments on three distinct datasets suggest that Deep Speaker outperforms a DNN-based i-vector baseline. For example, Deep Speaker reduces the verification equal error rate by 50% (relatively) and improves the identification accuracy by 60% (relatively) on a text-independent dataset. We also present results that suggest adapting from a model trained with Mandarin can improve accuracy for English speaker recognition.",
+        "output": "Deep Speaker: an End-to-End Neural Speaker Embedding System",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
+        "input": "Text: so i just got back from my trip and i had met some new people while i was there so i decided to facebook stalk who i had met. i then saw a really hot photo of the girl so i started jerking off and as i was pulling up my shirt i accidentally hit the like button so i had to quickly unlike it hoping that she wouldn't see that i liked it",
+        "output": "TIFU Facebook Stalking",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a summary for US Congressional and California state bill, your task is to generate a Title for this bill. The preferred titles are under forty words and mention the purpose of the bill.",
+        "input": "Fair and Open Voting Standards Act of 2004 - Amends the National Voter Registration Act of 1993 to prohibit a State from removing a registrant from the official list of eligible voters for an election for Federal office by reason of criminal conviction unless the State certifies to the Election Assistance Commission that the State has in effect procedures for such removal which meet the applicable requirements of this Act including those concerning notice prior to removal and availability of appeal.",
+        "output": "To amend the National Voter Registration Act of 1993 to prohibit States from removing individuals from the official list of eligible voters for Federal elections in the State by reason of criminal conviction unless the removal is carried out in accordance with standards providing notice and an opportunity for an appeal, and for other purposes.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
+        "input": "Abstract: We describe a patient with secondary syphilis and facial skin lesions which resembled Sweet's syndrome clinically and histologically. We suggest serological tests for syphilis in patients with Sweet's syndrome.",
+        "output": "Secondary syphilis mimicking Sweet's syndrome.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a summary for US Congressional and California state bill, your task is to generate a Title for this bill. The preferred titles are under forty words and mention the purpose of the bill.",
+        "input": "Directs the Bureau of Customs and Border Protection to liquidate or reliquidate certain entries of educational toys and refund any amounts owed.",
+        "output": "A bill to provide for the liquidation or reliquidation of certain entries of educational toys entered in July 17 through October 30, 2004.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a document, generate a short title of the document. The title should convey the main idea/event/topic about which the document is being written. Note that URLs in the text have been replaced with [Link].",
+        "input": "A wide field of view  about 150 degrees  is helpful. But if itâs too extreme  like a fisheye lens  you start to lose details  said Tim Stevens  editor-in-chief of Roadshow  the automotive segment for CNET  a consumer technology website.\nâI think thatâs pretty important â  Stevens  said  along with high-resolution.\n Stevens  said neither of those features worked very well in the dash cams  he 's tested.\nâIf anything  they just get to be annoying because theyâre beeping all the time  and you just want to turn them off â  he  said.",
+        "output": "Dash cam sales rising fast due to safety",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you need to generate an appropriate title for the given summary of some paragraph. The generated title must be short and should include the main topic of the given text. Your summary should be less than 20 words long.",
+        "input": "Rivers Cuomo, lead singer of Californian rock band Weezer has suffered minor injuries after the band's tour bus crashed in upstate New York on Sunday (6 December), police said.",
+        "output": "Weezer singer hurt in bus crash",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given a paragraph from the research paper and your task is to generate a suitable title for the research paper based on the given paper. Under 100 words is a good title length.",
+        "input": "The basic reproduction number R 0 is one of the most important concepts in modern infectious disease epidemiology. However, for more realistic and more complex models than those assuming homogeneous mixing in the population, other threshold quantities can be defined that are sometimes more useful and easily derived in terms of model parameters. In this paper, we present a model for the spread of a permanently immunizing infection in a population socially structured into households and workplaces/schools, and we propose and discuss a new household-to-household reproduction number R H for it. We show how R H overcomes some of the limitations of a previously proposed threshold parameter, and we highlight its relationship with the effort required to control an epidemic when interventions are targeted at randomly selected households.",
+        "output": "Threshold parameters for a model of epidemic spread among households and workplaces",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a summary for US Congressional and California state bill, your task is to generate a Title for this bill. The preferred titles are under forty words and mention the purpose of the bill.",
+        "input": "Disabled Access Credit Expansion Act  This bill amends the Internal Revenue Code, with respect to the tax credit for expenditures by an eligible small business to provide access to disabled individuals, to: (1) increase from $10,250 to $20,500 the annual dollar limitation for eligible access expenditures, (2) require the $20,500 limit to be adjusted for inflation after 2018, and (3) increase from $1 million to $2.5 million the gross receipts limitation for an eligible small business.  The bill also requires the Department of Justice (DOJ) to carry out an ADA Mediation Program to: (1) facilitate voluntary mediation to resolve disputes arising under the Americans with Disabilities Act of 1990, and (2) train mediators who provide services through the program. DOJ may hire or enter into contracts with personnel for the program.  DOJ must also report to Congress on the ADA Information Line, which is a toll-free line operated by DOJ to provide information and materials to the public about the requirements of the Americans with Disabilities Act of 1990. ",
+        "output": "Disabled Access Credit Expansion Act",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are provided with an article about the legal acts. Your task is to generate a headline for that article.",
+        "input": "1. Raw sugar of the standard quality referred to in Article 3 (6) of Regulation No 1009/67/EEC shall be sugar with a yield of 92 %.2. The yield of raw beet sugar shall be calculated by subtracting    (a) its percentage ash content multiplied by four;(b) its percentage invert sugar content multiplied by two;(c) the number 1from the degree of polarisation of that sugar.3. The yield of raw cane sugar shall be calculated by subtracting 100 from the degree of polarisation of that sugar multiplied by two. The Community frontier crossing point referred to in Article 13 (3) of Regulation No 1009/67/EEC shall be Rotterdam.This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+        "output": "Regulation determining the standard quality for raw sugar and fixing the Community frontier crossing point for calculating c.i.f. prices for sugar",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given an abstract of article. Your task is to generate title for this article. Preferred titles are under thirty words.",
+        "input": "Immune reconstitution was analyzed in 140 consecutive patients who were 2-year disease-free and who underwent myeloablative allogeneic transplantation. A CD4 and CD8 defect was observed involving naive, terminally differentiated, memory and competent cells and above limits values for activated subsets. Natural killer cells normalize at six months while we observed expansion of CD19(+)/CD5(+) B cells after three months and a persisting defect of memory B cells. Chronic graft-versus-host disease did not influence significantly those parameters for CD8 subsets while the naïve and competent CD4 subsets were strongly affected. But the most profound impact of chronic graft-versus-host disease was on B-cell subsets, especially on the memory B population. The cumulative incidence of late severe infections was low (14% at four years). Using Cox's models, only low B-cell counts at 12 (P=0.02) and 24 (P=0.001) months were associated with the hazard of developing late infection, in particular if patients did not develop chronic graft-versus-host disease.",
+        "output": "Long-term immune deficiency after allogeneic stem cell transplantation: B-cell deficiency is associated with late infections.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Generate an appropriate title for the given text. The generated title must be short and include the main topic of the text. The preferred titles are under fifteen words.",
+        "input": "Sussex Police said it was making \"far more arrests\" as it tried to clamp down on so-called county lines drug networks. Det Supt Jo Banks said: \"The demand for drugs hasn't changed but how the drugs networks are operating has changed.\" Dealers are spurning trains and instead travelling by road but being stopped by patrols, she said. \"We are actually making far more arrests,\" Ms Banks said. This has led to a decrease in availability of drugs and a reduction in the purity of what users can get hold of, she said. She said the coronavirus lockdown had \"afforded us an opportunity to do more of the disruption because they do stand out\". \"When you look out at our streets their activity is drawing attention.\" Criminal groups who move illegal drugs from big cities to smaller towns and villages are referred to as county lines gangs. Follow BBC South East on Facebook, on Twitter, and on Instagram. Send your story ideas to southeasttoday@bbc.co.uk.",
+        "output": "Coronavirus: Drug dealers 'stand out' during lockdown",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a summary for US Congressional and California state bill, your task is to generate a Title for this bill. The preferred titles are under forty words and mention the purpose of the bill.",
+        "input": "International Insurance Capital Standards Accountability Act of 2015 This bill establishes at the Board of Governors of the Federal Reserve System the Insurance Policy Advisory Committee on International Capital Standards and Other Insurance Issues, a 21-member committee representing diverse expert perspectives from the U.S. insurance industry (including life insurance, property and casualty insurance and reinsurance, agents and brokers, academics, consumer advocates, or experts on issues facing underserved insurance communities and consumers).  The Secretary of the Treasury and the Board Chairman shall report annually to certain congressional committees on their efforts with the National Association of Insurance Commissioners regarding global insurance regulatory or supervisory forums. The Secretary, the Board Chairman, and the Director of the Federal Insurance Office, before supporting or consenting to the adoption of any key element in any international insurance proposal or international insurance capital standard, must study its impact upon U.S. markets and consumers.  The Secretary and the Board Chairman must also report, as well as testify to Congress on their efforts to increase transparency at meetings of the International Association of Insurance Supervisors.",
+        "output": "International Insurance Capital Standards Accountability Act of 2015",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given a paragraph from the research paper and your task is to generate a suitable title for the research paper based on the given paper. Under 100 words is a good title length.",
+        "input": "A major advantage of DNA vaccination is the ability to induce both humoral and cellular immune responses. DNA vaccines are currently used in veterinary medicine, but have not achieved widespread acceptance for use in humans due to their low immunogenicity in early clinical studies. However, recent clinical data have re-established the value of DNA vaccines, particularly in priming high-level antigenspecific antibody responses. Several approaches have been investigated for improving DNA vaccine efficacy, including advancements in DNA vaccine vector design, the inclusion of genetically engineered cytokine adjuvants, and novel non-mechanical delivery methods. These strategies have shown promise, resulting in augmented adaptive immune responses in not only mice, but also in large animal models. Here, we review advancements in each of these areas that show promise for increasing the immunogenicity of DNA vaccines.",
+        "output": "Advancements in DNA vaccine vectors, non-mechanical delivery methods, and molecular adjuvants to increase immunogenicity",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an Amazon customer review, write a title for the review. The preferred titles are under fifteen words.",
+        "input": "Worked well for the intended purpose. Good quality.",
+        "output": "Good quality.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a document, generate a short title of the document. The title should convey the main idea/event/topic about which the document is being written. Note that URLs in the text have been replaced with [Link].",
+        "input": "Commodity Futures Trading Commission Chairman J. Christopher Giancarlo  has announced that  he  will take a âdo no harmâ approach to cryptocurrency regulation.\nIn a written testimony that was published ahead of  a Tuesday hearing Commodity Futures Trading Commission (CFTC) Chairman Christopher Giancarlo  explained  his  regulatory plans for the cryptocurrency space.\nSpeaking about blockchain systems broadly   Chairman Giancarlo  argued that the emerging technology will have a lasting impact on global financial markets.\nDuring Tuesdayâs hearing   Giancarlo  expanded upon the prepared testimony. âWe owe it to this new generation to respect their interest in this new technology with a thoughtful regulatory approach â  he  said.",
+        "output": "CFTC to Take 'Do No Harm' Approach to Cryptocurrency Regulation",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given an abstract of article. Your task is to generate title for this article. Preferred titles are under thirty words.",
+        "input": "The significant disparities in metabolism between tumor and normal cells have inspired the development of metabolism-based anti-tumor therapeutics. Arginine is a semi-essential amino acid because normal cells can not only synthesize arginine de novo but also take up extracellular arginine. Several types of tumors have abnormalities in arginine metabolism enzymes and completely rely on extracellular arginine to support necessary biological processes. This property is referred to as arginine auxotrophy. Taking advantage of characteristic arginine auxotrophy in tumors, arginine deprivation, which is generally induced by the use of arginine deiminase (ADI) and arginase I, has been investigated as a novel strategy for cancer therapy. Arginine deprivation demonstrated promising efficacy against arginine-auxotrophic tumors. By integrating perspectives from both clinical oncologists and laboratory scientists, this article reviews the important aspects of arginine deprivation as a promising anticancer therapy.",
+        "output": "Targeting arginine metabolism pathway to treat arginine-dependent cancers.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.",
+        "input": "Sentence 1: Jane jogged often. Sentence 2: She decided to get new running shoes. Sentence 3: She got an expensive pair. Sentence 4: They turned out to be uncomfortable. Sentence 5: Jane returned to her old shoes instead. Choices: a. Improving my typing. b. Running Shoes.",
+        "output": "b",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are provided with an article about the legal acts. Your task is to generate a headline for that article.",
+        "input": "With effect from 1 January 1968, the following third paragraph shall be added to Article 2 of CouncilRegulations No 423/67/EEC, No 6/67/Euratomxa0(2) of 25 July 1967 determining the emoluments of members of the EEC and EAEC Commissions and of the High Authority who have not been appointed members of the Single Commission of the European Communities:‘By way of derogation from Article 9 of Regulations No 422/67/EEC, 5/67/Euratom, the pensions of former members of the High Authority and of the Commissions of the European Economic Community and the European Atomic Energy Community referred to in Article 1 who have served for a period of not less than two years shall be not less than 15% of the basic salary last received.’ This Regulation shall enter into force on the third day following its publication in the Official Journal of the European Communities.This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+        "output": "Regulation amending Council Regulation No 423/67/EEC, 6/67/Euratom of 25 July 1967 determining the emoluments of members of the EEC and EAEC Commissions and of the High Authority who have not been appointed members of the Single Commission of the European Communities",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given a paragraph from the research paper and your task is to generate a suitable title for the research paper based on the given paper. Under 100 words is a good title length.",
+        "input": "has rapidly spread to almost all parts of world. In coronaviruses, the receptor binding domain (RBD) in the distal part of S1 subunit of SARS-CoV-2 spike protein can directly bind to angiotensin converting enzyme 2 (ACE2). RBD promote viral entry into the host cells and is an important therapeutic target. In this study, we discovered that theaflavin showed the lower idock score (idock score: −7.95 kcal/mol). To confirm the result, we discovered that theaflavin showed FullFitness score of -991.21 kcal/mol and estimated ΔG of -8.53 kcal/mol for the most favorable interaction with contact area of SARS-CoV-2 RBD by SwissDock service. Regarding contact modes, hydrophobic interactions contribute significantly in binding and additional hydrogen bonds were formed between theaflavin and Arg454, Phe456, Asn460, Cys480, Gln493, Asn501 and Val503 of SARS-CoV-2 RBD, near the direct contact area with ACE2. Our results suggest that theaflavin could be the candidate of SARS-CoV-2 entry inhibitor for further study.",
+        "output": "The potential SARS-CoV-2 entry inhibitor",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a real-life anecdote of a complex ethical situation, generate a suitable title that describes the main event/root cause of the situation. Imagine that the given text is a social media post, and you have to write the title of the post, so the users can decide to read the main text or not.",
+        "input": "I didn't, but only because my friends convinced me not to. No food at home, &amp; I had a craving for fried rice.",
+        "output": "wanting to order delivery in a blizzard",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a part of an article. Your task is to generate headline (title) for this text. Preferred headlines are under fifteen words.",
+        "input": "Conventional dependency parsers rely on a statistical model and a transition system or graph algorithm to enforce tree-structured outputs during training and inference. In this work we formalize dependency parsing as the problem of selecting the head (a.k.a. parent) of each word in a sentence. Our model which we call DENSE (as shorthand for Dependency Neural Selection) employs bidirectional recurrent neural networks for the head selection task. Without enforcing any structural constraints during training, DENSE generates (at inference time) trees for the overwhelming majority of sentences (95% on an English dataset), while remaining non-tree outputs can be adjusted with a maximum spanning tree algorithm. We evaluate DENSE on four languages (English, Chinese, Czech, and German) with varying degrees of non-projectivity. Despite the simplicity of our approach, experiments show that the resulting parsers are on par with or outperform the state of the art.",
+        "output": "Dependency Parsing as Head Selection",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you have to generate the title of the recipe given its required ingredients and directions.",
+        "input": "ingredients:  '1 lb. lean ground beef or turkey', '1 medium onion, diced', '3 Tbsp. vegetable oil', '1 1/2 c. fresh mushrooms or 1 (8 oz.) can', '1/2 lb. fresh green beans or 1 can (use liquid for soup dilution)', '1 can cream of mushroom soup', '1 tsp. salt (optional)', '1/2 tsp. minced garlic or powder', '1/4 tsp. black pepper', '1 can liquid', '1 lb. small red or white potatoes with skins', '1/4 c. green, red or yellow diced peppers (gives an attractive color)',<sep> directions: 'Saute onion in vegetable oil 2 to 3 minutes.', 'Crumble ground beef or turkey and cook.', 'Add garlic, salt and pepper.', 'Blend soup with liquid; add to skillet.', 'Add mushrooms.', 'Cook potatoes and green beans until done.', 'Add to skillet and simmer gently until flavors are blended; do not boil.'",
+        "output": "Beef-Greens-Potato Green Beans",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.",
+        "input": "Sentence 1: Jaime walked into her aunt Anita's house. Sentence 2: Jaime wondered why a stack of Encyclopedias sat by the couch? Sentence 3: Next, Anita's son walked through the front door. Sentence 4: Anita picked up an Encyclopedia and threw it at her son. Sentence 5: Jaime rubbed her chin and thought, that's why they're there. Choices: a. The Books By The Couch. b. New House.",
+        "output": "a",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5. Your job is to generate a title for the story that makes complete sense. The title must be short, with less than three words, use simple language, and include the main topic of the story.",
+        "input": "Sentence 1: Ken had too many drinks. Sentence 2: My friends and I had to pull him out of the bar. Sentence 3: However, he fought back and tried to go back inside. Sentence 4: He threw his fists in the but eventually fell. Sentence 5: We picked him up and threw him inside the backseat of my car.",
+        "output": "Drunken Rage",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
+        "input": "Abstract: We present the case of an 11-month-old baby with a burn that healed normally over a month, but subsequently developed successive crops of blisters over the scar. There were no changes in his general condition. Clinical, immunological, histological and ultrastructural studies provided a diagnosis of mechanical dermatitis produced by microtrauma. Electron microscopy studies revealed the sub-epidermal nature of the blisters and the presence of underlying fibrin deposits.",
+        "output": "Blisters over burn scars in a child.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given a paragraph from the research paper and your task is to generate a suitable title for the research paper based on the given paper. Under 100 words is a good title length.",
+        "input": "Identity (ID) badges and lanyards worn by pediatric health care workers (HCWs) have been shown to be potential vectors of nosocomial bacterial infections. This cross-sectional study determined the contamination of ID badges and lanyards worn by pediatric HCWs with common respiratory and gastrointestinal viruses. The results showed that ID badges and lanyards are not significantly contaminated with common respiratory or gastrointestinal viruses and are unlikely to be a significant vector for nosocomial infection.",
+        "output": "Are identity badges and lanyards in pediatrics potentially contaminated with viral pathogens?",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are provided with an article about the legal acts. Your task is to generate a headline for that article.",
+        "input": "The following shall be substituted for the first two subparagraphs of Article 1 of Regulation No 474/67/EEC:'Where the export refund on rice and broken rice referred to in the first subparagraph of Article 17 (4) of Regulation No 359/67/EEC is fixed in advance, the refund shall be that which is applicable to an export on the day on which the licence is applied for;    - reduced by not more than the difference between the c.i.f. forward delivery price and the c.i.f. price when the former exceeds the latter by more than 0 7025 units of account per 100 kilogrammes;- increased by not more than the difference between the c.i.f. price and the c.i.f. forward delivery price when the former exceeds the latter by more than 0 7025 units of account per 100 kilogrammesIn the intervals between weekly fixings the amount of the refund applicable in the case of advance fixing shall be adjusted only when application of the above-mentioned provision would lead to its amount being altered by more than 0 7025 units of account per 100 kilogrammes.' This Regulation shall enter into force on the third day following its publication in the Official Journal of the European Communities.This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+        "output": "Regulation amending Regulation No 474/67/EEC on the advance fixing of the export refund on rice and broken rice",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a text of the article. Your task is to generate a headline (title) for this article.",
+        "input": "former french prime minister michel rocard and former us defense secretary robert mcnamara have agreed to serve on an australian commission working to ban nuclear weapons , prime minister paul keating said sunday .",
+        "output": "former french pm to serve on keating commission to ban the bomb by jack taylor",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a document, generate a short title of the document. The title should convey the main idea/event/topic about which the document is being written. Note that URLs in the text have been replaced with [Link].",
+        "input": "PORTLAND  Texas (AP) —  Actor Lou Diamond Phillips  has apologized for  his  arrest in Texas on a charge of driving while intoxicated.\n Phillips  told KIII-TV that it \"was a mistake\" and \"it will never happen again.\"\nPolice in the coastal community of Portland arrested  Phillips  around 1:30 a.m. Friday. Jail records show the \"La Bamba\" star was freed after posting bail on the Class A misdemeanor.\nPolice Chief Mark Cory says  the 55-year-old Phillips  drove up to an officer and asked for directions. The officer suspected  Phillips  had been drinking.\nCory says  Phillips ' blood alcohol level was .20 percent  which is more than twice the legal limit for driving.\n Phillips  apologized for  his  arrest during a speaking engagement later Friday in Corpus Christi.",
+        "output": "Actor Lou Diamond Phillips apologizes for DWI in Texas",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a summary for US Congressional and California state bill, your task is to generate a Title for this bill. The preferred titles are under forty words and mention the purpose of the bill.",
+        "input": "Tomb of the Unknown Soldier Centennial Commemorative Coin Act This bill directs the Department of the Treasury to mint and issue up to 100,000 $1 coins in commemoration of the centennial of the establishment of the Tomb of the Unknown Soldier.  All sales of such coins shall include a surcharge of $10 for each coin. All surcharges received by Treasury from the sale of such coins must be paid to the National World War I Museum and Memorial to assist in the commemoration of the centennial. ",
+        "output": "Tomb of the Unknown Soldier Centennial Commemorative Coin Act",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given an abstract of article. Your task is to generate title for this article. Preferred titles are under thirty words.",
+        "input": "The new Light Cycler technology was adapted to the detection of hepatitis C virus (HCV) RNA in clinical samples. Sera from 81 patients were tested by Light Cycler PCR, AMPLICOR HCV Monitor assay, and in-house PCR. Our data demonstrate that Light Cycler is a fast and reliable method for the detection and quantitation of HCV RNA.",
+        "output": "Quantitative Detection of Hepatitis C Virus RNA by Light Cycler PCR and Comparison with Two Different PCR Assays",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.",
+        "input": "The First Battle of Bull Run ( the name used by Union forces ) , also known as the Battle of First Manassas ( the name used by Confederate forces ) , was fought on July 21 , 1861 in Prince William County , Virginia , just north of the city of Manassas and about 25 miles west - southwest of Washington , D.C. It was the first major battle of the American Civil War . The Union 's forces were slow in positioning themselves , allowing Confederate reinforcements time to arrive by rail . Each side had about 18,000 poorly trained and poorly led troops in their first battle . It was a Confederate victory , followed by a disorganized retreat of the Union forces .",
+        "output": "First Battle of Bull Run",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you need to generate an appropriate title for the given summary of some paragraph. The generated title must be short and should include the main topic of the given text. Your summary should be less than 20 words long.",
+        "input": "Investigators have been unable to trace the vessel a contamination spill came from which affected thousands of birds in the south west.",
+        "output": "MCA sea bird pollution investigation closed",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
+        "input": "Abstract: The phagocytic activity of peripheral blood mononuclear phagocytes for Staphylococcus epidermis of healthy non-pregnant and pregnant women throughout pregnancy was examined in relation to gestational age. The study included 30 healthy non-pregnant women and 90 healthy pregnant women equally distributed across the three trimesters. Two variables were investigated: the number of mononuclear cells in phagocytosis and the average number of bacteria per monocyte in phagocytosis. As pregnancy progressed a gradual and significant increase was found in the number of monocytes in phagocytosis and a significantly higher proportion of macrophages with six or more bacteria per phagocyte.",
+        "output": "Enhanced phagocytosis of mononuclear phagocytes in pregnancy.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are provided with an article about the legal acts. Your task is to generate a headline for that article.",
+        "input": "The levies fixed in accordance with Article 8 of Regulation No 121/67/EEC shall not be increased by an additional amount in respect of imports of live swine  1OJ No 117, 19.6.1967, p. 2283/67. 2OJ No 134, 30.6.1967, p. 2837/67.(sub-heading No ex 01.03 A II (b) of the Common Customs Tariff) and pig carcases (sub-heading No ex 02.01 A III (a) 1 of the Common Customs Tariff) originating in and coming from the Polish People's Republic. This Regulation shall enter into force on the day following its publication in the Official Journal of the European Communities.This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+        "output": "Regulation on the non-fixing of an additional amount for imports of live swine and pig carcases from Poland",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an Amazon customer review, write a title for the review. The preferred titles are under fifteen words.",
+        "input": "Small and easy to use.  Performance is great and has enhanced my laptops capabilities.",
+        "output": "Quick and Easy Solution!!",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, you need to generate a suitable title as the output. The output title should be one of the words/phrases used in the passage and must be no longer than five words. ",
+        "input": "Paragraph:    Note : Pos \n Question: what is the suitable title of the passage ?",
+        "output": " Skaters",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.",
+        "input": "Sentence 1: Abigail had been using the same phone for three years. Sentence 2: One day it finally broke for good. Sentence 3: She didn't know where to start with a new phone. Sentence 4: Her brother recommended her some brands. Sentence 5: Luckily, she found a great new phone that she loved. Choices: a. The Bus Fight. b. The New Phone.",
+        "output": "b",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Generate an appropriate title for the given text. The generated title must be short and include the main topic of the text. The preferred titles are under fifteen words.",
+        "input": "The Murdoch's Connection footbridge, spanning the A63 in Hull, was planned for the hosting of the UK City of Culture festival in 2017. However, the latest delays due to the pandemic mean the opening is now due to open in 2021. Highways England said the latest delays were due to key staff \"having to go into self-isolation due to Covid-19\". The agency is still awaiting the delivery of hand rails from abroad that had been \"significantly delayed by manufacturing issues related to the pandemic\", it said, describing the delays as \"frustrating\". More stories from Yorkshire The bridge, named after the city's first female GP Dr Mary Murdoch, links the city centre to the waterfront, crossing the A63 dual carriageway. Its opening has already been delayed several times this year. Follow BBC East Yorkshire and Lincolnshire on Facebook, Twitter, and Instagram. Send your story ideas to yorkslincs.news@bbc.co.uk. Related Internet Links Highways England",
+        "output": "Covid delays Hull A63 footbridge opening again",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given an abstract of article. Your task is to generate title for this article. Preferred titles are under thirty words.",
+        "input": "Genes that are subject to genomic imprinting in mammals are preferentially expressed from a single parental allele. This imprinted expression of a small number of genes is crucial for normal development, as these genes often directly regulate fetal growth. Recent work has also demonstrated intricate roles for imprinted genes in the brain, with important consequences on behavior and neuronal function. Finally, new studies have revealed the importance of proper expression of specific imprinted genes in induced pluripotent stem cells and in adult stem cells. As we review here, these findings highlight the complex nature and developmental importance of imprinted genes.",
+        "output": "Genomic imprinting in development, growth, behavior and stem cells.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.",
+        "input": "Computer animation is the process used for generating animated images . The more general term computer - generated imagery ( CGI ) encompasses both static scenes and dynamic images , while computer animation only refers to the moving images . Modern computer animation usually uses 3D computer graphics , although 2D computer graphics are still used for stylistic , low bandwidth , and faster real - time renderings . Sometimes , the target of the animation is the computer itself , but sometimes film as well .",
+        "output": "Computer animation",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5. Your job is to generate a title for the story that makes complete sense. The title must be short, with less than three words, use simple language, and include the main topic of the story.",
+        "input": "Sentence 1: My daughter's friend's mom is unmarried. Sentence 2: I used to bump into her with a male date. Sentence 3: A year ago, she began posting photos of herself and a woman, drinking. Sentence 4: Lately the posts featured hotels and overnight stays. Sentence 5: My daughter is convinced the woman is now a lesbian.",
+        "output": "Lesbian",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given an abstract of article. Your task is to generate title for this article. Preferred titles are under thirty words.",
+        "input": "The thymic medulla provides a specialized microenvironment for the negative selection of T cells, with the presence of autoimmune regulator (Aire)-expressing medullary thymic epithelial cells (mTECs) during the embryonic-neonatal period being both necessary and sufficient to establish long-lasting tolerance. Here we showed that emergence of the first cohorts of Aire(+) mTECs at this key developmental stage, prior to αβ T cell repertoire selection, was jointly directed by Rankl(+) lymphoid tissue inducer cells and invariant Vγ5(+) dendritic epidermal T cell (DETC) progenitors that are the first thymocytes to express the products of gene rearrangement. In turn, generation of Aire(+) mTECs then fostered Skint-1-dependent, but Aire-independent, DETC progenitor maturation and the emergence of an invariant DETC repertoire. Hence, our data attributed a functional importance to the temporal development of Vγ5(+) γδ T cells during thymus medulla formation for αβ T cell tolerance induction and demonstrated a Rank-mediated reciprocal link between DETC and Aire(+) mTEC maturation.",
+        "output": "Rank Signaling Links the Development of Invariant γδ T Cell Progenitors and Aire+ Medullary Epithelium",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, you need to generate a suitable title as the output. The output title should be one of the words/phrases used in the passage and must be no longer than five words. ",
+        "input": "Paragraph: \n Games played in ; G \n Question: what is the suitable title of the passage ?",
+        "output": "Position ; GP",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a real-life anecdote of a complex ethical situation, generate a suitable title that describes the main event/root cause of the situation. Imagine that the given text is a social media post, and you have to write the title of the post, so the users can decide to read the main text or not.",
+        "input": "My girlfriend has put on some weight over the winter.  I’d say at least 30lbs.  Probably more. She’s always mentioning it and talks about how she needs to join a gym.  So on her birthday I got her a year at Gold’s gym. \n\nIt didn’t go over well.  She said that it’s an insult.  That she know she’s gained weight and doesn’t need me to tell her about it.  I have been EXTREMELY careful not to mention her weight gain.  I wasn’t trying to tell her she’s fat, I got it for her because she’s said multiple times that she really needs to join a gym.  ",
+        "output": "getting my girlfriend a gym membership for her birthday",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a document, generate a short title of the document. The title should convey the main idea/event/topic about which the document is being written. Note that URLs in the text have been replaced with [Link].",
+        "input": "“Our national security partnership is deep and growing stronger every day  and we need to see our economic partnership continue to strengthen in the same direction ”  U.S. envoy William Hagerty  said in the news programme aired on Friday.\n“We will be able to settle on a specific framework to move forward. I think certainly by the spring of 2018 we’ll see forward progress and momentum ”  he  said.\nThe United States wants to boost exports to Japan in areas such as liquefied natural gas (LNG)  farm products and medicines   Hagerty  told NHK.\nWorking-level officials from the U.S. Trade Representative’s office will visit Tokyo next week   he  added.",
+        "output": "Japan U.S. to discuss trade 'framework' U.S. envoy says: NHK",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you need to generate an appropriate title for the given summary of some paragraph. The generated title must be short and should include the main topic of the given text. Your summary should be less than 20 words long.",
+        "input": "The first \"Neolithic\" long barrow to be built in the UK for 5,000 years, is attracting interest from all over the world.",
+        "output": "All Cannings 'Neolithic' long barrow takes shape",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an Amazon customer review, write a title for the review. The preferred titles are under fifteen words.",
+        "input": "never thought I wanted one until I bought one for my husband. decided to try Kindle 6&#34; E Ink and so far like it. wish I could put apps on it but this is basic for reading only or at least that is what I have found so far. can't beat the price to see if you would like to have a Kindle. Incidently since I purchased this we now also have a Kindle Fire :)",
+        "output": "my new kindle",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a text of the article. Your task is to generate a headline (title) for this article.",
+        "input": "ministers from the european union and its mediterranean neighbors gathered here under heavy security on monday for an unprecedented conference on economic and political cooperation .",
+        "output": "european mediterranean ministers gather for landmark conference by julie bradford",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
+        "input": "Text: so this happened about an hour ago. i had left my coffee mug next to me in bed while i smoked bowls. i used a straw to stir the coffee and left it in the mug. even though the giant orange mug was clearly in my view i temporarily forgot about it. i turned to put the bong down. although the real fuck up didn't occur,  hilariousness ensued. the mug must have teetered a bit causing a bit of coffee to shoot out through the straw. well the coffee was luke warm at best but when it hit my arm and me not knowing wtf it was, i jumped up like something bit me causing the real fuck up. 2/3 of the coffee splashed all over my white sheets, pillows and remote. luckily and miraculously it didn't fall on my laptop.",
+        "output": "tifu by leaving my coffee on my bed",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a text of the article. Your task is to generate a headline (title) for this article.",
+        "input": "malaysian prime minister mahathir mohamad indicated friday he would soon relinquish control of the ruling party to his deputy anwar ibrahim .",
+        "output": "mahathir wants leadership change to be smooth",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, you need to generate a suitable title as the output. The output title should be one of the words/phrases used in the passage and must be no longer than five words. ",
+        "input": "Paragraph:    Green background indicates win ( 2 points ) . \n Red background indicates regulation loss ( 0 points ) . \n Silver background indicates overtime / shootout loss ( 1 point ) .   Question: what is the suitable title of the passage ?",
+        "output": " Regular season",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you need to generate an appropriate title for the given summary of some paragraph. The generated title must be short and should include the main topic of the given text. Your summary should be less than 20 words long.",
+        "input": "The second feature film that Madonna has directed has premiered at the Venice Film Festival.",
+        "output": "Stars give their verdict on working with Madonna",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an Amazon customer review, write a title for the review. The preferred titles are under fifteen words.",
+        "input": "Not only does it serve it's original purpose by protecting the Kindle Fire HDX of a 10 year old but as he was able to create his won, it made it a wonderful project for him. He delighted in going through photographs to find the perfect one of him and his puppy together and the quality of the picture is wonderful. Thank you for making this a treasured gift !!!",
+        "output": "Fantastic",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you have to generate the title of the recipe given its required ingredients and directions.",
+        "input": "ingredients:  '10 apples peeled and diced', '1/2 lemon', '2 teaspoons cinnamon', '1 pinch salt',<sep> directions: 'Heat a dutch oven or saucepanver medium heat. Add all the ingredients. Stir to mix everything together, then cover and cook for 12 minutes.', 'Uncover, stir, then cook uncovered for another 10-15 minutes stirring occasionally.', 'Take the applesauce off the heat and add more cinnamon if needed. With a fork or immersion blender, mash up any big chunks of apple left. *This is optional but recommended if you are going to use the applesauce for baking. I like to leave a few chunks for texture.'",
+        "output": "Easy As 1,2,3 Homemade Applesauce ",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, you need to generate a suitable title as the output. The output title should be one of the words/phrases used in the passage and must be no longer than five words. ",
+        "input": "Paragraph:  Goaltenders Question: what is the suitable title of the passage ?",
+        "output": "Plus / minus  ",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
+        "input": "Abstract: We succeeded in reproducing an eczematous lesion on the apparently normal skin of a patient with atopic dermatitis by scratching and continuous application of an ointment containing ferritin-labelled mite antigen. Percutaneous entry of mite antigen was demonstrated in skin biopsies by Fe-staining. Scratched skin first showed an urticarial reaction typical of type I allergy which later changed into an eczematous reaction typical of type IV allergy. This change was also shown histologically.",
+        "output": "Challenge reactions in atopic dermatitis after percutaneous entry of mite antigen.",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a part of an article. Your task is to generate headline (title) for this text. Preferred headlines are under fifteen words.",
+        "input": "The field of Distributed Constraint Optimization has gained momentum in recent years, thanks to its ability to address various applications related to multi-agent cooperation. Nevertheless, solving Distributed Constraint Optimization Problems (DCOPs) optimally is NP-hard. Therefore, in large-scale, complex applications, incomplete DCOP algorithms are necessary. Current incomplete DCOP algorithms suffer of one or more of the following limitations: they (a) find local minima without providing quality guarantees; (b) provide loose quality assessment; or (c) are unable to benefit from the structure of the problem, such as domain-dependent knowledge and hard constraints. Therefore, capitalizing on strategies from the centralized constraint solving community, we propose a Distributed Large Neighborhood Search (D-LNS) framework to solve DCOPs. The proposed framework (with its novel repair phase) provides guarantees on solution quality, refining upper and lower bounds during the iterative process, and can exploit domain-dependent structures. Our experimental results show that D-LNS outperforms other incomplete DCOP algorithms on both structured and unstructured problem instances.",
+        "output": "Solving DCOPs with Distributed Large Neighborhood Search",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
+        "input": "Text: so i was on the toilet taking a shit, when i noticed a small white bug on my leg. i thought no big deal, since i live in australia, and bugs in the toilet are normal, but then i saw some more on my leg. then i was like oh shit. i then began to feel them crawl around my body and near by butthole, and it was at that moment my toilet seat broke. i had multiple splinters in my ass and there was a fair amount of blood. i called over my girlfriend who had this simultaneous look of amusement and shock, due to the blood everywhere and the fact that my ass had fallen into the toilet and it was touching my shit. she called an ambulance out of panic, and i had to stay in the hospital for the next 2 days while they stitched my ass. i also had fun explaining to them what happened.",
+        "output": "TIFU by buying a wooden toilet seat",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Generate an appropriate title for the given text. The generated title must be short and include the main topic of the text. The preferred titles are under fifteen words.",
+        "input": "Five men and a woman were arrested at addresses in West Yorkshire and Bournemouth in connection with the theft and cloning of 180 vehicles. Several high-value cars and number plates were recovered as well as a lock-picking kit and diagnostics machine used to reprogram vehicles. West Yorkshire Police said the ring had been operating since 2009. Det Supt Pat Twiggs said: \"The operation is focused on vehicles being stolen, primarily in the south of England, without keys using specialist equipment and then transported to Leeds where they are professionally cloned using the identities of legitimate vehicles and sold to innocent buyers through used car publications and websites.\" He said the men, aged 46, 44, 39, 37 and 32, and woman, aged 43, were arrested at addresses in Alwoodley, Yeadon and Adel, in Leeds, and at properties in Idle, in Bradford, and in Bournemouth. An industrial unit was also raided in Pudsey. All six people have been released on bail pending further inquires. Among the vehicles recovered were an Aston Martin Vantage worth £38,00 and an Audi Q7 worth £16,000.",
+        "output": "Car cloning arrests in Leeds, Bradford and Bournemouth",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.",
+        "input": "The Horsehead Nebula ( also known as Barnard 33 ) is a dark nebula in the constellation Orion . The nebula is located just to the south of the star Alnitak , which is farthest east on Orion 's Belt , and is part of the much larger Orion Molecular Cloud Complex . The nebula was first recorded in 1888 by Scottish astronomer Williamina Fleming on photographic plate B2312 taken at the Harvard College Observatory . The Horsehead Nebula is approximately 1500 light years from Earth . It is one of the most identifiable nebulae because of the shape of its swirling cloud of dark dust and gases , which bears some resemblance to a horse 's head when viewed from Earth .",
+        "output": "Horsehead Nebula",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a real-life anecdote of a complex ethical situation, generate a suitable title that describes the main event/root cause of the situation. Imagine that the given text is a social media post, and you have to write the title of the post, so the users can decide to read the main text or not.",
+        "input": "I live in a highly walkable area. I have a 16 month old son who thankfully is starting to walk, but I still put him in the stroller for trips around my neighborhood. Anyone with kids and strollers knows how much of a pain in the ass it is getting them through non automatic doors.\n\nSo the other day we stopped by the local post office and I was scolded by a postal worker for using the side entrance (handicapped entrance with automatic door and ramp). Seriously, was she expecting me to drag the stroller up the stairs? Leave my kid outside while I did my business inside? Or was she just being unnecessarily bitchy? I thought I was good but now I’m not so sure. Thanks",
+        "output": "using the handicapped door opener when pushing a stroller",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you have to generate the title of the recipe given its required ingredients and directions.",
+        "input": "ingredients:  '3 tablespoons fresh orange juice', '3 tablespoons walnut oil', '1 tablespoon red wine vinegar', '2 teaspoons Dijon mustard', '1/4 teaspoon freshly ground black pepper', '1/8 teaspoon salt', '4 cups thinly sliced radicchio (1 [12-ounce] head)', '1 cup thinly sliced radishes (about 6)', '2 Granny Smith apples, quartered and cut into julienne strips (about 1 pound)', '1/4 cup coarsely chopped walnuts, toasted',<sep> directions: 'Combine first 6 ingredients in a large bowl, stirring with a whisk. Add radicchio, radishes, and apples to bowl; toss gently to coat. Place about 3/4 cup salad on each of 8 plates; sprinkle each serving with 1 1/2 teaspoons nuts.'",
+        "output": "Granny Smith, Radish, And Radicchio Salad With Orange-Walnut Vinaigrette",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a document, generate a short title of the document. The title should convey the main idea/event/topic about which the document is being written. Note that URLs in the text have been replaced with [Link].",
+        "input": "While speaking at a conference for conservative millennials   Donald Trump Jr.  suggested that the investigation around  his  father's campaign has been fueled by government higher-ups who have conspired to block the President's agenda.\nThe Magic Kingdom Park at Disney World in Florida added a  Trump  robot to The Hall of Presidents.\nThis undated video screen shot provided by Walt Disney World shows an animatronic figure of  Trump   center front.  Trump 's robot is introduced by George Washington's robot.\nHouse Majority Whip Steve Scalise leaves a House Republican Conference meeting in the basement of the US Capitol on Monday. During Wednesday's White House celebration with GOP leaders   Trump  joked that for Scalise  being shot and critically wounded by a gunman earlier this year was a \"hell of a way to lose weight.\"\nA staff member places the presidential seal on the lectern prior to  Trump 's triumphant speech on the passage of the Republican tax reform legislation on Thursday.",
+        "output": "The week in politics",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
+        "input": "Text: today i was on a date with a cute girl i met on tinder.  as we were walking from the restaurant i spotted woman walking her shiba inu, and without thinking exclaimed \"it's a doge!\".  clearly the girl i was with was not familiar with internet memes because the look she gave me implied she either thought i was insane or mentally retarded.  i then attempted to stammer an explanation, but i don't think it helped remedy the situation.  i highly doubt i'll be getting a 2nd date.",
+        "output": "TIFU by pointing out a doge to someone who didn't know what that meant",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are provided with an article about the legal acts. Your task is to generate a headline for that article.",
+        "input": "The following sentence shall be added to Article 12 (2) of the Council Directive of 23 October 1962, as amended by Article 1 (4) of the Council Directive of 25 October 1965 3:'However, in the case of sulphonated orcein, application of the amended rules may be deferred until 1 January 1972.' This Directive is addressed to the Member States.",
+        "output": "Council Directive making a third amendment to the Council Directive on the approximation of the rules of the Member States concerning the colouring matters authorized for use in foodstuffs intended for human consumption",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task you are given a passage in Bulgarian as the input content. You are expected to generate a suitable title for the passage which accurately summarizes the contents of the passage. The input is provided in the form of a long passage comprising of multiple sentences. The output should be restricted to a maximum of 20 words which describe the passage and its contents. The output can include words from the passage.",
+        "input": "Content:Върховният административен съд окончателно отмени регистрацията с пръстов отпечатък в болниците, съо",
+        "output": "ВАС окончателно отмени регистрацията с пръстов отпечатък в болниците",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a real-life anecdote of a complex ethical situation, generate a suitable title that describes the main event/root cause of the situation. Imagine that the given text is a social media post, and you have to write the title of the post, so the users can decide to read the main text or not.",
+        "input": "So i was at home received a message from my girlfriend saying \"You know i hooked up with someone right?\" i was like \"what\" she then responded with \"sorry\" i said \"who why when?\" she said \"(name), idk, at (name)'s party\" i was obviously pissed off at this point and said ok \"we're done\" she then responded with \"I'm sorry, bye\" \n\nAfter all this i was pissed off and i wanted to expose her to her friend group and mine etc,  I screenshotted it and put it on my snapchat story with the caption \"life is great\" \n\ni was then told the full story by a friend of hers and apparently she was drunk at a party played spin the bottle and kissed another guy. \n\nSince all that happened we are back together but all my mates hate her and all hers hate her... ",
+        "output": "telling everyone my girlfriend cheated on me",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a real-life anecdote of a complex ethical situation, generate a suitable title that describes the main event/root cause of the situation. Imagine that the given text is a social media post, and you have to write the title of the post, so the users can decide to read the main text or not.",
+        "input": "My friend told me about this job and I put down her name as someone who referred me. After I got the job I learned that this is a $500 bonus for her for me staying with the company for a period of time. She told me months ago that she would split it with me but she hasn't mentioned it, and I think she hopes I forgot. Is it fair of me to ask for at least part of it, as I feel that that without me she would not have gotten it, and she is aware that I know about the bonus.",
+        "output": "expecting a cut of a referral bonus",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5. Your job is to generate a title for the story that makes complete sense. The title must be short, with less than three words, use simple language, and include the main topic of the story.",
+        "input": "Sentence 1: Sam and his family went to the local town fair one Saturday. Sentence 2: It was hot and humid but they tried to have fun anyway. Sentence 3: Sam went on a few rides and played a few games. Sentence 4: Suddenly it became very dark and the humidity broke. Sentence 5: Sam and his family ran to the car getting soaked by the rain.",
+        "output": "A rainy day at the fair",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are provided with an article about the legal acts. Your task is to generate a headline for that article.",
+        "input": "The following shall be substituted for the second paragraph of Article 7 of Regulation No 142/67/EEC:'It shall apply from 1 July 1967.' This Regulation shall enter into force on 1 July 1968.This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+        "output": "Regulation altering the period of validity of Regulation No 142/67/EEC on export refunds on colza, rape and sunflower seeds",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you need to generate an appropriate title for the given summary of some paragraph. The generated title must be short and should include the main topic of the given text. Your summary should be less than 20 words long.",
+        "input": "The Duchess of Sussex phoned an MP to say thank you for a letter of \"solidarity\" signed by female MPs.",
+        "output": "Duchess of Sussex thanks Halifax MP for letter of 'solidarity'",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.",
+        "input": "Sentence 1: Ken gave Tom and his wife presents. Sentence 2: Tom opened up his gift basket. Sentence 3: It was a sports jersey with his favorite basketball team. Sentence 4: When Tom's wife opened her gift, her mouth dropped. Sentence 5: It was a diamond ring with gold surrounding it. Choices: a. Lorde. b. Suspicious Gift.",
+        "output": "b",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.",
+        "input": "The Lion King is a 1994 American animated epic musical film produced by Walt Disney Feature Animation and released by Walt Disney Pictures . It is the 32nd Disney animated feature film , and the fifth animated film produced during a period known as the Disney Renaissance . The Lion King was directed by Roger Allers and Rob Minkoff , produced by Don Hahn , and has a screenplay credited to Irene Mecchi , Jonathan Roberts , and Linda Woolverton . Its original songs were written by composer Elton John and lyricist Tim Rice , with a score by Hans Zimmer . The film features an ensemble voice cast that includes Matthew Broderick , James Earl Jones , Jeremy Irons , Jonathan Taylor Thomas , Moira Kelly , Nathan Lane , Ernie Sabella , Rowan Atkinson , Robert Guillaume , Madge Sinclair , Whoopi Goldberg , Cheech Marin , and Jim Cummings . The story takes place in a kingdom of lions in Africa and was influenced by William Shakespeare 's Hamlet .",
+        "output": "The Lion King",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a text of the article. Your task is to generate a headline (title) for this article.",
+        "input": "president robert mugabe 's pay packet will be more than doubled by july next year to a total of ###,### zimbabwe dollars -lrb- around ##,### us dollars -rrb- , the government announced saturday .",
+        "output": "president mugabe 's salary doubled",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a text passage, you need to generate a suitable title as the output. The output title should be one of the words/phrases used in the passage and must be no longer than five words. ",
+        "input": "Paragraph:    Finishing with the worst record in the NHL , Columbus had the best chance of receiving the first overall pick in the 2012 draft . With the NHL 's weighted draft lottery the Blue Jackets had a 48 @.@ 2 % chance of drafting first overall . However , the lottery was won by the Edmonton Oilers , who proceeded to leapfrog Columbus and secure the number one draft pick for a third consecutive year . It was the fifth time that the Blue Jackets were dropped one draft position in the franchise 's 12 lottery participations . \n A month later , on May 14 , the Blue Jackets announced that Richards would remain as head coach and signed him to a two @-@ year contract . During the press conference , Howson noted , \" Our team continuously improved under Todd and he has earned the opportunity to build upon the work he started . \" Columbus posted an 18 – 21 – 2 record under Richards , including winning seven of their final 11 games .   Question: what is the suitable title of the passage ?",
+        "output": " Post @-@ season",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given a paragraph from the research paper and your task is to generate a suitable title for the research paper based on the given paper. Under 100 words is a good title length.",
+        "input": "Hepatitis B virus (HBV) infection is considered a major public health problem worldwide, and a significant number of reports on nosocomial and occupational outbreaks have been reported. This systematic investigation of HBV stability and susceptibility to different antiseptics revealed that HBV infectivity was very stable, with a half-life of >22 days at 37°C. At 4°C, infectivity was barely reduced for up to 9 months. Different alcohols and commercially available hand antiseptics had a virucidal effect against HBV. We propose that very strict compliance with established hygienic guidelines should be mandatory to avoid and prevent HBV infections.",
+        "output": "The Journal of Infectious Diseases High Environmental Stability of Hepatitis B Virus and Inactivation Requirements for Chemical Biocides",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Generate an appropriate title for the given text. The generated title must be short and include the main topic of the text. The preferred titles are under fifteen words.",
+        "input": "The bank will also \"terminate\" its global head of electronic fixed income, currencies and commodities as part of the settlement. Regulators said the bank used super-fast trading systems to reject unprofitable client orders, then failed to disclose why they were rejected. In May, Barclays was fined $2.4bn for manipulating the forex market. \"We are pleased that Barclays worked with us to resolve this matter,\" said Anthony Albanese, acting superintendent of the New York State Department of Financial Services. \"This case highlights the need for greater oversight and action to help prevent the misuse of automated, electronic trading platforms on Wall Street, which is a wider industry issue that requires serious additional scrutiny.\" Barclays was one of five major banks fined this summer for manipulating foreign exchange markets. JP Morgan, Citibank, RBS and UBS were fined a total of $5.7bn. Regulators said that between 2008 and 2012, several traders formed a cartel and used chat rooms to manipulate prices in their favour.",
+        "output": "Barclays pays extra $150m penalty for forex misconduct",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.",
+        "input": "Sentence 1: Kya's doctor said dehydration caused her fatigue and loss of energy. Sentence 2: He told Kya to drink a gallon of water per day. Sentence 3: Kya bought a two-liter Thermos and carried it everywhere. Sentence 4: Every day, she filled it twice, and drank down the water. Sentence 5: It was hard at first, but soon she found she was feeling much better! Choices: a. target Practice. b. Water.",
+        "output": "b",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given a real-life anecdote of a complex ethical situation, generate a suitable title that describes the main event/root cause of the situation. Imagine that the given text is a social media post, and you have to write the title of the post, so the users can decide to read the main text or not.",
+        "input": "We have been dating for a month, and we are sharing stories about our friends and stuff. She told me that she has a male gay friend, and once the friend said he wanted to kiss her. She laughed it off and didn't do it. This was way before we started dating, and a couple of months before the dude came out as gay. So I told her that maybe he was conflicted and just wanted to see how kissing a girl would feel like. Maybe he waned to experiment so that he could be clearer about his sexuality. She didn't respond well to this text, and said to drop the matter when I asked her whether I said anything wrong. I honestly had no intention of hurting her feelings, but I feel I may have mistakenly done so. Am I the asshole?",
+        "output": "telling my girlfriend that when her gay friend tried to kiss her he was maybe doing it out of curiosity",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you have to generate the title of the recipe given its required ingredients and directions.",
+        "input": "ingredients:  '1 round loaf bread', '8 oz cream cheese', '8 oz Cheez Whiz', '1/4 cup beer',<sep> directions: 'Blend cheeses and beer until smooth. Hollow out the loaf of bread. Pour mixture into the center. Take chunks of bread and dip away.'",
+        "output": "Beer Dip",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a part of an article. Your task is to generate headline (title) for this text. Preferred headlines are under fifteen words.",
+        "input": "Matrix factorization (MF) and Autoencoder (AE) are among the most successful approaches of unsupervised learning. While MF based models have been extensively exploited in the graph modeling and link prediction literature, the AE family has not gained much attention. In this paper we investigate both MF and AE’s application to the link prediction problem in sparse graphs. We show the connection between AE and MF from the perspective of multiview learning, and further propose MF+AE: a model training MF and AE jointly with shared parameters. We apply dropout to training both the MF and AE parts, and show that it can significantly prevent overfitting by acting as an adaptive regularization. We conduct experiments on six real world sparse graph datasets, and show that MF+AE consistently outperforms the competing methods, especially on datasets that demonstrate strong non-cohesive structures.",
+        "output": "Dropout Training of Matrix Factorization and Autoencoder for Link Prediction in Sparse Graphs",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "Given an Amazon customer review, write a title for the review. The preferred titles are under fifteen words.",
+        "input": "Great product at a great price - no issues so far!  We've had it for almost a year now and so far it's been great.",
+        "output": "Great Camera Memory Chip",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a text of the article. Your task is to generate a headline (title) for this article.",
+        "input": "pakistan 's team manager intikhab alam dismissed claims tuesday that his team 's poor performance in the current test series was to blame for weak ticket sales ahead of the final test .",
+        "output": "do n't blame pakistan for poor test ticket sales says manager",
+        "category": "Title Generation"
+    },
+    {
+        "instruction": "In this task, you are given a part of an article. Your task is to generate headline (title) for this text. Preferred headlines are under fifteen words.",
+        "input": "Slot Filling (SF) aims to extract the values of certain types of attributes (or slots, such as person:cities of residence) for a given entity from a large collection of source documents. In this paper we propose an effective DNN architecture for SF with the following new strategies: (1). Take a regularized dependency graph instead of a raw sentence as input to DNN, to compress the wide contexts between query and candidate filler; (2). Incorporate two attention mechanisms: local attention learned from query and candidate filler, and global attention learned from external knowledge bases, to guide the model to better select indicative contexts to determine slot type. Experiments show that this framework outperforms state-of-the-art on both relation extraction (16% absolute F-score gain) and slot filling validation for each individual system (up to 8.5% absolute Fscore gain).",
+        "output": "Improving Slot Filling Performance with Attentive Neural Networks on Dependency Structures",
+        "category": "Title Generation"
+    }
+]

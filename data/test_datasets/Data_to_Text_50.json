@@ -1,0 +1,302 @@
+[
+    {
+        "instruction": "Given two noun phrases (arguments) and relationship between them, form a sentence that expresses theses arguments with the given relationship.",
+        "input": "Relationship: 'be elect by', Argument/Subject 1: 'president', Argument/Subject 2: 'state'",
+        "output": "A faction supporting Lenora B. Fulani for President walked out and elected Kwaku Duren of Los Angeles County as State Chairperson .",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.",
+        "input": "name[The Punter], eatType[coffee shop], food[Italian], priceRange[£20-25], customer rating[high], familyFriendly[yes], near[Café Sicilia]",
+        "output": "The Punter is a kid-friendly Italian coffee shop located near Café Sicilia that was ranked high by customers",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.",
+        "input": "[['The Ref', 'ROLE', 'Old Baybrook Policeman']]",
+        "output": "John Benjamin Hickey role is \t_____ title name _____",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.",
+        "input": "name[xname], cuisine[Fast Food], price[less than £20], location[city centre], familyFriendly[yes]",
+        "output": "xname is a fast food restaurant which has a family-friendly atmosphere. The food price range is below £20. xname  is located in the city centre.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.",
+        "input": "name[xname], eattype[coffee shop], cuisine[Italian], price[less than £20], location[city centre], familyFriendly[yes], near[xnear]",
+        "output": "xname, sited near xnear, Luton, is a family-friendly coffee shop serving Italian food at mid-range prices.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.",
+        "input": "name[xname], recommend[yes], decor[acceptable], qual[good], location[Midtown], price[affordable]",
+        "output": "I would suggest xname because it's in Midtown with acceptable decor with good food and it is affordable.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given concept set (with 3 to 5 concepts) that contain mentions of names of people, places, activities, or things. These concept sets reflect reasonable concept co-occurrences in everyday situations. All concepts given as input are separated by \"#\". Your job is to generate a sentence describing a day-to-day scene using all concepts from a given concept set.",
+        "input": "bouquet#bride#flower",
+        "output": "a bride with a bouquet of flowers",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.",
+        "input": "name[The Olive Grove], eatType[pub], food[English], priceRange[high], area[riverside], familyFriendly[no]",
+        "output": "For English food at high prices that isn't children-friendly go to The Olive Grove that is a riverside pub",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.",
+        "input": "Chicago | isPartOf | Illinois",
+        "output": "Chicago is part of Illinois.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.",
+        "input": "name[xname], cuisine[Chinese], rating[average], location[city centre], familyFriendly[no], near[xnear]",
+        "output": "xname serves Chinese food and is by xnear. It has an average customer rating and is also not family friendly.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.",
+        "input": "name[xname], eattype[coffee shop], cuisine[Fast Food], price[less than £20], rating[low], location[city centre], familyFriendly[yes], near[xnear]",
+        "output": "For Fast food xname coffee shop located  in the city centre, near xnear  and has food under £20 price range.  It has a low customer rating and is family-friendly",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.",
+        "input": "name[The Golden Curry], food[Fast food], priceRange[£20-25], familyFriendly[yes], near[The Bakers]",
+        "output": "The Golden Curry is a fast food restaurant near The Bakers. Price's range from £20-£25. Families are welcomed.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.",
+        "input": "Fountain_County,_Indiana | country | United_States",
+        "output": "Fountain County is in Indiana, in the United States.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.",
+        "input": "name[Browns Cambridge], food[Fast food], area[city centre], familyFriendly[yes], near[The Sorrento]",
+        "output": "Browns Cambridge is a fast food family-friendly restaurant in the city centre near The Sorrento.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.",
+        "input": "entity: hand \nbefore: in front of chest \nafter: chin height \nattr: location",
+        "output": "location of hand was in front of chest before and chin height afterwards",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given two noun phrases (arguments) and relationship between them, form a sentence that expresses theses arguments with the given relationship.",
+        "input": "Relationship: 'be bear on', Argument/Subject 1: 'joan baez', Argument/Subject 2: 'staten island'",
+        "output": "Joan Baez , was born on Staten Island , New York , to a Quaker family of Mexican , English and Scottish descent .",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given two noun phrases (arguments) and relationship between them, form a sentence that expresses theses arguments with the given relationship.",
+        "input": "Relationship: 'turn to', Argument/Subject 1: 'koenig', Argument/Subject 2: 'helena'",
+        "output": "Koenig gently squeezed her shoulder in silent support and turned to stand by Helena .",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given concept set (with 3 to 5 concepts) that contain mentions of names of people, places, activities, or things. These concept sets reflect reasonable concept co-occurrences in everyday situations. All concepts given as input are separated by \"#\". Your job is to generate a sentence describing a day-to-day scene using all concepts from a given concept set.",
+        "input": "computer#student#work",
+        "output": "a student works on a computer",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.",
+        "input": "entity: stain \nbefore: dark \nafter: light \nattr: state",
+        "output": "state of stain was dark before and light afterwards",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given concept set (with 3 to 5 concepts) that contain mentions of names of people, places, activities, or things. These concept sets reflect reasonable concept co-occurrences in everyday situations. All concepts given as input are separated by \"#\". Your job is to generate a sentence describing a day-to-day scene using all concepts from a given concept set.",
+        "input": "cake#couple#stand",
+        "output": "the couple stands by the cake",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.",
+        "input": "Bananaman | broadcastedBy | BBC\nBananaman | starring | Bill_Oddie\nBananaman | firstAired | \"1983-10-03\"",
+        "output": "Bill Oddie starred in Bananaman which was broadcast by the BBC and first aired on 3 October 1983.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.",
+        "input": "entity: the rims \nbefore: dry \nafter: wet \nattr: wetness",
+        "output": "wetness of the rims was dry before and wet afterwards",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given concept set (with 3 to 5 concepts) that contain mentions of names of people, places, activities, or things. These concept sets reflect reasonable concept co-occurrences in everyday situations. All concepts given as input are separated by \"#\". Your job is to generate a sentence describing a day-to-day scene using all concepts from a given concept set.",
+        "input": "airport#luggage#wait",
+        "output": "People wait for their luggage at an airport.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.",
+        "input": "[['The Wrestlers', 'food', 'English'], ['The Wrestlers', 'customer rating', 'high'], ['The Wrestlers', 'familyFriendly', 'yes']]",
+        "output": "The Wrestlers provides English food for £20-£25. It is child friendly and has high customer rating.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given concept set (with 3 to 5 concepts) that contain mentions of names of people, places, activities, or things. These concept sets reflect reasonable concept co-occurrences in everyday situations. All concepts given as input are separated by \"#\". Your job is to generate a sentence describing a day-to-day scene using all concepts from a given concept set.",
+        "input": "eat#hay#sheep",
+        "output": "sheeps eat hay on the farm .",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.",
+        "input": "name[Bibimbap House], food[Indian], area[riverside], near[The Rice Boat]",
+        "output": "If you're looking for Indian food in the riverside area, Bibimbap House is near The Rice Boat.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given two noun phrases (arguments) and relationship between them, form a sentence that expresses theses arguments with the given relationship.",
+        "input": "Relationship: 'be head of', Argument/Subject 1: 'president', Argument/Subject 2: 'government'",
+        "output": "The President is the Head of State and Government and is indirectly elected by the National Assembly after each parliamentary election .",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.",
+        "input": "Bandeja_paisa | ingredient | Pork_belly",
+        "output": "Pork belly is an ingredient in the dish Bandeja paisa.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.",
+        "input": "name[xname], cuisine[Chinese], price[more than £30], familyFriendly[yes], near[xnear]",
+        "output": "Located near xnear, xname Chinese restaurant is child friendly but be prepared to pay more than 30 British pounds.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.",
+        "input": "name[Zizzi], eatType[pub], food[Italian], customer rating[1 out of 5], familyFriendly[yes]",
+        "output": "With a customer rating of 1 out of 5, Zizzi is a children friendly pub that serves Italian food.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.",
+        "input": "[['Green Man', 'food', 'English'], ['Green Man', 'priceRange', 'cheap'], ['Green Man', 'area', 'riverside'], ['Green Man', 'familyFriendly', 'yes'], ['Green Man', 'near', 'All Bar One']]",
+        "output": "The Green Man is located on the riverside near All Bar One.  It serves cheap, family friendly English food.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.",
+        "input": "name[The Punter], eatType[coffee shop], food[Fast food], priceRange[moderate], customer rating[3 out of 5], familyFriendly[yes], near[Café Sicilia]",
+        "output": "Near the Café Sicilia, there is a child friendly, moderately priced coffee shop called The Punter which sells fast food. It has a customer Rating of 3 out of 5.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.",
+        "input": "name[The Golden Palace], eatType[restaurant], priceRange[less than £20]",
+        "output": "The Golden Palace restaurant offers prices less than £20.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.",
+        "input": "Hong_Kong | leaderName | Carrie_Lam_(politician)\nBaked_Alaska | region | Hong_Kong",
+        "output": "Baked Alaska comes from Hong Kong where Carrie Lam is a political leader.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.",
+        "input": "[['The Dumpling Tree', 'eatType', 'pub'], ['The Dumpling Tree', 'food', 'Indian'], ['The Dumpling Tree', 'near', 'The Portland Arms']]",
+        "output": "The Dumpling Tree Pub would like to welcome you and your family to try our Indian cuisine. We are near The Portland Arms",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.",
+        "input": "name[xname], eattype[coffee shop], cuisine[English], rating[3 out of 5], location[riverside], near[xnear]",
+        "output": "xname is an English food coffee shop style eatery  with above average customer ratings near xnear in the riverside area.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.",
+        "input": "[['Bolt (comicsCharacter)', 'ALTERNATIVE_NAME', '\"Larry Bolatinsky\"']]",
+        "output": "An alternative name for the comic character Bolt is Larry Bolatinsky.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.",
+        "input": "[['Boogie Woogie-Chalo America', 'YEAR', '2004'], ['[TABLECONTEXT]', 'SHOW', 'Boogie Woogie-Chalo America'], ['Boogie Woogie-Chalo America', 'ROLE', 'Dance Contestant'], ['[TABLECONTEXT]', '[TITLE]', 'Mauli Dave']]",
+        "output": "In 2004, Mauli Dave was a dance contestant on the show Boogie Woogie-Chalo America.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given two noun phrases (arguments) and relationship between them, form a sentence that expresses theses arguments with the given relationship.",
+        "input": "Relationship: 'be support by', Argument/Subject 1: 'chamber', Argument/Subject 2: 'ambassador'",
+        "output": "The Chamber is supported by the Ambassadors , a non-elected committee of 16 members .",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.",
+        "input": "Asherton,_Texas | isPartOf | United_States\nAsherton,_Texas | isPartOf | Dimmit_County,_Texas\nAsher_and_Mary_Isabelle_Richardson_House | location | Asherton,_Texas",
+        "output": "Asherton, Texas is part of Dimmit County, Texas in the United States. Asher and Mary Isabelle Richardson House is in Asherton.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.",
+        "input": "Allama_Iqbal_International_Airport | location | Punjab,_Pakistan\nAllama_Iqbal_International_Airport | operatingOrganisation | Pakistan_Civil_Aviation_Authority\nAllama_Iqbal_International_Airport | cityServed | Lahore\nAllama_Iqbal_International_Airport | runwayName | \"18L/36R\"\nAllama_Iqbal_International_Airport | runwayLength | 2900.0",
+        "output": "The Allama Iqbal International Airport's runway 18L/36R is 2900.0.long. It is located in Punjab, the capitalod Lahore city in Pakistan and managed by The Pakistan Civil Aviation Authority.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.",
+        "input": "entity: paste \nbefore: on tile \nafter: removed \nattr: location",
+        "output": "location of paste was on tile before and removed afterwards",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.",
+        "input": "entity: paste \nbefore: in container \nafter: on floor \nattr: location",
+        "output": "location of paste was in container before and on floor afterwards",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given two noun phrases (arguments) and relationship between them, form a sentence that expresses theses arguments with the given relationship.",
+        "input": "Relationship: 'sue', Argument/Subject 1: 'microsoft', Argument/Subject 2: 'google'",
+        "output": "Not to mention some serious bravado considering Microsoft is currently suing Google to prevent an employee from jumping ship from Microsoft to Google .",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.",
+        "input": "[['Patton State Hospital', 'COUNTY', 'San Bernardino']]",
+        "output": "_____ is in _____ County.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given concept set (with 3 to 5 concepts) that contain mentions of names of people, places, activities, or things. These concept sets reflect reasonable concept co-occurrences in everyday situations. All concepts given as input are separated by \"#\". Your job is to generate a sentence describing a day-to-day scene using all concepts from a given concept set.",
+        "input": "cob#corn#eat",
+        "output": "cat eating corn on the cob",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "Given two noun phrases (arguments) and relationship between them, form a sentence that expresses theses arguments with the given relationship.",
+        "input": "Relationship: 'buy', Argument/Subject 1: 'viagra', Argument/Subject 2: 'online'",
+        "output": "Two viagra online buy i .us the Paradoxical to ( also in Health in normal and offer of central or , the pills of that in bad effects side viagra 50 require the afterwards .",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.",
+        "input": "Asilomar_Conference_Grounds | location | Pacific_Grove,_California\nAsilomar_Conference_Grounds | ReferenceNumber in the National Register of Historic Places | \"87000823\"\nAsilomar_Conference_Grounds | yearOfConstruction | 1913",
+        "output": "Asilomar Conference Grounds , constructed in 1913 is located in Pacific Grove, California and has the reference number 87000823 in the the National Register of Historic Places.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.",
+        "input": "[['Al-Taqaddum Air Base', 'CITY_SERVED', 'Fallujah'], ['Fallujah', 'COUNTRY', 'Iraq']]",
+        "output": "Al-Taqaddum Air Base serves the city of _____ which is in Iraq.",
+        "category": "Data to Text"
+    },
+    {
+        "instruction": "In this task, you are given concept set (with 3 to 5 concepts) that contain mentions of names of people, places, activities, or things. These concept sets reflect reasonable concept co-occurrences in everyday situations. All concepts given as input are separated by \"#\". Your job is to generate a sentence describing a day-to-day scene using all concepts from a given concept set.",
+        "input": "blanket#dog#lie",
+        "output": "pug dog lying under a blanket",
+        "category": "Data to Text"
+    }
+]
