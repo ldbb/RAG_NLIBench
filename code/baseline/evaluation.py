@@ -11,13 +11,13 @@ def prediction():
 
     # 加载tokenizer和model
     tokenizer_path = "/root/autodl-tmp/Llama-2-7b-hf"
-    model_path = "/root/RAG_NLIBench/code/baseline/hf_ckpt"  
+    model_path = "/root/autodl-tmp/hf_ckpt"  
 
     model = LlamaForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16, quantization_config=BitsAndBytesConfig(load_in_8bit=True), device_map="auto")
     tokenizer = LlamaTokenizer.from_pretrained(tokenizer_path)
 
     # 加载测试数据
-    test_data = load_dataset('json', data_files={'test': '/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/Question_Answering_200.json'})['test']
+    test_data = load_dataset('json', data_files={'test': '/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/f1/Textual_Entailment_snli_100.json'})['test']
     
     # 准备输出文件
     output_data = []
@@ -64,16 +64,16 @@ def prediction():
         print(i)
 
         # 保存修改后的数据集
-        with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/Question_Answering_200_1.json', 'w', encoding='utf-8') as f:
+        with open('/root/autodl-tmp/Textual_Entailment_snli_100_1.json', 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=4, ensure_ascii=False)
 
-def bleu():
+def bleu(file_path):
     '''
     evaluate BLEU score
     '''
     bleu = load_metric("bleu")
 
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'r', encoding='utf-8') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
@@ -93,15 +93,15 @@ def bleu():
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'w', encoding='utf-8') as f:
+    with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     
     print(f"Overall BLEU score for the dataset: {sum_score / len(output_data)}")
 
-def rouge():
+def rouge(file_path):
     rouge = load_metric("rouge")
 
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'r', encoding='utf-8') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
@@ -130,16 +130,16 @@ def rouge():
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'w', encoding='utf-8') as f:
+    with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     print(f'ROUGE_1: {sum_rouge_1 / len(output_data)}')
     print(f'ROUGE_2: {sum_rouge_2 / len(output_data)}')
     print(f'ROUGE_l: {sum_rouge_l / len(output_data)}')
 
-def BERTScore():
+def BERTScore(file_path):
     bertscore = load_metric("bertscore")
 
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'r', encoding='utf-8') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
@@ -159,14 +159,14 @@ def BERTScore():
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/bleu_rouge_bertscore/Translation_200_1.json', 'w', encoding='utf-8') as f:
+    with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     print(f'BERTScore: {sum_bertscore / len(output_data)}')
 
 def Acc():
     f1 = load_metric("f1")
 
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/f1/Spam_Classification_20_1.json', 'r', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Textual_Entailment_snli_100_1.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
@@ -175,10 +175,9 @@ def Acc():
     sum_acc = 0
 
     dict_map = {
-        "ham": 0,
-        "Ham": 0,
-        "Spam": 1,
-        "spam": 1
+        "E": 0,
+        "C": 1,
+        "N": 2
     }
     for item in json_data:
         # 准备单个参考文本和预测文本
@@ -197,7 +196,7 @@ def Acc():
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/f1/Spam_Classification_20_1.json', 'w', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Textual_Entailment_snli_100_1.json', 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     
     f1_score = f1.compute(predictions=pred, references=ref)
@@ -207,7 +206,7 @@ def Acc():
 def exact_match():
     exact_match = load_metric("exact_match")
 
-    with open('/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/Question_Answering_200_1.json', 'r', encoding='utf-8') as f:
+    with open('/root/autodl-tmp/Textual_Entailment_snli_100_1.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     ref = []
@@ -222,5 +221,11 @@ def exact_match():
     print(round(results["exact_match"], 2))
 
 if __name__ == '__main__':
-    exact_match()
+    #prediction()
+    #exact_match()
+    Acc()
+    #file_path = '/root/autodl-tmp/Summarization_116_1.json'
+    #bleu(file_path)
+    #rouge(file_path)
+    #BERTScore(file_path)
 

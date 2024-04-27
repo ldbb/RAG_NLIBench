@@ -1,0 +1,954 @@
+[
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX can n't find anything<sep>Tail: is late for a meeting, couldn't find keys",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX arrives at PersonY understanding<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX forgets to do PersonX's homework<sep>Tail: Gets in trouble",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX knows whats going on<sep>Tail: explains it to his friend",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX adapts ___ to conditions<sep>Tail: competent",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX bakes PersonX's own bread<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts PersonY invitation<sep>Tail: know PersonY",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX assumes another ___<sep>Tail: Secretive",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX can n't find PersonY's phone<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX injures PersonX's leg<sep>Tail: they get cast",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX hides PersonX's ___ in PersonX's hands<sep>Tail: HE LOSES HIS KNIFE",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX asks PersonY's teacher<sep>Tail: interested",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX left PersonX's ___ behind<sep>Tail: has to go back and get it",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX attends PersonY school<sep>Tail: He meets Person Y.",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX goes by the wayside<sep>Tail: going to way",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX gives birth to a baby girl<sep>Tail: tells family",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX has to pay a fine<sep>Tail: earn back money spent",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX causes ___ in patients<sep>Tail: gets a lawsuit",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX is at PersonX's friend 's house<sep>Tail: watch the game",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonX will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX answers PersonY question<sep>Tail: gets asked for confirmation",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts the job<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts PersonX's diploma<sep>Tail: attended school",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: sun<sep>Tail: light",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts happily<sep>Tail: to clean up the mess",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: coccidiosis<sep>Tail: economic loss",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts happily<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: hail<sep>Tail: broken windows",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: spark<sep>Tail: fire",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts the invitation<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts PersonY offer<sep>Tail: to discuss with personY",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts the invitation<sep>Tail: adheres to rules",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: ambulance<sep>Tail: injury",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: solar eclipse<sep>Tail: darkness",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: dehydration<sep>Tail: death",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: vampire<sep>Tail: fear",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts happily<sep>Tail: take the item",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: violence<sep>Tail: injury or death",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: embarrassment<sep>Tail: blushing",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: light match<sep>Tail: start fire",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head causes the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts PersonY's invitation<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX bats PersonX's eyelashes<sep>Tail: to flirt",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX feels so bad<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX makes PersonY visit<sep>Tail: gets resentful towards person X",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX gives ___ PersonY's number<sep>Tail: receive call from unfamiliar number",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX loves horses<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX affects children 's ___<sep>Tail: PersonX mentors children",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX goes ___ to change<sep>Tail: They are late to dinner",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX fulfils PersonX's needs<sep>Tail: is provided for",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX achieves PersonX's dream<sep>Tail: feels proud",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX achieves ___ by means<sep>Tail: happy,enjoyed",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX babysits PersonX's nephew<sep>Tail: helpful",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX asks PersonY's grandma<sep>Tail: to avoid the question",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX attends PersonY school<sep>Tail: an education",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX does n't get the job<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX argues a lot<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX arrives home that ___<sep>Tail: go do something",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX babysits PersonX's nephew<sep>Tail: to ask their sibling a favor",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts the job<sep>Tail: to get a better career",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX calls the restaurant<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given a tuple, comprising Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether, as a result of the Head, PersonY or others will be affected as mentioned in the Tail or not. These effects are social actions that may occur after the Head event. For example, X may get hugged, and Y may blush in response. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX asks PersonX's boyfriend<sep>Tail: go to the movies",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX arranges a date<sep>Tail: to have a date at that time",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX begins to hurt<sep>Tail: to get hurt.",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: holdall<sep>Tail: like catch all",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: iodine<sep>Tail: used as antiseptic",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX affects PersonY's interests<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: fish hook<sep>Tail: curved on one end",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: arm<sep>Tail: one hand",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: oil<sep>Tail: found in mayonaise",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts happily<sep>Tail: thankful",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: video<sep>Tail: watched",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: housework<sep>Tail: exhausting",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX bakes PersonX's own bread<sep>Tail: to eat fresh homemade bread",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: jeep<sep>Tail: windows",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX addresses PersonY audience<sep>Tail: well-spoken",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX always ate<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: dice<sep>Tail: used in craps games",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: sulphur<sep>Tail: soluble in carbon disulphide",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: desert<sep>Tail: many sand dunes",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: earth<sep>Tail: round like ball",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head can be characterized by being or having the Tail or not. Being characterized usually describes entities' general characteristics such as rose is red, or subjective attributes such as thirst is uncomfortable. It can also map to descriptors that speak to the substance or value of items such as meat has the property of being stored in the freezer or bike is powered by a person's legs. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: sex<sep>Tail: great",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX acts in PersonY capacity<sep>Tail: taken care of",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX actually liked ___<sep>Tail: Pass gas",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX absolutely loved it<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: crab<sep>Tail: mens club",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accidentally spilled<sep>Tail: careless",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: cover<sep>Tail: book",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: factory<sep>Tail: industrial area",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: chair<sep>Tail: living room",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accomplishes PersonX's objectives<sep>Tail: smiles",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX acts in PersonY way<sep>Tail: isn't sure who they are",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: counter<sep>Tail: store",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: chalk board<sep>Tail: classroom",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: air freshener<sep>Tail: car",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts one 's ___<sep>Tail: to apply",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: counter<sep>Tail: diner",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX acts PersonX's age<sep>Tail: childish",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX acts in PersonY way<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX about to get married<sep>Tail: excited",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX acts funny<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head is located or can be found at/in/on the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX accepts into college<sep>Tail: to go off to school",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX takes part in the discussions<sep>Tail: PersonX listens to the others involved in the discussions",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX gets PersonY understanding<sep>Tail: PersonX and PersonY attend a metoo rally",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX gives PersonX's opinions<sep>Tail: PersonX asks PersonY if PersonX's opinions makes sense",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX asks PersonY for a date<sep>Tail: PersonX takes PersonY to the movies",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX puts it another way<sep>Tail: PersonX is rude",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX adapts to PersonX's environment<sep>Tail: to enjoy themself some",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX acts like a PersonY<sep>Tail: none",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX would stop<sep>Tail: PersonX runs some more",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX keeps a low profile<sep>Tail: PersonX stays out of jail",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX uses PersonY's expression<sep>Tail: PersonX is feeling proud",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX picks money up quickly<sep>Tail: PersonX goes to the store and buys a laptop",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX conquers PersonX's fear<sep>Tail: PersonX achieves a new feat",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX is on the basketball team<sep>Tail: PersonX plays basketball with the team",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX folds PersonY's hands<sep>Tail: PersonX shakes PersonY's folded hands",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX buys chicken for dinner<sep>Tail: PersonX eats chicken",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX sees PersonY's parents<sep>Tail: PersonX on asks PersonY's permission to marry PersonY",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "No",
+        "input": "Head: PersonX achieves PersonX's aims<sep>Tail: to help people achieve their aims",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 1.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX sees PersonY father<sep>Tail: PersonX asks for permission",
+        "category": "Commonsense Classification",
+        "predicted_output": "No",
+        "acc": 0.0
+    },
+    {
+        "instruction": "In this task, you are given two phrases: Head and Tail, separated with <sep>. The Head and the Tail events are short phrases possibly involving participants. The names of specific people have been replaced by generic words (e.g., PersonX, PersonY, PersonZ). PersonX is always the subject of the event. You have to determine whether the Head happens before the Tail or not. Classify your answers into \"Yes\" and \"No\". The phrase may also contain \"___\", a placeholder that can be an object, a person, and/or an action.",
+        "output": "Yes",
+        "input": "Head: PersonX begins to look around<sep>Tail: PersonX finds a dog",
+        "category": "Commonsense Classification",
+        "predicted_output": "Yes",
+        "acc": 1.0
+    }
+]
