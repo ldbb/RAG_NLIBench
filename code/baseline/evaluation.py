@@ -221,11 +221,5 @@ def exact_match():
     print(round(results["exact_match"], 2))
 
 if __name__ == '__main__':
-    #prediction()
-    #exact_match()
-    Acc()
-    #file_path = '/root/autodl-tmp/Summarization_116_1.json'
-    #bleu(file_path)
-    #rouge(file_path)
-    #BERTScore(file_path)
+    prediction()
 

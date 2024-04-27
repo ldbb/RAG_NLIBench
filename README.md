@@ -113,7 +113,7 @@ RAG能够简化大模型的推理和决策过程，提高自主性。通过直�
      | Word Semantics                      | 400   |
      | Wrong Candidate Generation          | 981   |
 
-  5. 测试数据筛选：分为文本生成和文本分类两大类。文本生成可以用BLEU，ROUGE，BERTScore来评测；文本分类可以用F1来评测。
+  5. 测试数据筛选：分为文本生成和文本分类两大类。文本生成可以用BLEU，ROUGE，BERTScore来评测；文本分类可以用Accuracy来评测;其它比如NER，QA可以用Exact Match来评测。
 
      - BLEU，ROUGE，BERTScore测试集
 
@@ -147,6 +147,7 @@ RAG能够简化大模型的推理和决策过程，提高自主性。通过直�
   LlaMa2-7b微调：参考Alpaca
 
 - 微调相关参数：
+更新：在300step基础上增加300step
 
 ```
 LORA_R = 8
@@ -161,8 +162,8 @@ BATCH_SIZE = 128
 MICRO_BATCH_SIZE = 4
 GRADIENT_ACCUMULATION_STEPS = BATCH_SIZE // MICRO_BATCH_SIZE
 LEARNING_RATE = 3e-4
-TRAIN_STEPS = 300
-OUTPUT_DIR = "experiments"
+TRAIN_STEPS = 300/600
+OUTPUT_DIR = "experiments"/"experiments_2"
 ```
 
 ## 实验设计
@@ -181,34 +182,37 @@ OUTPUT_DIR = "experiments"
 ## 实验结果
 
 - Llama2-7b微调结果：
+  - 300step结果：
+![Loss Image](imgs/loss_1.png)
 
-![Loss Image](imgs/loss.png)
+  - 600step结果：
+![Loss Image](imgs/loss_2.png)
 
-- BLEU，ROUGE，BERTScore测试集结果
+- BLEU，ROUGE，BERTScore测试集结果（300step/600step）
 
   | Category                             | Count | BLEU  | ROUGE-1 | ROUGE-2 | ROUGE-l | BERTScore |
   | ------------------------------------ | ----- | ----- | ------- | ------- | ------- | --------- |
-  | Data_to_Text                         | 39    | 0.103 | 0.530   | 0.296   | 0.430   | 0.905     |
-  | Question Rewriting                   | 20    | 0.078 | 0.529   | 0.302   | 0.462   | 0.905     |
-  | Summarization                        | 100   | 0.059 | 0.287   | 0.140   | 0.259   | 0.872     |
-  | Title Generation                     | 80    | 0.070 | 0.324   | 0.158   | 0.308   | 0.875     |
-  | Translation(other language->English) | 200   | 0.163 | 0.664   | 0.448   | 0.615   | 0.925     |
+  | Data_to_Text                         | 50    | 0.103/0.072 | 0.530/0.537   | 0.296/0.280   | 0.430/0.443   | 0.905/0.910     |
+  | Question Rewriting                   | 80    | 0.078/0.228 | 0.529/0.651   | 0.302/0.458   | 0.462/0.589   | 0.905/0.931     |
+  | Summarization                        | 116   | 0.059/0.052 | 0.287/0.293   | 0.140/0.128   | 0.259/0.257   | 0.872/0.881     |
+  | Title Generation                     | 96    | 0.070/0.067 | 0.324/0.377   | 0.158/0.170   | 0.308/0.355   | 0.875/0.886     |
+  | Translation(other language->English) | 200   | 0.163/0.177 | 0.664/0.675   | 0.448/0.458   | 0.615/0.628   | 0.925/0.931     |
 
 - Acc测试集结果
 
   | Category                   | Count | Acc   |
   | -------------------------- | ----- | ----- |
-  | Commonsense Classification | 50    | 0.44  |
-  | Sentiment Analysis         | 91    | 0.703 |
-  | Spam Classification        | 19    | 0.789 |
-  | Textual Entailment（SNLI） | 65    | 0.185 |
+  | Commonsense Classification | 119    | 0.44/0.571  |
+  | Sentiment Analysis         | 100    | 0.703/0.76 |
+  | Spam Classification        | 20    | 0.789/0.7 |
+  | Textual Entailment（SNLI） | 65    | 0.185/0.462 |
 
 - EM F1测试集结果
 
-| Category                 | Count | exact_match |
-| ------------------------ | ----- | ----------- |
-| Question Answering       | 200   | 28.09       |
-| Named Entity Recognition | 62    | 65.0        |
+  | Category                 | Count | exact_match |
+  | ------------------------ | ----- | ----------- |
+  | Question Answering       | 200   | 28.09/32.0       |
+  | Named Entity Recognition | 62    | 65.0/74.19        |
 
 ## Related work
 
