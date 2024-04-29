@@ -17,14 +17,40 @@ def prediction():
     tokenizer = LlamaTokenizer.from_pretrained(tokenizer_path)
 
     # 加载测试数据
-    test_data = load_dataset('json', data_files={'test': '/root/autodl-tmp/Instruction-tuning_Datasets/test_datasets/f1/Textual_Entailment_snli_100.json'})['test']
+    test_data = load_dataset('json', data_files={'test': '/root/RAG_NLIBench/data/test_datasets/Translation_200.json'})['test']
     
     # 准备输出文件
     output_data = []
     i = 1
     for data_point in test_data:
-        # 准备输入
-        inputs = f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.  # noqa: E501
+        # 通用prompt
+        '''inputs = f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.  # noqa: E501
+### Instruction:
+{data_point["instruction"]}
+### Input:
+{data_point["input"]}
+"""'''
+        # Textual Entailment prompt
+        '''inputs = f"""### Instruction
+Task: Determine the relationship between the two sentences provided. Choose the appropriate letter to represent the relationship:
+- E: Sentence 1 entails Sentence 2
+- C: Sentence 1 contradicts Sentence 2
+- N: The relationship is neutral (cannot be determined from the text alone)
+
+Indicate your answer by choosing E, C, or N based on the relationship between the two sentences. All you need to do is output E, N, and C. # noqa: E501
+
+### Input:
+{data_point["input"]}
+
+### Response:
+"""'''
+        '''inputs = f"""Below is an instruction that describes a Textual Entailment task. This task's goal is to determine the relationship between the two sentences provided, paired with an input that provides further context. You should choose the appropriate letter to represent the relationship.  # noqa: E501
+### Instruction:
+{data_point["instruction"]}
+### Input:
+{data_point["input"]}
+"""'''
+        inputs = f"""Below is an instruction that describes a Textual Entailment task. This task's goal is to translate the provided sentence from its original language into English, paired with an input that provides further context. You should focus on accuracy and fluency in your translation. .  # noqa: E501
 ### Instruction:
 {data_point["instruction"]}
 ### Input:
@@ -51,7 +77,8 @@ def prediction():
         # 解码预测结果
         decoded_preds = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
         try:
-            decoded_preds = decoded_preds.split("### Response:")[1].strip()
+            #print(decoded_preds)
+            decoded_preds = decoded_preds.split("\n")[-1].strip()
             data_point['predicted_output'] = decoded_preds
         except (IndexError, RuntimeError) as e:
             print(decoded_preds)
@@ -64,7 +91,7 @@ def prediction():
         print(i)
 
         # 保存修改后的数据集
-        with open('/root/autodl-tmp/Textual_Entailment_snli_100_1.json', 'w', encoding='utf-8') as f:
+        with open('/root/RAG_NLIBench/results/result-0428/Translation_200_1.json', 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 def bleu(file_path):
@@ -206,7 +233,7 @@ def Acc():
 def exact_match():
     exact_match = load_metric("exact_match")
 
-    with open('/root/autodl-tmp/Textual_Entailment_snli_100_1.json', 'r', encoding='utf-8') as f:
+    with open('/root/RAG_NLIBench/results/result-0428/Textual_Entailment_snli_100_2.json', 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     ref = []
@@ -222,4 +249,9 @@ def exact_match():
 
 if __name__ == '__main__':
     prediction()
+    #exact_match()
+    file_path = '/root/RAG_NLIBench/results/result-0428/Translation_200_1.json'
+    bleu(file_path)
+    rouge(file_path)
+    BERTScore(file_path)
 
