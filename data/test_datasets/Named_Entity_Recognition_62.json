@@ -1,374 +1,374 @@
 [
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Clare Hall, located near Bibimbap House and the riverside, is a fast food restaurant that provides food at a medium price range.",
-        "output": "Clare Hall",
-        "category": "Named Entity Recognition"
+        "output": "Clare Hall"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Avalon is a nice coffee shop in the Riverside area near Blue Spice with low prices, a large clientele and a lovely family atmosphere",
-        "output": "Avalon",
-        "category": "Named Entity Recognition"
+        "output": "Avalon"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "A high costing restaurant with an average rating is The Twenty Two. It is near The Rice Boat in the riverside area, and it is kid friendly.",
-        "output": "The Twenty Two",
-        "category": "Named Entity Recognition"
+        "output": "The Twenty Two"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Near Fitzbillies there is an English food serving restaurant called the The Six Bells with a price range of less than £20.",
-        "output": "The Six Bells",
-        "category": "Named Entity Recognition"
+        "output": "The Six Bells"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Clowns is a coffee shop providing Indian food It is located in the riverside. It is near Clare Hall. Its customer rating is 5 out of 5.",
-        "output": "Clowns",
-        "category": "Named Entity Recognition"
+        "output": "Clowns"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Wrestlers is a mature Italian coffee shop near the riverside with a competitive menu for under £20, near the Raja Indian Cuisine.",
-        "output": "The Wrestlers",
-        "category": "Named Entity Recognition"
+        "output": "The Wrestlers"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Browns Cambridge serves Italian food and is family-friendly. Just along the riverbank from the Crown Plaza Hotel, it only has a one-star rating so far.",
-        "output": "Browns Cambridge",
-        "category": "Named Entity Recognition"
+        "output": "Browns Cambridge"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "There is an Indian  restaurant called Loch Fyne with a 5 out of 5 customer rating and it's located in city Centre near The Rice Boat.",
-        "output": "Loch Fyne",
-        "category": "Named Entity Recognition"
+        "output": "Loch Fyne"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Rice Boat is not family-friendly. They have a customer rating 5 out of 5. They serve Japanese food. They are located in the riverside area near Express by Holiday Inn. There price range is cheap.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Rice Boat is a mid priced restaurant that is located near the Express by Holiday Inn. Located near the river and is family friendly.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Clowns is in the riverside area near Clare Hall. it is a coffee shop that serves Japanese food and has a low customer rating.",
-        "output": "Clowns",
-        "category": "Named Entity Recognition"
+        "output": "Clowns"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Near The Portland Arms, In the city centre of city,  is a 3of5 stars coffee shop price moderate called Cotto, serves Fast food",
-        "output": "Cotto",
-        "category": "Named Entity Recognition"
+        "output": "Cotto"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Rice Boat, a children friendly restaurant which serves highly rated Italian food, has a more than 30 euro price range and is near the Express by Holiday Inn. This restaurant can be found along the river.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Punter is a coffee ship serving Indian food for more than £30 with a high customer rating and is child friendly near Café Sicilia.",
-        "output": "The Punter",
-        "category": "Named Entity Recognition"
+        "output": "The Punter"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Punter is a coffee shop serving Japanese food and having a cheap price range and a 5 out of 5 customer rating. It can be located near Café Sicilia but is not family-friendly.",
-        "output": "The Punter",
-        "category": "Named Entity Recognition"
+        "output": "The Punter"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "I wonder if there is a coffee shop that offers Japanese food near the Riverside. I'm having a hard time finding one. The closest thing I found was The Mill, located in The Sorrento.",
-        "output": "The Mill",
-        "category": "Named Entity Recognition"
+        "output": "The Mill"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "We do not offer a child-friendly environment. Japanese food is served here at The Plough. Located near Café Rouge, Our pub is very low-priced. Located in the city centre",
-        "output": "The Plough",
-        "category": "Named Entity Recognition"
+        "output": "The Plough"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Strada is a highly rated Chinese restaurant located near Rainbow Vegetarian Café. Location is not kid friendly; average tab  £20-25.",
-        "output": "Strada",
-        "category": "Named Entity Recognition"
+        "output": "Strada"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Near Rainbow Vegetarian Café, at the riverside area, there is a pub called The Golden Palace that ranges in price more than £30.",
-        "output": "The Golden Palace",
-        "category": "Named Entity Recognition"
+        "output": "The Golden Palace"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "In the high price range, The Punter is a coffee shop offering Indian food. It is not children friendly and has a customer rating of 1 out of 5. It is located near the Café Sicilia.",
-        "output": "The Punter",
-        "category": "Named Entity Recognition"
+        "output": "The Punter"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Rice Boat serves Italian food in the city centre area near Express by Holiday Inn. With a £20-25 price range, it is highly rated with customers and is not kid friendly.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Golden Curry is a non friendly, English serving restaurant. It has a low rating, but is located in the center of the city near Café Rouge.",
-        "output": "The Golden Curry",
-        "category": "Named Entity Recognition"
+        "output": "The Golden Curry"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Eagle is a coffee shop serving Indian food with a low customer rating  with meals less than £20 and is family friendly in city centre area near Burger King.",
-        "output": "The Eagle",
-        "category": "Named Entity Recognition"
+        "output": "The Eagle"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "To experience Italian food with children friendly dining, visit The Waterman restaurant, located near Crowne Plaza Hotel.",
-        "output": "The Waterman",
-        "category": "Named Entity Recognition"
+        "output": "The Waterman"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Blue Spice is a cheap coffee shop with 5 out of 5 rating. It is near Avalon and the riverside area, and is family friendly.",
-        "output": "Blue Spice",
-        "category": "Named Entity Recognition"
+        "output": "Blue Spice"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Rice Boat is located in the city centre close to the Express by Holiday Inn. The restaurant is in the high price range and only considered to be of average quality by it's customers. It is not considered a child friendly place to eat.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Alimentum located on the riverside of Cambridge very close to the Yippee Noodle Bar, is known for its Fast-food, with a customer rating of average it will be worth trying this restaurant.",
-        "output": "Alimentum",
-        "category": "Named Entity Recognition"
+        "output": "Alimentum"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Eagle is a coffee shop that serves Fast food.  It is in the city centre near Burger King.  It is cheap and family-friendly.",
-        "output": "The Eagle",
-        "category": "Named Entity Recognition"
+        "output": "The Eagle"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Near Express by Holiday Inn in the city centre, there is a family-friendly Japanese restaurant named The Rice Boat with a price range less than L20 and low customer rating.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "In the city centre, The Rice Boat is located near the Express by Holiday Inn. Its child friendly with a high customer rating. They serve Indian food in the £20-25 price range.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Eagle is a coffee shop near Burger King by Riverside area that provides French food. its price is more than £30 with a low customer rating and is children friendly",
-        "output": "The Eagle",
-        "category": "Named Entity Recognition"
+        "output": "The Eagle"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Strada serves Indian food for £20-£25. It has a high customer rating and is kid friendly. It is near The Rainbow Vegetarian Café.",
-        "output": "Strada",
-        "category": "Named Entity Recognition"
+        "output": "Strada"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Check out The Cricketers, coffee shop near The Portland Arms. Drop by with the family to enjoy high quality Japanese food.",
-        "output": "The Cricketers",
-        "category": "Named Entity Recognition"
+        "output": "The Cricketers"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Near Express by Holiday Inn in the city centre, The Rice Boat is more than £30 for English food and not family-friendly but does have high ratings.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "An option for Japanese food in the city centre area is The Wrestlers coffee shop located next to Raja Indian Cuisine.  This is not a family-friendly coffee shop.  This coffee shop has an average-priced menu.",
-        "output": "The Wrestlers",
-        "category": "Named Entity Recognition"
+        "output": "The Wrestlers"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Eagle is a coffee shop in the riverside area that sells French cuisine in the £20 or less range, it doesn't have good customer ratings.  You'll find it near the Burger King but it isn't family-friendly.",
-        "output": "The Eagle",
-        "category": "Named Entity Recognition"
+        "output": "The Eagle"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "There is a place that does English food near The Six Bells. It's called Fitzbillies and prices tend to be between £20-25.",
-        "output": "Fitzbillies",
-        "category": "Named Entity Recognition"
+        "output": "Fitzbillies"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Golden Curry is a kids friendly Italian restaurant located in Riverside, near Café Rouge. It has a customer rating of 1 out of 5.",
-        "output": "The Golden Curry",
-        "category": "Named Entity Recognition"
+        "output": "The Golden Curry"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Strada sells Japanese food is not children-friendly and has a customer rating 3 out of 5 located near Rainbow Vegetarian Café",
-        "output": "Strada",
-        "category": "Named Entity Recognition"
+        "output": "Strada"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Alimentum is an affordable Indian food establishment with an average customer rating located in the City Centre, near Yippee Noodle Bar.",
-        "output": "Alimentum",
-        "category": "Named Entity Recognition"
+        "output": "Alimentum"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Strada is a restaurant  in Indian,  the price range £20-25, with high customer ratings and is kids friendly, located near Rainbow Vegetarian Café.",
-        "output": "Strada",
-        "category": "Named Entity Recognition"
+        "output": "Strada"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "If you're looking for a highly rated, children-free restaurant, check out The Rice Boat. Located at the city centre, near the Express by Holiday Inn, The Rice Boat ranges more than £30.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "If you are looking for a low priced English restaurant you should try Green Man located at the riverside close to All Bar One",
-        "output": "Green Man",
-        "category": "Named Entity Recognition"
+        "output": "Green Man"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "There is a coffee shop located near Café Sicilia serving Indian food called The Punter. It is in the high price range and is children-friendly. It has a low customer rating of 1 out of 5.",
-        "output": "The Punter",
-        "category": "Named Entity Recognition"
+        "output": "The Punter"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "A child-friendly Indian coffee shop is located near Crowne Plaza Hotel. Its name is Browns Cambridge and it is rated high by customers.",
-        "output": "Browns Cambridge",
-        "category": "Named Entity Recognition"
+        "output": "Browns Cambridge"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "There is a Japanese coffee shop on the riverside area, near The Sorrento. It is called The Mill and is priced at more than 30GBP.",
-        "output": "The Mill",
-        "category": "Named Entity Recognition"
+        "output": "The Mill"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "If you want Chinese for dinner or lunch, The Strada, near the Rainbow Vegetarian Café serves you for a moderate price. With a rate of one out of five, it is also kid friendly.",
-        "output": "Strada",
-        "category": "Named Entity Recognition"
+        "output": "Strada"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Eagle has moderately priced fast food.  It's not kind friendly.  It rates 1 out of 5 and is located neat Burger King at Riverside.",
-        "output": "The Eagle",
-        "category": "Named Entity Recognition"
+        "output": "The Eagle"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Browns Cambridge is a coffee shop, serves Italian food situated near the Crowne Plaza Hotel in the Riverside area with a low customer rating but is not family-friendly",
-        "output": "Browns Cambridge",
-        "category": "Named Entity Recognition"
+        "output": "Browns Cambridge"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Near The Portland Arms, on the riverside, you can find the Cotto Italian coffee shop. It is rated 3 out of 5 and the price range is moderate.",
-        "output": "Cotto",
-        "category": "Named Entity Recognition"
+        "output": "Cotto"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Green Man is family friendly. It is in the riverside area near the All Bar One. It serves English food and the price range is cheap.",
-        "output": "Green Man",
-        "category": "Named Entity Recognition"
+        "output": "Green Man"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "A highly rated, 5 out of 5, is The Rice Boat fast food restaurant in the city centre near Express by Holiday Inn.  It's family-friendly and cheap.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "By Express by Holiday Inn, in the City Centre, there is a sushi restaurant called The Rice Boat.  It is not family-friendly, and is rated one out of five stars.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "You can eat Indian food at Alimentum located in the riverside area near the Yippee Noodle Bar. The price range is more than £30 and it has a high customer rating.",
-        "output": "Alimentum",
-        "category": "Named Entity Recognition"
+        "output": "Alimentum"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Punter is a family coffee shop with Italian food with high prices but also an average rating, its close to Café Sicilia",
-        "output": "The Punter",
-        "category": "Named Entity Recognition"
+        "output": "The Punter"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Golden Curry is an English restaurant that is considered family-friendly with a customer rating of 5 out of 5.  It can be found near Café Rouge in the city centre area.",
-        "output": "The Golden Curry",
-        "category": "Named Entity Recognition"
+        "output": "The Golden Curry"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Golden Curry near Café Rouge, serves English food and is family friendly. The Golden Curry has a high customer rating and is in a riverside area.",
-        "output": "The Golden Curry",
-        "category": "Named Entity Recognition"
+        "output": "The Golden Curry"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "Japanese food can be found at Bibimbap House, which is near Clare Hall and in the riverside area.  Its prices are in the range of £20 to £25.",
-        "output": "Bibimbap House",
-        "category": "Named Entity Recognition"
+        "output": "Bibimbap House"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "There is a Fast food coffee chop called Clowns, located near Clare Hall, in the city centre. It has a low customer rating.",
-        "output": "Clowns",
-        "category": "Named Entity Recognition"
+        "output": "Clowns"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Twenty Two in riverside has a customer rating above  average is child friendly, serving average priced food and is near The Rice Boat",
-        "output": "The Twenty Two",
-        "category": "Named Entity Recognition"
+        "output": "The Twenty Two"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Rice Boat provides Chinese food in the cheap price range. It is located in the riverside. It is near Express by Holiday Inn. Its customer rating is 5 out of 5.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     },
     {
+        "category": "Named Entity Recognition",
         "instruction": "In this task, we ask you to identify the named entity that is the subject of the excerpt. Note that there could be multiple sentences in the excerpt and multiple named entities in each sentence - you must correctly pick the one that is the excerpt's main subject. The same named entity could appear in multiple excerpts, sometimes as the main subject, sometimes not.",
         "input": "The Rice Boat is a kid-friendly French food place located near the Express by Holiday Inn in the city centre. Its prices range from 20 to 25 euros and it is highly rated.",
-        "output": "The Rice Boat",
-        "category": "Named Entity Recognition"
+        "output": "The Rice Boat"
     }
 ]

@@ -1,0 +1,162 @@
+[
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Merry Christmas to you too babe, i love ya *kisses*",
+        "output": "ham",
+        "predicted_output": "ham",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Is there a reason we've not spoken this year? Anyways have a great week and all the best in your exam",
+        "output": "ham",
+        "predicted_output": "ham",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Customer place i will call you.",
+        "output": "ham",
+        "predicted_output": "spam",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Hey company elama po mudyadhu.",
+        "output": "ham",
+        "predicted_output": "spam",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Chk in ur belovd ms dict",
+        "output": "ham",
+        "predicted_output": "spam",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Ok that's great thanx a lot.",
+        "output": "ham",
+        "predicted_output": "ham",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "We tried to contact you re your reply to our offer of 750 mins 150 textand a new video phone call 08002988890 now or reply for free delivery tomorrow",
+        "output": "spam",
+        "predicted_output": "spam",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "You still at grand prix?",
+        "output": "ham",
+        "predicted_output": "spam",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "So do you have samus shoulders yet",
+        "output": "ham",
+        "predicted_output": "ham",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "1.20 that call cost. Which i guess isnt bad. Miss ya, need ya, want ya, love ya",
+        "output": "ham",
+        "predicted_output": "ham",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Loan for any purpose £500 - £75,000. Homeowners + Tenants welcome. Have you been previously refused? We can still help. Call Free 0800 1956669 or text back 'help'",
+        "output": "spam",
+        "predicted_output": "ham",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Yo chad which gymnastics class do you wanna take? The site says Christians class is full..",
+        "output": "ham",
+        "predicted_output": "Ham",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Both :) i shoot big loads so get ready!",
+        "output": "ham",
+        "predicted_output": "spam",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "U can call me now...",
+        "output": "ham",
+        "predicted_output": "spam",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Ü predict wat time ü'll finish buying?",
+        "output": "ham",
+        "predicted_output": "spam",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Hey so this sat are we going for the intro pilates only? Or the kickboxing too? ",
+        "output": "ham",
+        "predicted_output": "spam",
+        "acc": 0.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Hello. We need some posh birds and chaps to user trial prods for champneys. Can i put you down? I need your address and dob asap. Ta r",
+        "output": "spam",
+        "predicted_output": "Spam",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "I think i've fixed it can you send a test message?",
+        "output": "ham",
+        "predicted_output": "ham",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Yes..gauti and sehwag out of odi series.",
+        "output": "ham",
+        "predicted_output": "ham",
+        "acc": 1.0
+    },
+    {
+        "category": "Spam Classification",
+        "instruction": "In this task, you're given text messages in natural language. Your task is to classify those text messages based on their content into two classes: (1) Spam and (2) Ham messages. If the content of the given message is irrelevant to the receiver or is equally relevant to many other potential recipients then it must be labeled as ‘spam’, otherwise, it should be labeled as ‘ham’.",
+        "input": "Well done, blimey, exercise, yeah, i kinda remember wot that is, hmm. ",
+        "output": "ham",
+        "predicted_output": "ham",
+        "acc": 1.0
+    }
+]

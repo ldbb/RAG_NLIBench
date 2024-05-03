@@ -1,0 +1,698 @@
+[
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: Not sure how warm these are but the XL size is fairly snug on my bairly xl hands. The liner is also not attached to the fingers. If you aren't careful taking them off the liner will pull out of the shell. Based on this I would not get them again. \n Summary: I had hoped for a nice strong cinnamon scent but the candle emits a very ...",
+        "output": "False"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: What I liked least is that it doesn’t come with batteries or a tf card so in other words is useless until you make one more trip to the store in order to make it operational. If the ad said you needed both I didn’t see it. Why not include both because it is worthless with out batteries or tf card. \n Summary: What I liked least is that it doesn’t come with batteries or ...",
+        "output": "True"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: Sorry I wish I could do 5 stars but the chain tensioner doesn’t work The screw is too shot and the plastic part won’t go down at all \n Summary: The bag is thinner than expected and I used it ...",
+        "output": "False"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: Submerged the light in less than a foot of water for a few seconds and it died. The conductor inside also fell out on the first day of use. \n Summary: Submerged the light in less than a foot of water ...",
+        "output": "True"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: The outside is beat up a little.....which isn't what you expect when you buy a *new* book. However, the picture I'm posting shows the only damage (there's none on the inside) and it looks like a cool book.... it's only 5 pages/dinos though \n Summary: Don't water your time unless you're going to hang it in your garage and not use it",
+        "output": "False"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: Originally wrote a review when using the carryon size without issue. Photo attached is the medium size page after second use from a two hour flight at a low volume airport. Please note: the warranty specifically states it does not cover damage from \"damage or loss by airline\" rendering this bag as worthless. A product at a minimum should perform for the use that it was purchased. This product was purchased for an upcoming trip to europe. Wouldn't that be special. Never again. And this was the newer model over the abs plastic models. Not sure how they could be worse. \n Summary: NEVER Again! does not cover from \"damage or loss by airline\"",
+        "output": "True"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: I would have preferred to give this eyeliner 1 1/2 stars. I can tell that it should be easy to apply because the brush is fine and the color is as advertised but that's about it. The cap feels loose so unless you're careful with it, it will come off. In addition to that, I got one single good use out of it before it completely dried out (even with the cap staying on). You have to reallllllly push to get the eyeliner to come out of the pen. I was so impressed with the other reviews especially for the price but this completely disappointed me. \n Summary: Wouldn't take it if it were free - good for one single application",
+        "output": "True"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: don't purchase these... they are completely impossible to use. even with a crimper I have only been able to get a 50% success rate. if you can get all 5 connections to work on any given end your lucky. if you get all 10 connections to work out and get them together it's a miracle. they are cheap and a complete waste of money. these are a scam and the positive reviews are obviously paid shills. \n Summary: these are a scam and the positive reviews are obviously paid shills.",
+        "output": "True"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: I like the material but the fit is tight and pulls my sons pack and play mat kind of together making it lumpy \n Summary: 50 is a lot and sounds like a good deal but it takes forever just to ...",
+        "output": "False"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's food products and a summary of that review. Your task is to classify whether the given summary matches the original review. Generate \"True\" if the given review and its summary match, otherwise generate \"False\".",
+        "input": "Reviews: I'm sorry but this is not black currant tea! It completely misses this wonderful black currant smell and flavor. The tea quality is good but I paid for my favorite flavor! I'm very disappointed... Would return it and would not recommend \n Summary: If you are looking for a black currant flavor - DON'T buy!",
+        "output": "True"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "Nowadays deep learning is one of the main topics in almost every field. It helped to get amazing results in a great number of tasks. The main problem is that this kind of learning and consequently neural networks, that can be defined deep, are resource intensive. They need specialized hardware to perform a computation in a reasonable time. Unfortunately, it is not sufficient to make deep learning \"usable\" in real life. Many tasks are mandatory to be as much as possible real-time. So it is needed to optimize many components such as code, algorithms, numeric accuracy and hardware, to make them \"efficient and usable\". All these optimizations can help us to produce incredibly accurate and fast learning models.",
+        "output": "Embedded architecture for deep learning on optimized devices for face detection and emotion recognition "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "\tDespite a growing literature on explaining neural networks, no consensus has been reached on how to explain a neural network decision or how to evaluate an explanation.\n\t Our contributions in this paper are twofold. First, we investigate schemes to combine explanation methods and reduce model uncertainty to obtain a single aggregated explanation. The aggregation is more robust and aligns better with the neural network than any single explanation method..\n\t Second, we propose a new approach to evaluating explanation methods that circumvents the need for manual evaluation and is not reliant on the alignment of neural networks and humans decision processes.",
+        "output": "We show in theory and in practice that combining multiple explanation methods for DNN benefits the explanation."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "Memorization of data in deep neural networks has become a subject of significant research interest. \n In this paper, we link memorization of  images in deep convolutional autoencoders to downsampling through strided convolution.   To analyze this mechanism in a simpler setting, we train linear convolutional autoencoders and show that linear combinations of training data are stored as eigenvectors in the linear operator corresponding to the network when downsampling is used.   On the other hand, networks without downsampling do not memorize training data.   We provide further evidence that the same effect happens in nonlinear networks.   Moreover, downsampling in nonlinear networks causes the model to not only memorize just linear combinations of images, but individual training images.   Since convolutional autoencoder components are building blocks of deep convolutional networks, we envision that our findings will shed light on the important phenomenon of memorization in over-parameterized deep networks.  \n",
+        "output": "We identify downsampling as a mechansim for memorization in convolutional autoencoders."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "While it is well-documented that climate change accepters and deniers have become increasingly polarized in the United States over time, there has been no large-scale examination of whether these individuals are prone to changing their opinions as a result of natural external occurrences. On the sub-population of Twitter users, we examine whether climate change sentiment changes in response to five separate natural disasters occurring in the U.S. in 2018. We begin by showing that tweets can be classified with over 75% accuracy as either accepting or denying climate change when using our methodology to compensate for limited labelled data; results are robust across several machine learning models and yield geographic-level results in line with prior research. We then apply RNNs to conduct a cohort-level analysis showing that the 2018 hurricanes yielded a statistically significant increase in average tweet sentiment affirming climate change. However, this effect does not hold for the 2018 blizzard and wildfires studied, implying that Twitter users' opinions on climate change are fairly ingrained on this subset of natural disasters.",
+        "output": "We train RNNs on famous Twitter users to determine whether the general Twitter population is more likely to believe in climate change after a natural disaster."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "A central capability of intelligent systems is the ability to continuously build upon previous experiences to speed up and enhance learning of new tasks. Two distinct research paradigms have studied this question. Meta-learning views this problem as learning a prior over model parameters that is amenable for fast adaptation on a new task, but typically assumes the set of tasks are available together as a batch. In contrast, online (regret based) learning considers a sequential setting in which problems are revealed one after the other, but conventionally train only a single model without any task-specific adaptation. This work introduces an online meta-learning setting, which merges ideas from both the aforementioned paradigms to better capture the spirit and practice of continual lifelong learning. We propose the follow the meta leader (FTML) algorithm which extends the MAML algorithm to this setting. Theoretically, this work provides an O(logT) regret guarantee for the FTML algorithm. Our experimental evaluation on three different large-scale tasks suggest that the proposed algorithm significantly outperforms alternatives based on traditional online learning approaches.",
+        "output": "We introduce the online meta learning problem setting to better capture the spirit and practice of continual lifelong learning."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "Recent advances in Generative Adversarial Networks facilitated by improvements to the framework and successful application to various problems has resulted in extensions to multiple domains. IRGAN attempts to leverage the framework for Information-Retrieval (IR), a task that can be described as modeling the correct conditional probability distribution p(d|q) over the documents (d), given the query (q). The work that proposes IRGAN claims that optimizing their minimax loss function will result in a generator which can learn the distribution, but their setup and baseline term steer the model away from an exact adversarial formulation, and this work attempts to point out certain inaccuracies in their formulation. Analyzing their loss curves gives insight into possible mistakes in the loss functions and better performance can be obtained by using the co-training like setup we propose, where two models are trained in a co-operative rather than an adversarial fashion.",
+        "output": "Points out problems in loss function used in IRGAN, a recently proposed GAN framework for Information Retrieval. Further, a model motivated by co-training is proposed, which achieves better performance."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "Neural network training relies on our ability to find ````````\"good\" minimizers of highly non-convex loss functions. It is well known that certain network architecture designs (e.g., skip connections) produce loss functions that train easier, and well-chosen training parameters (batch size, learning rate, optimizer) produce minimizers that generalize better. However, the reasons for these differences, and their effect on the underlying loss landscape, is not well understood.\n\n In this paper, we explore the structure of neural loss functions, and the effect of loss landscapes on generalization, using a range of visualization methods. First, we introduce a simple ``\"filter normalization\" method that helps us visualize loss function curvature, and make meaningful side-by-side comparisons between loss functions. Then, using a variety of visualizations, we explore how network architecture effects the loss landscape, and how training parameters affect the shape of minimizers.",
+        "output": "We explore the structure of neural loss functions, and the effect of loss landscapes on generalization, using a range of visualization methods."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "Words in natural language follow a Zipfian distribution whereby some words are frequent but most are rare. Learning representations for words in the ``long tail'' of this distribution requires enormous amounts of data. \n Representations of rare words trained directly on end tasks are usually poor, requiring us to pre-train embeddings on external data, or treat all rare words as out-of-vocabulary words with a unique representation. We provide a method for predicting embeddings of rare words on the fly from small amounts of auxiliary data with a network trained end-to-end for the downstream task. We show that this improves results against baselines where embeddings are trained on the end task for reading comprehension, recognizing textual entailment and language modeling.\n",
+        "output": "We propose a method to deal with rare words by computing their embedding from definitions."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "Conversational machine comprehension requires a deep understanding of the conversation history. To enable traditional, single-turn models to encode the history comprehensively, we introduce Flow, a mechanism that can incorporate intermediate representations generated during the process of answering previous questions, through an alternating parallel processing structure. Compared to shallow approaches that concatenate previous questions/answers as input, Flow integrates the latent semantics of the conversation history more deeply. Our model, FlowQA, shows superior performance on two recently proposed conversational challenges (+7.2% F1 on CoQA and +4.0% on QuAC). The effectiveness of Flow also shows in other tasks. By reducing sequential instruction understanding to conversational machine comprehension, FlowQA outperforms the best models on all three domains in SCONE, with +1.8% to +4.4% improvement in accuracy.",
+        "output": "We propose the Flow mechanism and an end-to-end architecture, FlowQA, that achieves SotA on two conversational QA datasets and a sequential instruction understanding task."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given the abstract of a research paper. Your task is to generate a summary of this abstract. Your summary should not be very short, but it's better if it's not more than 30 words.",
+        "input": "We introduce geomstats, a Python package for Riemannian modelization and optimization over manifolds such as hyperspheres, hyperbolic spaces, SPD matrices or Lie groups of transformations. Our contribution is threefold. First, geomstats allows the flexible modeling of many a machine learning problem through an efficient and extensively unit-tested implementations of these manifolds, as well as the set of useful Riemannian metrics, exponential and logarithm maps that we provide. Moreover, the wide choice of loss functions and our implementation of the corresponding gradients allow fast and easy optimization over manifolds. Finally, geomstats is the only package to provide a unified framework for Riemannian geometry, as the operations implemented in geomstats are available with different computing backends (numpy,tensorflow and keras), as well as with a GPU-enabled mode–-thus considerably facilitating the application of Riemannian geometry in machine learning. In this paper, we present geomstats through a review of the utility and advantages of manifolds in machine learning, using the concrete examples that they span to show the efficiency and practicality of their implementation using our package",
+        "output": "We introduce geomstats, an efficient Python package for Riemannian modelization and optimization over manifolds compatible with both numpy and tensorflow ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "Tinnitus Miracle created by Thomas Coleman is a new revolutionary treatment for ringing in the ears that teaches people how to alleviate, even eliminate tinnitus efficiently.",
+        "output": "Miracle is a treatment for ringing in the ears."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "Adrian Beltre could return to the Texas Rangers' lineup as soon as Sunday after feeling tightness in his left quadriceps muscle during a late game Thursday night, and left-hander Matt Harrison is on schedule to make his Cactus League debut Monday night.",
+        "output": "Adrian Beltre could return soon as Sunday."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "No. 5 Hartselle defeated Athens 14-6 in a key region game at JP Cain Stadium Friday night.",
+        "output": "Hartselle defeated Athens 14."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "BJP MLA from Tharad and party's general secretary Shankar Chaudhary along with 50 others was acquitted on Saturday in a 2002 riots case, in which two people lost their lives in firing and public and private properties were damaged in Radhanpur town.",
+        "output": "MLA and Shankar Chaudhary along with 50 others was acquitted in a 2002 riots case."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "Mayors from cities across Kansas urge members of Congress to pass comprehensive immigration reform.",
+        "output": "Mayors urge members of Congress to pass immigration reform."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "In an audacious incident, kin of a rape accused today tried to chop off the teenage victim's tongue in Pratapgarh district in order to prevent her from giving her statement in the court.",
+        "output": "Kin of a rape accused today tried to chop off the teenage victim's tongue."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "Two soldiers were wounded Friday night in north Lebanon while trying to reopen a road blocked by protesters seeking the release of a ``wanted man.''",
+        "output": "Two soldiers were wounded in north Lebanon."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "Early childhood education is vital to your child's development.",
+        "output": "Early education is vital."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "MICROSOFT Philippines is rolling out Office 365, its latest product that aims to boost productivity of schools and small and medium businesses.",
+        "output": "Office 365 aims to boost productivity."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a piece of an article. Your task is to generate a short summary of the text. Try to give the summary in just one sentence.",
+        "input": "Mike Trout left the Angels game in the sixth inning today with tightness in his right hamstring, but he isn't worried about it being a long-term injury.",
+        "output": "Mike Trout left the game with tightness in his right hamstring, but he isn't."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Claudia: Where am I supposed to look for a previous watcher? I am there and I cant see anyone who could hand over the lists or keys etc., Richard: Yes, we keep it short and precise. Keys are always in the White Room. Water under the sill is for the instructors., Natalie: (Y), Max: (Y), Alex: white room is the one on the left?, Richard: Exactly :) ",
+        "output": " The keys are always in the White Room. "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Robert: hey, i've got a romantic movie for you\nSteve: what\nSteve: why?\nRobert: one time we talked about love and I couldnt explain to you why i think you didnt play it right with your last gf\nSteve: and this movie proves me wrong or what\nRobert: it just explains what love is all about\nRobert: i just recommend it, you dont need to watch it\nRobert: 500 days of summer\nSteve: maybe i will take a look\nRobert: i watched it and i feel like this was the only romantic movie that was realistic\nSteve: so they break up at the end huh?\nRobert: no spoiler\nSteve: kk thanks dude\nRobert: bye ",
+        "output": " Robert recommends Steve watching 500 Days of Summer. "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Jack: I want to start an translator course, can you give me some advise?, Matt: Of course, I can., Jack: Do I do an online or proper class course?, Matt: It all depends what you want from the course., Jack: I want to be a fully affiated translater of documents., Matt: Your better of doing the class intensive course., Jack: Is it more expensive?, Matt: Yes, Jack: How expensive?, Matt: Not much but it's really worth it., Jack: Fair play, I do want the best., Matt: One thing you need to know, the course is so intense that you have to cancel daily plans etc., Jack: I'm definately prepared for this., Matt: How come you want to do this?, Jack: Fed up teaching, to be honest., Matt: Totally understand., Jack: Thank you for your advise. ",
+        "output": " Jack wants to start translator course, because doesn't want to be a teacher anymore. Matt advises him to attend class intensive course.  "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Alison: Wonderful trip. We are stuck in a road, waiting for police, Tony: police?!, Alison: Ohhh, ok, we go now. Yeah, we had an accident, Tony: Damn?!, Alison: Nothing serious, Tony: Ah okay. Ur alive haha, Alison: Everything is alright, police didn't need to come. The driver made a false alert 😂, Tony: R u at the causeway yet?, Alison: Not yet. It took some time to solve this issue, Tony: Is it raining outside?, Alison: Yes ",
+        "output": " Alison had an accident and is waiting for the police to come. Alison is not yet at the causeway. It is raining. "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Tom: We're leaving Jim\nTom: are you ok?\nJim: yes, I'm good, with Molly\nBarbara: Do you have the key?\nJim: sure!\nBarbara: Please, remember to water the plants\nBarbara: especially the palm\nJim: will you come back on Saturday?\nBarbara: I've told you many times, that we're coming back on Sunday\nJim: ok, afternoon?\nBarbara: I think so, please don't throw destructive parties\nJim: sure, i won't\nJim: afternoon is after 3PM?\nBarbara: no, it's about 1PM\nJim: oh, ok! ",
+        "output": " Barbara and Tom are leaving and they're coming back on Sunday about 1 pm. Jim has the key to their house and he's responsible for watering the plants there. "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Arnie: Hello, I'm on my way to Warsaw. , Betty: Hi, great!, Betty: What time do you arrive at the station?, Arnie: God knows. But theoretically 18:45. , Betty: Do you want me to pick you up?, Arnie: That would be nice, but I doubt we'll be there on time., Betty: True. , Betty: Let's make a deal:, Betty: I'll come around 19:00 or 19:15. If you arrive on time, you'll wait in a cafe. And if you arrive later, I'll wait. , Arnie: Deal! ",
+        "output": " Arnie is scheduled to arrive in Warsaw at 18:45. Betty will come to pick him up at 19 or 19:15. "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Kathryn: i'm almost done\nGeorge: ok we're home\nKathryn: ok. i'm finishing the treadmill in 3 mins\nKathryn: then some stretching and i'm coming\nGeorge: shall we wait for you with lunch?\nKathryn: no i'll be having a shake \nKathryn: have you bought bananas?\nGeorge: shit i forgot\nGeorge: i'll go and get them when ur back ok?\nKathryn: ok tx ",
+        "output": " Kathryn is finishing her workout. She will drink a shake. George will buy bananas, which he forgot about. "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Denise: why are you not here????, Denise: i've been waiting for you outside the museum for half an hour like an idiot, Seth: i'm sorry, you know i lose track of time, Denise: it's unnacceptable, you do it all the time, Seth: that's just the way i am, i don't know what to do about it, Denise: get a watch, set an alarm on your cell phone..., Denise: there's plenty of things you can do, Denise: i'm really upset, Seth: i'm really sorry :-(, Denise: save it ",
+        "output": " Denise is upset because Seth is late again. "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. ",
+        "input": " Lilah: Maybe today u wanna skype a little bit?, Frank: Maybe not haha, Lilah: :( Ok, i won't ask u about this anymore! :), Frank: I'm joking. Maybe later I will skype you, Lilah: I know u joking, Frank: I will call you in 1 h, Lilah: Ok, waiting! ",
+        "output": " Frank will skype Lilah in 1 hour. "
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "chelsea manager jose mourinho has said that only another title and the champions league will suffice for him as he builds towards next season .",
+        "output": "even fellow players keen for federer grand slam dream UNK picture"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "two units of taiwan 's industrial conglomerate formosa plastic group have agreed to lend ### million us dollars to micron technology of the united states , the companies said wednesday .",
+        "output": "un ec call for global stimulus at development meet"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "the first probable human case of mad cow disease in taiwan was listed posthumously saturday , following the death in may of a man who had symptoms of the fatal brain-wasting illness .",
+        "output": "taipei mayor mainland china president top men of year lists : poll"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "luca toni scored twice as italy beat ukraine #-# in the world cup quarter-finals here on friday to set up a mouth-watering last four clash against hosts germany .",
+        "output": "france : top magistrates say government ignoring their views"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "china 's third largest oil producer cnooc ltd. .",
+        "output": "software maker UNK expanding program to lure customers from oracle"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "vietnam imported nearly #.# billion u. s. dollars worth of machines , equipment and spare parts in the first ## months of this year , a year-on-year rise of ##.# percent , according to the country 's general statistics office on thursday .",
+        "output": "taiwanese fishing vessel released off somali coast arrives at mombasa kenya"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "the democratic people 's republic of korea whitewashed south korea in the women 's team semi-finals at the world table tennis championships here on sunday .",
+        "output": "nigeria targets to host #### world cup : nigerian president"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "hurricane dean roared through small caribbean islands friday , tearing away roofs , flooding streets and killing three people as the powerful storm muscled its way across the eastern caribbean on a collision course with jamaica and mexico 's yucatan peninsula .",
+        "output": "iranian-american academic held in tehran released on bail"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "a reggae festival in new york which was created to promote peace among cultures is being denounced by gay and lesbian groups for allowing performers with a history of anti-gay lyrics .",
+        "output": "greek president says fires a national catastrophe as death toll rises to ##"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Given a passage, write a short incorrect summary based on the passage.",
+        "input": "the european central bank left interest rates untouched thursday , waiting for more data on the continent 's shaky economy despite a weak growth outlook that many economists say already justifies a rate cut .",
+        "output": "UNK ,#### west indies-australia scoreboard"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "Norman was on loan to Allen Smith, 65, when he took flight from the falconer's workplace in Flitwick on Friday.\nThe plucky bird of prey has already been spotted in the garden of a woman living in nearby Lidlington since making his bid for freedom.\nMr Smith said three-year-old Norman \"could potentially go for a cat. but not unless he was really hungry\".\nNorman stands roughly 3ft (0.9m) tall and boasts a 6ft (1.8m) wingspan.\nThe bird has also been seen in Stewartby, about five miles from Flitwick. He can be identified by the leather straps around his feet.\nMr Smith said: \"He had just been fed when he disappeared and he's quite scared of people so I don't think anyone should panic.\"\nAnyone who spots Norman is asked to call the RSPB or Bedfordshire Police.",
+        "output": "A golden eagle is on the loose after making a bid for freedom in Bedfordshire."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "A consultant-led obstetric service was moved from Stafford to Royal Stoke University Hospital in January 2016.\nThe projected number of births is too low to operate a full unit, the report said. It added the hospital's midwife-led unit is an \"important service\".\nThe hospitals trust said it acknowledged findings from the report.\nRead more news for Stoke and Staffordshire\nNHS England, which published the review, said it commissioned it at the request of the government.\nThe report concluded it would not be possible to reinstate and safely maintain \"a financially viable consultant-led obstetric service\".\nThe projected amount of births at a County Hospital consultant-led obstetric unit would be \"too low to provide adequate experience for staff to safely maintain their skills\" or for trainees to complete studies, it stated.\nDirector of midwifery at the trust Karen Meadowcroft said she acknowledged the report findings.\nShe said: \"I'm pleased that the Freestanding Midwife-led Birth Unit at County Hospital is recognised as a valuable and important service which offers mothers-to-be and their families a great birthing experience.\"",
+        "output": "It would not be possible to safely return full maternity services to Stafford's County Hospital, a review has concluded."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "Shauna Davies died in the early hours of Sunday shortly after emergency services were called to Caerphilly Mountain Road.\nFour other people were taken to hospital for checks over concerns for their health.\nThey were arrested on suspicion of being concerned in the supply of drugs.\nWhile they were released as investigations continue, Det Ch Insp Nicola Brain of Gwent Police said officers will look at whether \"substances have been a contributing factor\" in the death.\n\"A post mortem examination will be carried out to determine the exact cause of death,\" she added.\n\"Our thoughts are with her family and friends at this time.\"",
+        "output": "Four people have been arrested on suspicion of drugs offences following the death of a 15-year-old girl."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "The 23-year-old won the 1000cc series in 2015 and rode for the Moneymore-based outfit the following season, but found himself without a ride this year.\nElliott finished fifth in the series in 2016 after one win and five podiums.\nThe Fermanagh rider stands in for Ian Hutchinson, who suffered a fractured femur in a crash in last week's Senior TT on the Isle of Man.\n\"I'm really looking forward to working with the TAS boys again - I know the team and the bike well, and I also know what I'm capable of around the Scottish circuit,\" said Elliott.\n\"I'm confident we can get into the ballpark quite quickly, but we could do with some consistent weather to help make things a little easier.\n\"I haven't been riding this season but I've been keeping myself fit, and with the new format in the Superstock class giving me two bites at the cherry, I'm confident we can be up there challenging.\"\n\"I'd obviously like to thank TAS Racing for the opportunity to work with the Tyco BMW team again. It will be great to be back on the British championship grid.\"",
+        "output": "Josh Elliott has been drafted into the Tyco TAS BMW team for this weekend's British Superstock round at Knockhill."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "Right-back Neal Eardley, 28, and midfielders Paul Anderson, 28, and 21-year-old Emmanuel Sonupe are also leaving the club.\nDiamond's fellow centre-back Gabriel Zakuani has been offered a new contract but four others have been transfer listed.\nThey are Jak McCourt, Harry Beautyman, Raheem Hanley and Rod McDonald.\nCentre-back Diamond, 32, and Smith, 24, were both part of the side that won the 2015-16 League Two title.\nSmith, who played 40 of Northampton's 46 games as they finished 16th in League One this term, pre-empted the club's official announcement by taking to Twitter to inform supporters he would be leaving.\n\"I will be moving on next season,\" Smith tweeted. \"I have grown as a goalkeeper and as a person whilst being at this great club.\"",
+        "output": "Player of the year Zander Diamond and goalkeeper Adam Smith are among five players to be released by Northampton."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "Referee Ibrahim Nour El-Din was attacked by players, officials and fans of Jordanian club Al Faisaly who lost 3-2 to Tunisia's Esperance after extra-time.\nEsperance's 102nd-minute winner sparked violent protests from Faisaly who immediately vented their fury on the referee, claiming the goal was offside.\nDespite being head-butted and elbowed as he walked off the pitch, the referee felt he was right in allowing the match to continue.\n\"I decided not to cancel the match because it would not be good for Egypt,\" Ibrahim Nour El Din said after the game.\n\"One of Al Faisaly's officials came to me and said sorry after his players attacked me, but then suddenly he also beat me.\n\"I accepted the insults from Al Faisaly because this tournament was on Egyptian soil and I did not want to fail - especially because it was the final,\" he added.\nEgyptian police arrested 38 people who were later freed, and there are reports that the Jordanian Minister of Sport called his Egyptian counterpart to apologise.\nIt is the third time in Esperance's history that the Tunisians have been crowned Arab champions, having also achieved the feat in 1993 and 2009.",
+        "output": "An Egyptian referee, head-butted during the Arab Championship Final in Alexandria on Sunday, says he let the match continue because cancelling it would \"not be good for Egypt.\""
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "He starred in plays, TV series and films.\nOne of his most popular roles was as the father in the 2013 comedy The Noble Family, in which he makes his three spoiled children believe he has cut them off from the family fortune so they are forced to get a job.\nHe had also starred for two decades in the play Senora Presidenta.\nIn Senora Presidenta (Et ta Soeur, in the French original) he played not one, but two female roles, and often added political quips to the script.\nAfter Vega was diagnosed in 2010 with myelodysplastic syndrome, a form of bone marrow cancer, he temporarily retired from acting to get treatment.\nHis daughter Marimar announced last week that he would not return to acting after his health had deteriorated.\nVega, who was born in Mexico City in 1946, became an actor after studying philosophy.\nHis two daughters, Marimar and Zuria, also chose acting as their careers.\nHe died in Mexico City with his daughters, son Gonzalo and wife Andrea at his side.\nMexicans expressed their condolences to the family under the hashtag #GonzaloVega, where many also fondly recalled his most popular roles.",
+        "output": "Mexican actor Gonzalo Vega has died aged 69, the Mexican Cinematographic Institute announced on Monday."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "Media playback is unsupported on your device\n5 August 2015 Last updated at 19:05 BST\nShe discovers what it was like first hand from one survivor who was just 14-years-old at the time.\nWe also talk to two young Japanese girls about what Hiroshima means to them.\nWatch Newsround's special programme about Hiroshima.\nBun Hashizume's books are published by Koubunken Co., Ltd.",
+        "output": "On the 70th anniversary of the atomic bombing of the city of Hiroshima, Leah travels to Japan to find out more about what happened on that day in 1945."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "It was launched by the family of Miriam Briddon, 21, who was killed by a drink-driver near Ciliau Aeron in Ceredigion.\nGareth Entwhistle, of Ciliau Aeron, Lampeter, admitted causing death by careless driving while under the influence of alcohol.\nHis five-and-a-half-year jail sentence was cut by six months on appeal.\nMiss Briddon, from Cross Inn near Newquay in Ceredigion, was driving on the A482 in March 2014 when her Fiat Punto was hit by a Volkswagen Golf being driven by Entwhistle.\nHe was jailed in October 2015, but his term was later cut.\nA little over a month since the petition was launched, it has gathered more than 105,000 signatures.\nFor the UK Government to consider a debate on the matter, a petition needs to reach 100,000 signatures.\nMiss Briddon's mother, Ceinwen Briddon, told BBC Cymru Fyw the aim was to present the petition to MPs.\n\"We decided as a family that we would reach the 100,000 target before taking the next step. We now hope to contact Theresa May's office directly, send her a letter, take the petition to London.\"\nThe Home Office said it was considering sentencing relating to drink-drive offences.",
+        "output": "A petition calling for tougher sentences for drink-drivers who kill has passed the threshold to be considered for debate in the Commons."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given an article. Your task is to summarize the article in a sentence.",
+        "input": "Burglars broke in through a shutter door at Penketh Fire Station in Warrington before making off with the equipment between Friday and Sunday.\nCheshire Police have launched an investigation following the burglary\nStation manager Tony O'Dwyer said the thieves were \"putting the lives of the community at risk\".\n\"The equipment stolen is used in rescuing casualties trapped in vehicles involved in road traffic collisions and is vital life-saving equipment,\" he added.\nHe said alongside the cutting equipment and two 10m hydraulic hoses, the thieves also took a generator.",
+        "output": "Thieves have \"put lives at risk\" by stealing two hoses and cutting equipment during a break-in at a fire station, a fire officer has said."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'i want to find a pub that allows children and has a television'\nSystem: 'What kind of venue are you looking for? For example, a cafe, or a pub.'\nUser: 'a pub'\nSystem: 'Are you looking for a venue with an internet connection?'\nUser: 'yes'\nSystem: 'The Bakers is a great pub with an internet connection.'\nUser: 'thank you good bye'\n",
+        "output": "You want to find a pub and it should allow children and have a television. You want to know the address, phone number, and whether it has internet."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'looking for a greek restaurant with moderate price range'\nSystem: 'The Eraina Taverna, which serves greek food, is an outstanding restaurant. It's in the moderate price range.'\nUser: 'phone number and area'\nSystem: 'The phone number of the Eraina Taverna is 01223902126.'\nUser: 'thank you good bye'\n",
+        "output": "You are looking for a Greek restaurant and it should have moderate pricerange. Make sure you get the address, phone number, and area."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'i am looking for a pub with an internet connection and a tv'\nSystem: 'The Bakers has an internet connection and a television. It's a great pub.'\nUser: 'may i have the address and phone number'\nSystem: 'The Bakers is on 176 East Road and its phone number is 01223304121.'\nUser: 'thank you good bye'\n",
+        "output": "You want to find a pub and it should have an internet connection and have TV. Make sure you get the address and phone number of the venue."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'im looking for a seafood restaurant'\nSystem: 'Loch Fyne, which serves seafood, is an outstanding restaurant.'\nUser: 'what is the phone number'\nSystem: 'The phone number of Loch Fyne is 01223902103.'\nUser: 'what is the postcode'\nSystem: 'Loch Fyne is in the area with the postcode CB2 1QY.'\nUser: 'thank you good bye'\n",
+        "output": "You are looking for a sea food restaurant. You don't care about the price range. Make sure you get the phone number and postcode of the venue."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'im looking for a moderately priced restaurant in kings hedges'\nSystem: 'The Ranch, which is in the King's Hedges part of town, is an outstanding restaurant. It's in the moderate price range.'\nUser: 'what is the address and phone number'\nSystem: 'The Ranch is on 100 Histon Road. Its phone number is 01223322772.'\nUser: 'thank you good bye'\n",
+        "output": "You want to find a moderately priced restaurant and it should be in the Kings Hedges area. You want to know the phone number and address of the venue."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'im looking for a vegetarian restaurant'\nSystem: 'The Rainbow Cafe is an outstanding restaurant, it serves traditional food and it serves vegetarian food.'\nUser: 'whats the address'\nSystem: 'The Rainbow Cafe is on 9a King's Parade.'\nUser: 'what is the phone number'\nSystem: 'The phone number of the Rainbow Cafe is 01223321551.'\nUser: 'thank you good bye'\n",
+        "output": "You are looking for a vegetarian restaurant. You don't care about the price range. You want to know the address and phone number."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'fusion restaurant in the girton area'\nSystem: 'The Dojo Noodle Bar is a great restaurant, it's in the Girton part of town and it serves fusion food.'\nUser: 'phone number and postcode'\nSystem: 'The phone number of the Dojo Noodle Bar is 01223363471. It's in the area with the postcode CB2 1RQ.'\nUser: 'unintelligible'\n",
+        "output": "You want to find a fusion restaurant and it should be in the Girton area. Make sure you get the phone number and postcode of the venue."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'hello i am looking for a restaurant uh that sells only drinks and snacks'\nSystem: 'The Fleur, which serves drinks and snacks, is a great restaurant.'\nUser: 'ok what is the address and phone number of the restaurant'\nSystem: 'The Fleur is located on 73 Humberstone Road and its phone number is 01223902183.'\nUser: 'ok thank you good bye'\n",
+        "output": "You are looking for a drinks and snacks only restaurant. You don't care about the area. You want to know the address and phone number."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'i want to find a norther european restaurant'\nSystem: 'Polonia, which serves northern european food, is a great restaurant.'\nUser: 'area phone number and the price'\nSystem: 'The phone number of Polonia is 01223902138. The price for main courses ranges from 1 pound 50 to 7 pounds 50.'\nUser: 'thank you good bye'\n",
+        "output": "You want to find a Northern European restaurant. You don't care about the price range. Make sure you get the phone number and price."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "The input is a conversation between an automated system and a user looking for suggestions for pubs, restaurants and coffee shops in Cambridge. In the dialogue, the user may provide some criteria for the type of place they want such as price range, cuisine, etc. Similarly, the user may ask details of the place suggested by the system such as phone number, address, etc. Given such a dialogue, output a summary of the dialogue stating the criteria provided and details seeked by the user in this dialogue. The summary should strictly be in second person point of view. The summary should not contain any information that was not present in the conversation.",
+        "input": "System: 'Thank you for calling the Cambridge Information system. Your call will be recorded for research purposes. You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe. How may I help you?'\nUser: 'im looking for a traditional restaurant in the barnwell area'\nSystem: 'The Wheatsheaf, which is in the Barnwell part of town, is an outstanding restaurant. It serves traditional food.'\nUser: 'what is the address and phone number'\nSystem: 'The Wheatsheaf is on Stow Road, Stow-Cum-Quy and its phone number is 01223812196.'\nUser: 'thank you good bye'\n",
+        "output": "You want to find a traditional restaurant and it should be in the Barnwell area. You want to know the address and phone number."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "<span class=\"tiny\"> Length:: 0:26 Mins  </span>The expiration date is 21 months from the day I bought this product. The tuna, tomato combination is delicious. This is one of the many items I re-order on Amazon every month or so. edit: added a short video, so you see what this combination looks like.  I was wearing one of those headlamps, but I didn't do a good job focusing on the tuna. I should film it over, but it doesn't look like many people view this product anyway.",
+        "output": "tastes very fresh"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "I ordered the ener g brand because that is the brand of bread we had a Disney and the kids (and one adult celiac) were very excited about everything they had there.  These brownies do not measure up to the bread that ener g makes.  I've never met a brownie I didn't like but I couldn't eat it (even with ice cream).  The clear sign was when I had to throw some away.  They will eat them if they are desperate for something gluten free.  Anyone who has been dealing with gluten free products probably already knows to freeze the items until you get ready to use them.  They mold quickly.",
+        "output": "Daneille (non celiac that cooks for 3 celiacs)"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "Looks can be deceiving, especially with this product:  The cute, tiny can looks great, but don't fall for it!  This little guy packs an amazing 140 calories per 8.3 oz can.  My favorite 24 oz Arizona Iced Tea(black/white tea with sugar) has almost just as many calories(150) and almost 3 times the size of Switch.  Also, do not be tempted with \"100% Vitamin C and 20% Vitamin E\" pitch either.  Most of us consume 100% of daily Vitamin C without even trying through foods and anything extra get eliminated.  The taste however does feel a bit more natural than other artificial orange sodas though, so that's the only plus.  Also, if you do not worry about gaining weight, I guess this is a good way to get a sugar rush in a tiny can.  Overall, a good-tasting product, but there are many other low-caloric alternatives out there.  A can of Diet Coke and a multivitamin anyone?",
+        "output": "More Like Liquid Candy in a Can!"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "Melitta Cafe's Riviera sunset coffee isn't bad, it just sadly isn't all that great either.  It is not something I would buy again, mainly because I'll probably forget about it.",
+        "output": "unremarkable"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "These taste great and have a great texture.  Our 2-year-old has little interest in eating fresh vegetables, but she loves these.  She actually prefers these over goldfish crackers or other products of dubious nutritional value!  To me, that fact is worth the expense -- it is worth the cost to get her to eat vegetables.",
+        "output": "A great way to get kids to eat vegetables!"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "The nose evokes the earthiness of white truffles, just barely.  The white truffle presence in Bartolini is weak with mineral (almost chemical) notes, not the earthy, warm and almost intoxicating fragrance you expect from white truffles.  There is no such thing as white truffles (oil or otherwise) on a budget.  The real thing is expensive, a deserving price for the experience you expect.",
+        "output": "Inferior product"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "I have never been a huge coffee fan. However, my mother purchased this little machine and talked me into trying the Latte Macciato. No Coffee Shop has a better one and I like most of the other products, too (as a usually non-coffee drinker!). The little Dolche Guesto Machine is super easy to use and prepares a really good Coffee/Latte/Cappuccino/etc in less than a minute (if water is heated up). I would recommend the Dolce Gusto to anyone. Too good for the price and I'am getting one myself! :)",
+        "output": "Great machine!"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "Great taste. Great ingredients. Great texture. Absolutely delicious! They are a little smaller and you may still be hungry if it is for a meal. I give one to my 5 year old son for breakfast and he is still a little hungry for more. Either that or they taste so good he wants more.",
+        "output": "Highly recomended!"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "This soup is very good tasting if you like seafood, like I do. I am finally finishing my case of cans, because it is good food. However, I do not plan on getting any more of this particular product because every can has a little something extra: bits and pieces of chitinous shell, mostly from the shrimp but also a few hard pieces now and then from the lobster. They are small pieces, which means taking small spoonfuls and not biting down hard on anything, and don't eat the last spoonful. I find six to eight pieces of this debris in each can. Like I said before, I am finishing the case, because it is food and pretty good at that. But I just don't appreciate having to be that careful with my soup.",
+        "output": "Unlisted ingredient of Baxter Lobster Bisque"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given a review from Amazon's food products. Your task is to generate a short summary of the given review in the input. Note that you don't need to write a complete sentence as a summary.",
+        "input": "I would've thrown the whole bag out if not for my convection oven. My first microwave batch turned out HORRIBLE. 1/2 cooked and no puffy/fluffy pieces at all! I popped some onto my infrared NuWave oven and they puffed up after 8 mins. FINALLY- something edible and YUMMY! Glad they are healthier than the MSG/other additive types of rinds, but kinda high maintenance as far as how to properly prepare them. I think I will try to find easier-to-prep ones...bummer.",
+        "output": "finicky cooking"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "(CNN) -- The label on the package claimed that it contained T-shirts and baby toys. When customs officials in Sydney scanned the parcel, they found five pythons and two venomous tarantulas. But when customs officials in Sydney X-ray scanned the parcel, they found instead five pythons and two venomous tarantulas. On Tuesday, authorities raided the house in Sydney to which the parcel had been addressed. Officials seized evidence but expect to file charges later, the customs agency said. Importing live animals without a permit is illegal in Australia and can yield a 10-year prison sentence and a fine of 110,000 Australian dollars ($92,000 U.S.). The parcel was sent from the United States last week, but officials would not say specifically where it had been mailed from. The snakes were wrapped within white calico bags and the spiders were packed in clear plastic containers, the customs agency said. The creatures were later killed because they posed a quarantine risk, the agency said in a press release. It titled the press release: \"Spiders and snakes on a plane.\"",
+        "output": "Customs officials in Australia find pythons and tarantulas in package .\nThe parcel had been sent from the United States .\nThe creatures were later killed because they posed a quarantine risk ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "Washington (CNN) -- More than 15 million surge protectors are being recalled for posing a potential fire hazard, the Consumer Product Safety Commission and the manufacturer announced Thursday. Seven hundred instances of APC SurgeArrest devices overheating or melting have been reported, according to a press release from the safety commission. Thirteen people were hurt and 55 claims were made for damage caused by smoke and fire. The recall includes corded surge protectors manufactured before 2003 by Schneider Electric IT Corporation. \"The affected products may present a fire hazard under infrequent, abnormal building wiring and electrical conditions,\" the company said. \"This hazard has been reported in a small percentage (less than 0.01%) of the units sold and included reports of property damage, mostly involving damaged nylon carpeting.\" Thirty-two model numbers of the company's \"7 series\" and \"8 series\" devices are included in the recall and can be found on the company's website, recall.apc.com, or by calling 888 437 4007 . The safety commission urges the public to stop using the surge protectors, and to contact the company for a replacement.",
+        "output": "The surge protectors were manufactured by Schneider Electric IT Corporation prior to 2003 ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "(CNN) -- Scratch Christian Bale off the list of actors supposed to play Steve Jobs. Bale was rumored to be the finalist to play the Apple co-founder in the Aaron Sorkin-written film biography but decided he wasn't right for the part, said The Hollywood Reporter. The Jobs biopic has been in the works since at least 2012, when Sony announced that Sorkin would write a film based on Walter Isaacson's best-selling biography. Bale is the second notable performer to turn down the Jobs role. Leonardo DiCaprio was also pegged for the film. The Hollywood Reporter noted that neither Bale nor DiCaprio had begun negotiations. According to Variety, Seth Rogen is being talked about for the part of Steve Wozniak, Jobs' Apple co-founder. The film is to be directed by Danny Boyle, who won an Oscar for \"Slumdog Millionaire.\" Filming was scheduled to begin this winter.",
+        "output": "Hollywood Reporter: Christian Bale declines role of Steve Jobs .\nFilm about Apple co-founder's life has been in works for two years .\nMovie is written by Aaron Sorkin, to be directed by Danny Boyle ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "(CNN) -- A German tourist was in critical condition after a shark severed her right arm while she snorkeled in Hawaii on Wednesday, authorities said. The approximately 20-year-old woman, who was unconscious when first responders arrived, was taken to Maui Medical Center for treatment, according Lee Mainaga with the Maui Fire Department. Shark found on New York subway car . The attack took place about 50 yards offshore at White Rock beach in Maui. The beach has been closed one mile on either side of where the attack happened. Officials will assess on Thursday morning whether the beach can be reopened. Shark attack claims Brazilian teen's life . This shark attack is the fourth in Maui this year, with two happening on the same day in February, and the other in late July. While shark attacks have been on the uptick in recent years, according to the University of Florida, the fatality rate in the United States is just 2%. Discovery Channel defends dramatized shark special . Best places to swim with sharks .",
+        "output": "This is the fourth shark attack in Maui this year .\nIt took place about 50 yards offshore .\nOfficials will decide Thursday if the beach can reopen ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "JERUSALEM (CNN) -- A car bomb killed one of Israel's most prominent crime bosses in Tel Aviv Monday, Israeli police sources say. Police at the scene of the car bomb blast which killed crime boss Yaakov Alpheron. Police say Yaakov Alperon was killed instantly when an explosive device was apparently detonated by remote control on a busy street in Tel Aviv. The blast injured two other people, including a 13 year-old boy. Head of one of Israel's most notorious crime families, Alperon is the most senior figure to be killed and the latest casualty of ongoing mob wars that have left scores of innocent people dead. In the past these mob-style hits have led to more revenge attacks.",
+        "output": "A car bomb has killed one of Israel's most prominent crime bosses, police say .\nPolice sources say Yaakov Alperon was killed instantly .\nExplosive device was apparently detonated by remote control in Tel Aviv ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "(CNN) -- Top officials in Moscow have accepted a French offer to help supply the Russian navy with two new amphibious assault warships, French President Nicolas Sarkozy's office said Friday. The offer came from a consortium led by two French manufacturers -- DCNS and STX -- working in conjunction with Russian shipyards. Two additional warships may be constructed, bringing the total to four, Sarkozy's office said. Sarkozy and Russian President Dmitry Medvedev \"welcomed the implementation of this unprecedented cooperation that will benefit the industry and employment in both countries,\" said a statement from Sarkozy's office. It \"illustrates the willingness and ability of France and Russia develop partnerships in all major areas, including defense and security.\" The deal will create 5 million hours of work for an estimated 1,000 people over four years around the French town of Saint-Nazaire, according to the statement.",
+        "output": "French-led consortium will help build at least two new Russian naval vessels .\nThe deal will help employ 1,000 people for four years around Saint-Nazaire, France ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "(CNN) -- No. 2 Alabama clobbered No. 1 Louisiana State University Monday night, winning college football's Bowl Championship Series 21-0. The rematch of the century took place in New Orleans, and this time, there was more at stake than just bragging rights. Follow the SI.com live game blog . The showdown for the BCS title came two months after the two giants battled in a tense Southeastern Conference matchup. Both teams went into that November 5 game undefeated. College football pundits dubbed it the game of the century. Alabama, playing at home in Tuscaloosa, lost 9-6. For the Crimson Tide, Monday was a chance at redemption -- and to settle the debate, once and for all, who is the best team in college football. \"These kind of competitive games, especially this game, playing somebody in your league that you already played, I think makes this a more special challenge,\" Alabama coach Nick Saban told reporters before the game. \"The opportunity that our players have to play LSU again is something that is unique.\"",
+        "output": "Crimson Tide shuts out the Tigers 21-0 .\nThe two battled in November, with LSU coming out on top ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "(CNN) -- The man who police say plowed his vehicle into a California Walmart, where he then attacked several customers, was booked Monday on four counts of assault with a deadly weapon and resisting arrest. Haamid Zaid, 33, of Seaside, California, is suspected of having been under the influence of drugs, but the motive is under investigation, according to Albert Morales, an officer with the San Jose Police Department. \"Once Mr. Zaid emerged from the vehicle, he used some type of metal object to attack people,\" Morales said of the Sunday incident at the San Jose store. The suspect was later subdued by a group of customers until police arrived, he said . One of the victims, a 61-year-old man, was transported to an area hospital. The injury was considered serious but not life-threatening. Three other unidentified victims were treated for injuries at the scene and released, authorities said. Detectives are reviewing surveillance video to help determine how the vehicle plowed into the store and whether the crash was intentional. Police: Man plows vehicle into a Walmart, assault customers . CNN's Scott Thompson contributed to this report .",
+        "output": "A man plowed his vehicle into a San Jose Walmart on Sunday, police say .\nHaamid Zaid, 33, of Seaside, California, faces four counts of assault with a deadly weapon .\nA 61-year-old man was transported to a hospital with a serious injury ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "(CNN) -- Formula One team Sauber will feature a message of support for the people of Japan on the livery of their cars at the opening grand prix of the season. The Asian country was hit by a devastating earthquake and tsunami on Friday last week with over 5,000 people now confirmed to have died. One of Sauber's drivers, Kamui Kobayashi, is a native of Japan and was born in the Hyogo prefecture. He and Mexican Sergio Perez's cars will carry a message in Japanese at the Melbourne Grand Prix in Australia on March 27 that reads 'may our prayers reach the people in Japan.' Sauber's team principal Peter Sauber told Formula One's official website it was important the team did something to demonstrate their support. \"It is difficult to find the right words to express our emotions and feelings, but silence means we can't even begin imagine how to try,\" he said. \"We can hardly believe what we are seeing. Our thoughts are with the people in Japan. \"We hope they will have the necessary strength to overcome these circumstances of extreme adversity.\"",
+        "output": "Formula One team Sauber to show support for Japan at opening race of the season .\nSauber driver Kamui Kobayashi is from Japan .\nMessage to be displayed on the livery of Sauber's cars ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given news articles and you need to generate a highlight, i.e., a short summary, with a maximum length of 10 lines.",
+        "input": "(CNN) -- There's some magic coming to a British stage. Author J.K. Rowling has announced she is developing a play based on her \"Harry Potter\" stories. According to her website, Rowling is working in collaboration with award-winning producers Sonia Friedman and Colin Callender on the project. \"Over the years I have received countless approaches about turning Harry Potter into a theatrical production, but Sonia and Colin's vision was the only one that really made sense to me, and which had the sensitivity, intensity and intimacy I thought appropriate for bringing Harry's story to the stage,\" Rowling said in a statement. \"After a year in gestation it is exciting to see this project moving on to the next phase. I'd like to thank Warner Bros. for their continuing support in this project.\" Warner Bros. is owned by CNN's parent company, Time Warner. Rowling will reportedly be a producer of the play and work with a writer, but she will not be writing the play. The story will follow Potter in his early years as an orphan. Directors and writers for the play, which will go into development in 2014, are currently being considered.",
+        "output": "J.K. Rowling is developing a \"Harry Potter\" play .\nThe story will follow Potter in his early years as an orphan .\nThe play will go into development in 2014 ."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "By Gwyneth ReesBBC Wales News The one-day exhibition launches a nationwide campaign to mark the centenary of the end of the Great War. The installation comprises 6ft (1.8m) aluminium statues of Tommies, designed by artist Martin Barraud. Smaller versions will then go on sale with the proceeds going to armed forces and mental health charities. Dr Gerard Oram, director of the War and Society Programmes at Swansea University, said: \"The contribution that miners made to the war effort cannot be understated. \"Their unique skills made them indispensable, but this came at a severe cost. \"This campaign is the perfect way to remember those heroes of the past and to engage the whole of Wales in a year of commemoration.\" Welsh miners were a prized asset in World War One, with many used to dig trenches under enemy lines. Those who did not meet the height requirement of 5ft 3in (1.6m) were signed up into bantam battalions so their skills could still be used. The art works form part of an exhibition called \"There But Not There\". In Wales, it focuses on soldiers who were miners, but it will also run across England and Scotland.",
+        "output": "A pop-up art installation to honour Welsh miners who served in World War One has been installed at Big Pit National Coal Museum at Blaenavon."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "The 71-year-old was speaking during a visit to Birmingham's new library. Although West Midlands Police's deputy police and crime commissioner, Yvonne Mosquito, is black, there is an all-white command team. Mr Jackson fought for civil rights in the USA, including the right to vote, alongside Dr Martin Luther King Jr. He said: \"It's in Birmingham's interest for the police force, the judge and the jury, to look like the population because that is the character of fairness and the face of justice. \"That's what justice looks like and so the police force will gain even more legitimacy.\" Ms Mosquito, who oversees West Midlands Police in her role, described the situation as \"sad\". \"If we compare ourselves to America we are nowhere near the representation levels but we are moving, in my view, in the right direction,\" she said. \"It's slow but it's in the right direction.\"",
+        "output": "Civil rights activist the Reverend Jesse Jackson has said West Midlands Police would benefit from more senior officers from ethnic minorities."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "The interactive map, which is updated hourly, has been made by logging where data requests were made to its maps service and other apps that use its location technologies. The thicker, brighter lines are the busiest routes. An estimated 1.3 billion people make this kind of journey every year - with millions more travelling in from abroad to join the celebrations, which kick off on Friday. At this time of year, Beijing's main train station is frequently referred to by locals as the \"busiest place on the planet\". View the interactive map here.",
+        "output": "As billions of Chinese people prepare to celebrate the new year, social network Baidu - often referred to as \"China's Google\" - has been tracking the mass movement of people out of the country's cities and into the countryside."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "The man was driving on the A39 between Bude and Kilkhampton just before 18:00 GMT on Wednesday when it happened. He was taken to Derriford Hospital where he was pronounced dead. The other driver was taken to north Devon hospital with minor injuries. Police have said they are appealing for witnesses to the crash, which involved a black Mini Cooper and a grey VW Passatt. The main road remained closed in both directions overnight. Related Internet Links Devon & Cornwall Police",
+        "output": "A 60-year-old man has died in a two-vehicle crash in north Cornwall."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "The gritter is one of 24 that Shropshire Council has allowed residents to name following a vote. More than 500 names were put forward to the council, which drew up a short list of 48. Gritty McGritface will be gritting the roads alongside \"Gritney Spears\", \"David Plowie\" and \"Usain Salt\". \"Gritty Gritty Bang Bang\" ploughed to the top of the short list, achieving more than 1,200 votes, closely followed by \"Frosty the Snow Van\" and \"Spready Mercury\". More than 2,000 residents voted for their favourite gritter name. Named after the Oswestry War Poet, \"Wilfred Snowen\" did not make the cut. Other 'salty' losers include \"Nicole Saltslinger\", \"Chairman Plough\" and \"Bob\". The council thanked all residents that suggested a name and voted and said the gritters will be formally named before they \"hit the roads\" this winter.",
+        "output": "Two years after the public voted to name a polar exploration ship \"Boaty McBoatface\" , a new public vote has led to the creation of \"Gritty McGritface\"."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "Katherine Bevan, 53, was found at Combe Farm Arabian Horses, in Gittisham, near Honiton, on 3 January. At a hearing at Exeter Magistrates' Court, Luigi Palmas, of no fixed abode, spoke only to confirm his name and age with the help of an interpreter. The 26-year-old farm worker was remanded in custody and is due at Exeter Crown Court in February. The death of the veterinary pharmacist, who also volunteered at the farm, was initially believed to have been an accident. However, Devon and Cornwall Police said a murder investigation was started after post-mortem tests at the weekend were carried out on Ms Bevan's body. Police did not confirm the cause of her death but said her next-of-kin had been informed. Combe Farm Arabian Horses breeds show and endurance horses.",
+        "output": "An Italian national has been charged with murdering a woman found dead on a horse-breeding farm in Devon."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "He met about 1,000 people after flying by helicopter into the Nine Ashes scout camp site, near Bodmin, to meet children who were at a scout fun day. The scouts have been taking part in an adventure day trying out activities such as archery and circus skills. The Scout Association has about 4,000 young people and volunteers signed up to it in the county. Mr Grylls became Chief Scout in 2009.",
+        "output": "The TV adventurer and Chief Scout, Bear Grylls, has visited Cornwall to meet with local scouts and volunteers."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "Emergency services were called out to the incident near the village of Moniaive at about 19:25 on Monday. The 57-year-old man was found at Dunreggan Brae at its junction with the A702 and pronounced dead at the scene. Sgt William Broatch said inquiries were ongoing to establish exactly what had happened and that their thoughts were with the man's family and friends at this \"difficult time\". Police have asked anyone who may have seen anything in the area to contact them. They said the man had been riding a red Specialized bike at the time of the incident. Anyone with a dashcam has been asked to check if they may have captured any footage of the cyclist. Related Internet Links Police Scotland",
+        "output": "A cyclist has died at the side of a rural road in the south of Scotland."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "Keith Beaven, 68, of Staunton near Gloucester, was found guilty at Gloucester Crown Court of theft, fraud, and illegally selling birds. Beaven tricked various zoos in Europe into thinking he was still running the centre despite having sold it in 2008. He pretended he wanted to borrow the birds as part of a breeding programme. The court heard that Beaven deceived Paignton Zoo in Devon and zoos in Germany and the Czech Republic. He sold the birds after getting into financial trouble. Beaven was convicted of three charges of theft of owls, two of fraud and one of prohibited sale of black kites, after he claimed he did not have the correct paperwork because they had been bred in captivity At an earlier hearing he admitted stealing two northern hawk owls from a zoo in the Czech Republic, claiming he owned them and had authority to sell them. He was found not guilty of two charges relating to fraud and theft of owls from Dudley Zoo. He is due to be sentenced on 18 June.",
+        "output": "A former owner of the National Birds of Prey Centre near Newent in Gloucestershire has been convicted of stealing rare owls from zoos."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "Generate an appropriate single-sentence summary for the given text such that it includes the main topic of the text.",
+        "input": "The body was discovered by a member of the public on Dog Mills beach in the parish of Bride at about 07:00 BST. Police said the cause of the man's death and how long his body had been in the water had not been established. The beach was closed to the public for several hours while the body was recovered. An investigation has been launched and officers were liaising with a national database of missing people. A spokesman said a pathologist would examine the body, which has been taken to Noble's Hospital mortuary, for DNA evidence to help identify the victim.",
+        "output": "The body of an unidentified man has been found washed up on a beach in the north of the Isle of Man, police have said."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "The product I received was not what I ordered. I ordered the camo bags and got just black ones. WHY?",
+        "output": "The product I received was not what I ordered. ..."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "My boxes must have been defective, they do not want to burn correctly, only half of it will light and burn. They hardly crackle. I have been using duraflame for the past three years and this was a bad batch.",
+        "output": "I have been using duraflame for the past three years and this was a bad batch."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "Did not work as a band replacement for my Fitbit Surge...the top band did not slide on the entire way.",
+        "output": "Did not work as a band replacement for my Fitbit ..."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "The product was damaged when I received it. The contents had leaked and dried to the outside of the bottle and you can see clear damage to the sticker indicating the liquid has leaked down the side of the bottle. Very dissatisfied. I am returning for a refund.",
+        "output": "Received a damaged item that had leaked it's contents"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "I was expecting these magnets to have a firm grip on the side of my Fridge, but they slide to much. Also the clips are flimsy.",
+        "output": "Not strong enough for fridge or bbq painted surfaces"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "The Product is good but one only pair Arrive instead of 3 pairs.",
+        "output": "The Product is good but one pair Arrive instead of 3 pairs."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "Smells old. Not at alll like my original one when I first got it.",
+        "output": "Not at alll like my original one when I first got it"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "I bought two of these to help with my carpal tunnel symptoms. The product measurement is supposed to be based on your wrist circumference. Based on my wrist circumference, a \"Large\" should have fit. I have large palms and these items were too tight to easily pull on and off; particularly considering I bought them for carpal tunnel. They were actually cramping my hand. I'm sure they'd be fine for someone with smaller hands. I have no issues with the product quality; just the sizing. There was a review mentioning this and I thought, \"It's probably an isolated issue.\" I was wrong. It's not. Sooo...there's a fast $40 bucks down the toilet...and the last Futuro product I will buy ever just on principle.",
+        "output": "BEWARE - Sizing is not true & items not returnable"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you're given reviews from Amazon's products. Your task is to generate the Summary of the review.",
+        "input": "it worked great for a few months and then it suddenly stopped charging. it repeatedly bumps against the dock but never begins charging. the battery is now dead and it doesnt work anymore.",
+        "output": "it worked great for a few months and then it suddenly stopped ..."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a short summary for this text. The summary must include a situation which caused humor. The summary should be one or two sentences long.",
+        "input": "Text: this happened two weeks ago while i was getting stuff for the store but that day we also cleaned out the warehouse of expired products. while i was putting expired stuff on the back of the pick up truck, we also put products that the store needs on the same pickup truck. after we dropped off the expired products at a garbage center we went back to the store to drop off the products the store needs. after two weeks our store realized they didn't find the essiac tonic dropped off at the store. we also took pictures of the trash being dropped off at the garbage center. we looked back at the trash thrown two weeks ago and right on top of the trash is a box of essiac tonic expiring on the year 2020.... i must of mistaken the box for expiring on 2010..... the box of essiac tonic is worth about 700$ or more in retail.....",
+        "output": "cleaning the warehouse out, accidentally throw out essiac tonic in the trash that has not expired yet."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a short summary for this text. The summary must include a situation which caused humor. The summary should be one or two sentences long.",
+        "input": "Text: happened about 5 minutes ago, while browsing reddit and watching league of legends lcs. my back was hurting a bit, so i popped in some dip to get a buzz to forget the pain a bit. after a game finished, i got up to go to the bathroom, setting my headphones around my open spitter... as i stand up, my foot caught around the cord of my headphones and pulled everything down, including my half-full spitter. luckily i caught it before much to escape, but enough fell to the carpet. don't believe i have ever moved so fast, or cleaned so deep to avoid a lasting mess.",
+        "output": "left open spitter on desk, spilled some on the carpet."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a short summary for this text. The summary must include a situation which caused humor. The summary should be one or two sentences long.",
+        "input": "Text: well, i am a gamer you can say and i play this one game called cs:go where you can have really expensive skins ranging from 0-1000 dollars and they are basically a bragging right to say the least. so anyways you can gamble on sites with the skins and necessarily double the amount of money in skins you have if you win. so i being the smartass i was won so much it topped my highest inventory value, here is tifu i went in 100 times and didn't win a single pot and brought my entire inventory back to 0.  it wouldn't have been as bad, but since i had that inventory since it was only worth 30 dollars.",
+        "output": "- i was up a crap ton of money, put it all in out of rage lost it all and i am now debating what to do to make it back?"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a short summary for this text. The summary must include a situation which caused humor. The summary should be one or two sentences long.",
+        "input": "Text: so today i was driving around with my boyfriend and sister, getting errands done. we stop by a fredmeyers so she (my sister) can use the bank inside. her phone is acting up so i have my boyfriend park the car then i go inside to get her. \n\nthe fuck up is here. we are coming out of the store and i see a car that's the exact make and model of my boyfriends car. i am thinking, weird he moved spots but whatever. i go to the passenger side door and look down at the handle...and see a small old woman with a dog in her lap. my sister had opened the door to the back seat already. she shut the door so quickly and we are both yelling apologies at this car as we ran off. i look up and see my boyfriend car a row over. he hadn't moved and watched us try to get in a strangers car. \n\nthat was the first time in my life i've ever done that and god it's awful. but i can totally laugh about it.",
+        "output": "tried to get into a strangers car, don't recommend doing that."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a short summary for this text. The summary must include a situation which caused humor. The summary should be one or two sentences long.",
+        "input": "Text: my younger sister and i are in the same department at university- i'm getting my masters and she's working on her undergrad. i was heading for lunch with some buddies and we were chatting and i saw my sister studying at a table just a little ways away from where we were walking. being the loving older brother that i am, as we walked past i reached out with an arm and swept every book off the table slamming them onto the floor with a series of thunks. and then i kept walking like nothing had happened only to hear \"hey what the hell?!?!\" from behind me in a voice that was definitely not my sister's.",
+        "output": "ruined some random girl's day and possibly life because i thought she was my sister."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a short summary for this text. The summary must include a situation which caused humor. The summary should be one or two sentences long.",
+        "input": "Text: so my sister was mugged in africa last week, she's fine, everything's fine. \n\ntoday my brother was explaining exactly what happened over the phone (fake taxi, threatened with a knife) . my mother heard the conversation and all my 'oh my god, that's terrible' and did not stop interrogating me. \n\n\ni eventually told her what happened, i know i shouldn't have but i'm a terrible liar. cue insane freak out and panic about trying to contact her. \n\ni tried to calm her with stories of my near muggings and dangerous situations in canada and south america. 'i nearly died lots of times and i'm fine!' i don't know why i thought that would be a good idea.\n\nnow my mother's having a panic attack, my sister hates me and my brother thinks i'm an idiot.",
+        "output": "tried to calm my mother by telling her about how i nearly died."
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a short summary for this text. The summary must include a situation which caused humor. The summary should be one or two sentences long.",
+        "input": "Text: i grabbed a quick lunch at work and was waiting for an elevator.  stepped in by myself when it hit like a scented brick wall - someone had left a fully-loaded fart behind in the elevator. it was bad. one of those big impact smells.\n\n\nso i shook my head and rode the elevator up...to the second floor where a group of our company admins stepped into the elevator.  they were talking and laughing.  and then they weren't.  and then it hit me.\n\n*aw, fuck*\n\n\nsix floors of wide-eyes, raised eyebrows, and glances at me as the clear source of that god-awful smell.  i went through a phase of clueelessness, shocked awareness, brain-freeze and the door opened on my floor.\n\ni just walked off sheepishly and a bit stunned.  'wish i was clever enough to not stay on an elevator full of ghost farts.  or clever enough to deny being the source.",
+        "output": "accidental company elevator fart guy"
+    },
+    {
+        "category": "Summarization",
+        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a short summary for this text. The summary must include a situation which caused humor. The summary should be one or two sentences long.",
+        "input": "Text: so today i went to screamworld (scary night thing at dreamworld in aus) and after as my friend, sister and i were leaving walked to our car, a nice shiny red car. i unlocked the car twice so all four doors unlocked and we opened the doors to realise that the stuff on the inside just didn't look right. after about 30 seconds of confusion we all realised, shit this isn't our car! a girl comes running up to us saying that's my car! in which we just realised we just started to get into some randoms car, which really looked like we were trying to steal it. after the obligatory apologies and sorry we have the same car we weren't trying to steal it. had a good laugh on how we somehow miraculously pressed the buttons at the same time and just the sheer awkwardness of the situation we ran off to find our actual car.",
+        "output": "started getting into someone else's car and which looked like we were trying to take it."
+    }
+]

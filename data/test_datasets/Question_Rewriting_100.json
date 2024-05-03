@@ -1,0 +1,602 @@
+[
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Where do historians believe the black death originated?",
+        "output": "Where do historians believe the black death originated in animal?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "How do they test for drugs at the olympics?",
+        "output": "How do they test for most drugs at the Olympics?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who is the secretary of state in arkansas?",
+        "output": "Who is the secretary of state in arkansas from 2011-2019?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who wrote the music for shrek the musical?",
+        "output": "Who wrote the music scores for shrek the musical?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What size is a california king size mattress?",
+        "output": "What is the length of a California King Matress?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What is the largest province in sri lanka?",
+        "output": "What is the largest province in sri lanka by area?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who plays the man in the yellow hat on curious george?",
+        "output": "Who plays the Man in the Yellow Hat on the TV series Curious George?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Actress who played amy pond in doctor who?",
+        "output": "Who played the original Amy Pond in Doctor Who?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who sings you make me feel like dancing?",
+        "output": "Who sings lead vocals for you make me feel like dancing, released in 1976?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What's the legal age to drink in russia?",
+        "output": "What is the legal private drinking age in Russia?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "How old do you have to be to get a tattoo in indiana?",
+        "output": "How old do you have to be to get a tattoo in Indiana without parental consent?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What is the name of the princess in frozen?",
+        "output": "What is the name of the princess in Frozen, who eventually becomes queen?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did california become a state of the united states?",
+        "output": "When did the land that is California become part of the united States?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who sings bet on it in high school musical?",
+        "output": "Who sings bet on it in the high school musical 2 film?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did ariana grandes new album come out?",
+        "output": "When did ariana grandes new compilation album come out?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did the edwardian era start and end?",
+        "output": "When did the edwardian era start?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who was the dog in marley and me?",
+        "output": "Which dog plays Marley in Marley and Me?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Where is mass wasting most likely to occur?",
+        "output": "On what geographical features is mass wasting most likely to occur?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who wrote the music for conan the barbarian?",
+        "output": "Who wrote the music for the 2011 conan the barbarian film?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What type of book is the fault in our stars?",
+        "output": "What type of book is the fault in our stars when describing intended age group?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did the old age pension start in australia?",
+        "output": "When did an old age pension start in parts of australia?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What was the name of the plant from little shop of horrors?",
+        "output": "What is the name of the plant in the 1960 film The Little Shop of Horrors?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What is the brightest star seen from earth?",
+        "output": "What is the brightest star in the night sky seen from Earth?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What did the sea dogs have that led to their defeat of the spanish armada?",
+        "output": "What kind of ships did the sea dogs have that led to their defeat of the spanish armada?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When was the forbidden city opened to the public?",
+        "output": "At what point was the forbidden city opened to the public?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When was the first king size bed made?",
+        "output": "When was the first larger mattresses that were later standardized as king size beds made?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What is the cost of an airbus a380?",
+        "output": "What was the cost of the prototype of the Airbus A380?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did rolls royce start making jet engines?",
+        "output": "When did rolls royce start making jet engines for World War II?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did i can't get no satisfaction come out?",
+        "output": "When did i can't get no satisfaction come out in the US?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who scored hattrick in fifa world cup final?",
+        "output": "Who scored a hat trick in a FIFA men's world cup final?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Highest paid hollywood actor for a single movie?",
+        "output": "Highest paid hollywood actor for a single movie, who deferred salary against a film's gross?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "List of top 10 largest countries in africa?",
+        "output": "List of top 10 largest countries in africa by area?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who sings the only fools and horses theme?",
+        "output": "Who sings the only Fools and Horses opening theme?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Where does the saying all quiet on the western front come from?",
+        "output": "What book does the saying all quiet on the western front come from?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When is the next batman telltale coming out?",
+        "output": "When is the sequel for Batman: The Telltale Series coming out?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who played ryan's brother in the oc?",
+        "output": "Who is Ryan's brother in the OC?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What is the population of rochester new york?",
+        "output": "What was the population of Rochester, New York in 2010?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did china become a member of the united nations?",
+        "output": "When did Republic of China become a member of the united nations?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who cut down the trees in the lorax?",
+        "output": "What character cut down the trees in The Lorax?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When does jessica fletcher moved to new york?",
+        "output": "In what season of Murder She Wrote does Jessica Fletcher move to New York?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Record for cycling from lands end to john o'groats?",
+        "output": "Who holds the record for cycling from lands end to john o'groats?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who is running for attorney general in florida 2018?",
+        "output": "Who were the declared Republican candidates in the primary for attorney general in Florida, 2018?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did university of georgia start playing football?",
+        "output": "When did university of georgia start playing intercollegiate  football?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Where was the movie charlie st. cloud filmed?",
+        "output": "Where were quite a few scenes for the movie charlie st. cloud filmed?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who do the eagles play in the nfc championship game?",
+        "output": "Who did the Philadelphia Eagles play in the NFC championship in 2001?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Where does the cumberland river begin and end?",
+        "output": "Where does the cumberland river begin?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "What are the measurements of a full mattress?",
+        "output": "What are the measurements of a standard full mattress in inches?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did colour tv start in the uk?",
+        "output": "When was colour tv first showcased in the uk?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "When did the packers play at camp randall?",
+        "output": "When did the packers first play at camp randall?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "In this task, you're given an ambiguous question (which can be answered in more than one way). Your task is to write a question that clarifies the given question in such a way that the generated question has one unique answer.",
+        "input": "Who has the most passing touchdowns in the nfl?",
+        "output": "Who has the most passing touchdowns in a career in the  regular season in the NFL?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: the largest cities of washington?",
+        "output": "what are washington's largest cities?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what movie did patrick swayze and keanu reeves star in?",
+        "output": "what film did patrick swayze star in with keanu reeves?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: president harry trumans successor?",
+        "output": "who was president truman's successor?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: president nixon children's names?",
+        "output": "what where the names president children?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: one of the highest volcanoes in central america is?",
+        "output": "what is one of the highest volcanoes in central america?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: when did movie billy jack come out?",
+        "output": "what year did the movie billy jack premiere?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: thomas edisons first wife?",
+        "output": "who the one first to be thomas edison wife?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what day was abraham lincoln inaugurated as president of the us?",
+        "output": "when did abraham lincoln get inaugurated as president of the us?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: when did shirley temple black's husband die?",
+        "output": "when did sherily temples husband die?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what battles was england in during world war 2?",
+        "output": "world war 2 battles in england?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what date did hernando de soto die?",
+        "output": "what month did hernando de soto die?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what is magic johnson father name?",
+        "output": "what is magic johnsons dads name?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what is the largest desert and mountain range in africa?",
+        "output": "what is the largest dessert and mountain range in africa?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: which american president held office for the shortest amount of time?",
+        "output": "which president held office for the shortest period of time?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: who was the first us president from the republican party?",
+        "output": "which was the first american president who belongs to the republican party?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: when was death valley found?",
+        "output": "when was death valley founded?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what was the name of the brother who died of michael jackson?",
+        "output": "which brother of michael jackson died?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: the first skyscraper was built in what city?",
+        "output": "in which us city was the first skyscraper built in 1885?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: at what age did john steinbeck jr die?",
+        "output": "what was the age of john steinbeck when he died?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what is vijays first movie?",
+        "output": "which is the first film for vijay?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what sea divides denmark and sweden?",
+        "output": "what sea borders southern sweden and denmark?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: who was the president of poland in may 2009?",
+        "output": "who was the president in poland may 2009?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: who was the first female to be on a wheaties box?",
+        "output": "first female olympic athlete on wheaties box?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what was president george w bush before he was president?",
+        "output": "what did george bush do for work before he was president?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what year did sidney nolan die?",
+        "output": "when was sidney nolan die?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: who are tia mowry's parents?",
+        "output": "who are the mowry twins parents?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: when was nicki minja first album?",
+        "output": "when was nicki minaj's frist album?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what films had both leading actor and actress win an oscar?",
+        "output": "which movies have won the best actor and best actress?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what was ferdinand magellan's job?",
+        "output": "what ferdinand magellan famous job?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what country that boarders honduras on the west?",
+        "output": "country that borders honduras on the west?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: the countries that germany occupied during world war 2?",
+        "output": "what are 4 countries germany occupied during world war 2?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: the number of times john steinbeck was married?",
+        "output": "how many times was john steinbeck married?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what wascharles dickens first novel?",
+        "output": "what novel launched charles dickens career?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what groups were steve winwood in?",
+        "output": "bands steve winwood was in?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: the dates of franklin roosevelt's presidency?",
+        "output": "when was franklin roosevelt president of the us?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what type of music does billy joel write?",
+        "output": "what kind of music does billy joel write?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: where was jackie robinson place of birth?",
+        "output": "what place was jackie robinson born?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what movie did penelope cruz win an oscar for?",
+        "output": "what film did penelope cruz win an oscar for?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: which movies starring brad pitt and george clooney together?",
+        "output": "which film did george clooney and brad pitt star in?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what are the contributions of marie and pierre curie?",
+        "output": "what are the contributions of marie curie and pierre curie?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: who are hathor's kids?",
+        "output": "who were hathors kid?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: who were the candidates in the american election of 1864?",
+        "output": "who was lincons opponent in the 1864 election?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: who is mason musso's brother?",
+        "output": "mason musso have a brother?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what is the capital of the state that has a border with california nevada and a coast line on the pacific?",
+        "output": "what is the capital of the state that shares a border with california nevada and the coast line with the pacific?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what was michael jacksons second album?",
+        "output": "what was michael jackson 2nd album called?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: when did thomas edison's second wife mina miller die?",
+        "output": "when did thomas edisons wife mina miller die?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: kenya borders the ocean?",
+        "output": "what ocean borders keyna to the southeast?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: who plays marty on life with derek?",
+        "output": "who plays the role of marty on life with derek?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what is the highest mountain in the alps?",
+        "output": "which is the highest mountain in alps?",
+        "category": "Question Rewriting"
+    },
+    {
+        "instruction": "Given a question, generate a paraphrase of that question wihout changing the meaning of it. Your answer should reword the given sentence, but not add information to it or remove information from it. The answer to your question should be the same as the answer to the original question.",
+        "input": "Question: what age was rihanna when she went to sing?",
+        "output": "when did rihanna start sing?",
+        "category": "Question Rewriting"
+    }
+]

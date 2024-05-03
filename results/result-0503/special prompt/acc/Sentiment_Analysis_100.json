@@ -1,0 +1,802 @@
+[
+    {
+        "input": "@mcswinn what's wrong with pimpin in it?? dont hate on my pimp game! ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Code names will be used now  grrrrrr.....",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "the one night i can finally go out NO ONE wants to! whyyyy?!! ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "I am at work and in a funk that i just cant shake ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@Rosi_Simon Dogs and men can always be found on the couch ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "back to work  at least they give me that money stuff. whats the deal tonight? can we pwease get fucked up?",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "Finally got a good DVD of the Grand Canyon Trip to burn. I guess 6 times is the charm. Maybe I should get a MAC ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "@softtouchme just the way i want ya babe ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@vkwheels i love the fact, that i said it like Chandler in my head as i read it. and then kept reading n saw u say, &quot;just like Chandler&quot; ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Didn't do anything at work but got paid for it.  sisters game. Then movie? ~JonnyD.",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Just heard about the french plane  hope the best for them...  In other news, next stop for me is UK at 5am BST... TTFN",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "follow me! Tweet. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@resurrecthis Congrats! ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Good morning all! ~ having breakfast at lunchtime (aaah) and watching little birds hopping in my olive tree ~ lovely nature ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "insomnia is no fun when your by your self ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "Last day of Cardiology  Off to friggin Geriatrics next week...",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@Mangowe Ok I'll vote. But I'm not going to tell anyone who for in case they mock me. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "negative",
+        "acc": 0.0
+    },
+    {
+        "input": "eagranie - stop tweeting when I'm talking to you!  ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "negative",
+        "acc": 0.0
+    },
+    {
+        "input": "twitter problems  and the show starts... #connected",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "Playing need for speed. I woke up extremely blah today. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "sitting down in central park, amazing weather and vibes. Sad to leave tomorrow  but excited to get playing properly again!",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "@yayazen I am alright. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Does not want to go to work today ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "my mouth is wanting to turn down  . . . discovered i have another paper due tomorrowwww, that makes 2 now ughhh &amp; i failed 2 quizzes.",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@Hules  Damm You Pens!   Caps better step up.",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "In Need of a good work out! ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "Is upset I have run out of vicodin. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@iModel_ lol.... Gorgeous...lol! U look sooo much like that Vampire lol...its a compliment don't get mad lol ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Hates being capped  I wanna download TF2 and play",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@veereyes awesome ! i have lots to tell you too ! i can't waitttt ! ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "On a nonexciting note my window slammed shut and broke!  Now I need to figure out how to get it out to get to a window store??",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "I hate rollercoaters... But today I'm going to be force to. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "Just got back from the dog park. Some jerk's dogs kept going after Koa and he didn't care. So... The &quot;Jersey&quot; in me came out ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "negative",
+        "acc": 0.0
+    },
+    {
+        "input": "@toritruslow Comet+Natwest conspiring to stop me purchasing a washing machine, no funding for Cai, cookies are invisible ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "I love you ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@wittlewhitley Oh, Ar is truly the best lol ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@missxmarisa- hahaha Z you look so cheesy it made me &quot;lol&quot; ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "AHHHH!!!! I need a link to the finale! A little help here. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@ally13524 lol oh ally you crack me up. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@the100rabh manny manny happpy returns of the day ! cheers mate ! ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "After reading the ghostbusters instruction manual cover to cover, I'm sooooooo psyched to play... one of these days ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@hilsatlvsonline It is gorgeous! 2 weeks ago I moved from The Netherlands to Canada and we now have a giant garden.  All new to me ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Morning my tweebies. I made it to the office ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "isss doing some workk lol  borning",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "negative",
+        "acc": 0.0
+    },
+    {
+        "input": "@NeilOughton I agree, it is quiet and does feel like a Friday  I haven't updated my iPhone yet, I need to research the jailbraking again..",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@ddlovato Hey Demi How r u? I'm sick ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@DylanJobe Mine finally activated last night. C&amp;P is great as is multi del in pic roll. MMS is not their though ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "Komodo National Park is now at rank #8 on the poll. up one spot from previous rank.keep voting at www.new7wonders.com. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@missheathyrm well hello, from a fellow insomniac  bummer dude",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "I'm at a friends. I had a hella fun day at the Bass Pro Shop. It was amazing! There were hella hot guys there  ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Talking to a good friend of mine. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "frigging hates doctors!!! hollyoaks should of won ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "ready for something extraordinary to happen ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "can't sleep .. im gonna be beat in the morn ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "Awake with jet lag ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "11:11 - i wish that you smile today ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@robbcox What can I say - I'm a people person.  Don't listen to anyone who says otherwise.  Haha.  Have a good day ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@sek826 I'll be at MG in the afternoon with you today!!! I'm wearing green  miss you can't wait!",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@scoobadaBeast in my house, in slight pain. I'm feeling sick. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@kelleycfc sorry   Look at it this way. The odds just went up in your favor",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "@mileycyrus - repost it...it isnt working ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "@no_surprises i stopped following donnie, he's sooooooo friggin annoying :\\ i hate the new NKOTB donnie, i miss &quot;actor donnie&quot; ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@Nicholaine oh. i hate rain. at least when its cold too. its almost kinda fun with rain during summer, u know when its like so warm? ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "negative",
+        "acc": 0.0
+    },
+    {
+        "input": "@arnteriksen Well thank you - big compliment  So glad you liked it",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Still waiting. I dont like when people are unreliable ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@heeyitsRIA oh I just had some it's the best early in the am ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@l0vElyPYT 4get u nigga tryna treat me like Burnl on this motha fucca..... embarrassing me live on twitter..... LoL ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "Lalalala ahlalala hv u evr heard this song?! Itz so cool song!! I like it!! I feel so untouched... ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@chrisfreeman sad, you only have 887 now. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "every night, at about 23:00, the dns stops working ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@dollywould Yes! If you were cool like Mr Pom and received a free script to GEEK magazine, you'd know this already (it's on the cover) ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "woke up with a bad sore throat 2day. not good, think it might be allergies...... ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "it's a studying time!! lol, and i'm 2 happy 4 some reason ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "is wondering what actually to do, when I have a week to do fuk all bar pack, most peeps r leavin too ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@howtown wish you luck... all mine are dead... ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "is the only person in a house of four people that appreciates the Legally Blonde musical ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "@joelmadden i would definitely be in blood brothers! you want me you got me ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "Racing to meeting. Already 4mins late ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@carmenhayes ok ima go get one  didn't find herb till we got back in the house hahahahaha",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "negative",
+        "acc": 0.0
+    },
+    {
+        "input": "@Cfahooligan  Raison d'etra is a top pick for parties w/not a lot of beer-lovers. hit every time. wish DFH was in MO ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "is sad for his friends who lost their jobs... ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "One thing I don't like about he iPhone 3.0 update is that it takes too long to send a text... Its like dial up ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@chloemcfly at least we know that her belly button is ugly  nun-ism (y) wooooo x",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "negative",
+        "acc": 0.0
+    },
+    {
+        "input": "@cuevafamily I know how you feel, gurl.  I hope things get better!",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "each turn of the page. My own personal heaven is a 1000 page A4.5 book of cartoon images and social commentary wrapped in fantasy. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@Rachelle_Lefevr can you ask Kevin Spacey to follow @peterfacinelli for his bet but he won't listen to me.  P.S. you're awesome!",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "I'm not even missed.  ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "at juley's....bout to get some bubbletea ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@chelseabot Wow, that is super uncool!! ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "good luck in the red carpet, I really love you Kellan ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "i got a bitch name sabrina; she's a real dick pleaser!;jk jk! lmao iloveyousabrinaâ¥ ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "negative",
+        "acc": 0.0
+    },
+    {
+        "input": "Back to the real world  every weekend just teases me. Seven more days and couch potato-ness ensues. Freaking SAT on Saturday.",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@appelezmoiGaby I was able to save some of the doc...it was silly...made me grumpy ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "@DonnieWahlberg Always following but don't think I'll make it from Scotland!!  Keep having a blast-I'm loving this ride xx",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@stickyfingerss tle.. spatunya jadiny sesuai dgn yg diharapkan but just the matter of size..is it? itu beli dmn tle? too bad i'm size 40. ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    },
+    {
+        "input": "The CBBC Thread: Credits straight from Andy Cranes broom cupboard days.  (Latest post by Ben)",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@ashleytisdale Sure I'd like to! But I live in France..  Love your new album ;)",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "positive",
+        "acc": 0.0
+    },
+    {
+        "input": "@metiche76 I love purple chinchillas, so I'll definitely have to accept your friend request ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "@jasonflick GREAT movie  thanks again!!",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "positive",
+        "predicted_output": "positive",
+        "acc": 1.0
+    },
+    {
+        "input": "need to start studying economic and history for university entrance exam, but why am I too lazy too read, I used to have all the spirit ",
+        "category": "Sentiment Analysis",
+        "instruction": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+        "output": "negative",
+        "predicted_output": "negative",
+        "acc": 1.0
+    }
+]

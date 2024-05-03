@@ -1,0 +1,802 @@
+[
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Bob believes in the tooth fairy, so he can be very young.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Jimmy wanted to make dinner just for himself, so he made 1 can of soup.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "When Chris went to his grandfather's funeral, everybody looked so sorrowful there.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If I lost my pizza tray, it would be safer to use a baking sheet than a towel under the pizza while it cooks.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Given only 10 minutes, a person must expend more energy to move a sofa than to move a chair.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "An axe is less suitable for cutting down a tree than a chisel.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "During the winter people tend to go to skiing in the mountains instead of swimming in the beach.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "I spilled all my food on the floor just before my lunch so I had to have my meal before cleaning.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The woman found that the butter knife could cut through steak as easily as it cut through butter.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The noodle was so slippery that it dropped from the fork after minutes.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Millie is an artist while Bobby is a teacher and Millie is more likely to win the art competition.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It takes 30 minutes to eat breakfast and the kids need to be at the bus stop for 7:00 AM, so I'd make sure breakfast is ready before 6:30 AM.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "A bag is less suitable for collecting trash than a hammer.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Fred is building a house out of sand, so he will probably use buckets and water to construct it.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Amanda usually puts five crackers in her bowl of soup so she can savor the soup's flavor.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The 200 pound weight was easier to lift than the 600 pound weight.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Gary thought it would be more convenient to write his essay on his laptop rather than his phone.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If you are waiting for a butterfly breaking out of the cocoon, you'd better keep focused as the process takes no longer than seconds.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The room temporature of the sauna is so hot that I spend hours just getting used to it.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Henry will retire in a decade, so he should embark on a 6-year rather than a 12-year project.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If Eric eats twenty chocolate bars, he will probably get a stomach ache.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "When heating some tea in the microwave, it is recommended you use a metal cup over a ceramic cup.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It's more dangerous to wear sunglasses instead safety glasses of when at a construction site.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Joe is a chef who loves to make bread. When he makes dough, he tries to make sure he kneads it for several minutes to make it soft and smooth.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It is much quicker to run to the store several blocks away than to ride a skateboard there.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "A person born in the 90s is more likely to remember what happened in 2000 rather than a person in the 80s.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "A dead bird will not sing again if you feed it.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The storm is supposed to hit in 50 minutes and I love running in the rain so I'll go on a run in 5 minutes.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "A five gallon bucket filled with water is going to be easier to carry than a one gallon bucket filled with water.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Tim's kids were playing outside when it started raining, so he is going to tell them to go inside the house instead of keeping playing.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If the store doesn't have your exact shoe size, it is generally better to buy the next size up rather than the next size down.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "When adjusting music volume levels to their max settings, it will improve a person's hearing.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Mark checked his boots for scorpions while Jim just shoved his feet in, so Mark is less likely to get stung.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "I didn't think I'd be done early today. The last bus is long gone.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "A tall person can fit through a 7 foot doorway more easily than a 6 foot doorway.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Sally is poor, while Betty is rich. Sally and Betty both stole a loaf of bread. People are more likely to be sympathetic towards Sally.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Tigers are more likely to feel satisfied after eating vegetables rather than meat .",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Mary is a counselor, while Jennifer is a librarian; Mary is more likely to be able to recommend a good book than Jennifer.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Morgan has 3 kids while Diana has no child so Diana has more free time",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Peter invited his neighbor Jonathan for dinner, it's expected that Jonathan would arrive on time for lunch.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Tim's return from China to the U.S. got delayed at least one day due to inclement weather causing the cancellation of the plane, he will return to work tomorrow.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It's Jill's birthday, so it's likely she will bring her friend Sally a gift.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Even if the late fee is only 10 dollars, it is better to pay 10 dollars in late fees than nothing.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Jack has better chances of becoming a gymnast because he is higher than most men.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It is less to painful to have a hug than surgery",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "In order to make our part in saving the planet, it is recommended to write our notes on sheets of paper rather than a LCD reusable blackboard.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Dianne has a yoga class in 10 minutes and the gym is close by so she only does 5 minutes of stretches instead of the 10 minutes to make the class on time.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Mary is interested in gardening. Her husband Tom enjoys mowing the grass. Tom and Mary are likely to hire a lawn maintenance company.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Bob believes in the tooth fairy, so he must be very old.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Susan visits houses to deliver pizza, while Jim visits to fix plumbing, so Jim is more likely to be invited in.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Moira has a lot of serious allergies, but Sadie doesn't have any. Therefore, Sadie is less likely to eat out at restaurants than Moira.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The small size bikini is too small for Amanda to wear, so the medium size might fit instead.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "A two bedroom house is more suitable for a family of six than a four bedroom house.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "As he can lift an air conditioner, he should be able to lift a car.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Desire to become esteemed in a long period of time forces people to adopt more undue practices.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Rachel wants a pet with a long life span, so she gets a hamster instead of a dog.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "In a bar, I would normally refuse a glass of wine from my date.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The safest place to keep a glass full of fruit punch is on a table.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It's less convenient to take a train to work than to walk to work",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Since I need to speak to the customers who are waiting in my office, I can walk to the cafe and get a cup of coffee now.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Sheila went to the market and bought a bicycle but found it wouldn't fit in her car so she tool the wheels off with a hacksaw and pliers.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Edwin just started a relationship with Ella, who cares very much about the Earth's ecosystem.  If he wants to impress her, he should buy her fifty individually wrapped chocolates.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If the leaves of a tree fall, it must be in autumn.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Tommy is a pescatarian and Otto is a vegetarian. Therefore Tommy is more likely to eat fish.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Needing to clean the condensation off of the refrigerator door, a dry rag will do the trick.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "You can buy a pumpkin to carve and put on your porch to celebrate Halloween if it is coming up in about a year.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "To travel to Iceland from California, it is faster to fly on a plane rather than take a boat.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The heating was broken so to stay warm inside she thought it'd be better to wear a towel than a blanket .",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Because I wanted a sweeter banana custard, I waited a month for the bananas to ripen.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It is more traditional to eat rice with a spoon than chopsticks",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If someone gives you a birthday present, they should say Happy New Year.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The two hour long movie starts at 5 pm, and so I will not be able to meet him at the pub at 6.30 in the evening as I intend to watch the whole movie.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It's easier to pick up a frying pan with one hand than it is to pick up a spatula.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "A mirror over your head would shield you from the rain better than a mosquito net.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Desire to become rich in a short period of time forces people to adopt more undue practices.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If you pet a porcupine from head to tail, you hand must get injured.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If you upgrade your graphic card, you won't wait longer for video rendering.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Amy just lost her job at the factory and Cindy just won the lottery. Cindy is more likely to book a vacation around the world.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "The woman found that the steak knife could cut through butter as easily as it cut through steak.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Sarah starts college in 3 months, so she should choose her classes in the next month rather than the next year.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Since the first vehicle was purchased much earlier than the second one, the first one required less maintenance.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "As her school day is fast approaching in two days she wants to invite her friend after 3 days rather than today.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "A student who has 40 minutes to answer 50 questions should spend a minute, rather than 48 seconds per question.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Leo is an animal rights activist, so he is more likely to bring his kids to the natural museum than the dolphin show.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If it takes 365 days and 8 hours for Earth to rotate around the sun, every 5th year will have 366 days",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It is a general trend for people to spend more during festival seasons than other times.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "After having the meeting cancelled, Ryan decided to watch a movie instead of going out of the town with three hours in hand.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It is abnormal for someone to spit in the face of a person they have just met.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Jan wanted some time off his job to attend lunch with his girlfriend, so he asked his manager for a break at 12 AM instead of 12 PM.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "John expects the video to last 20 minutes, so he has time to watch it before going to class in 10 minutes.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "It is more likely that the vegetables will grow if you use a pocket full of seeds instead of just one seed.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "He's been sleeping for over 20 hours instead of 8 which made me slightly worried.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Sarah left for 5:30 mass at 5:00 in order to be early; it was about 50 miles away.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "As her school day is fast approaching in two days she wants to invite her friend today rather than after 3 days.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Jerry wanted to buy a computer for many years, he prayed hard for it and he was obliged by god.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Jane was really tired after a long day's work, she would rather sleep late and wake up late to continue the work.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Still two years away from being legal but hoping to get into the bar, she was pleased that the bouncer thought she was five years older rather than five years younger than she was.",
+        "output": "True",
+        "predicted_output": "False",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "If a person reads 30 pages every day and book has 300 pages, with a week-long pause, he/she will finish the book in 11 days.",
+        "output": "False",
+        "predicted_output": "True",
+        "acc": 0.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "Joe was an environmentalist, so he was more likely to use styrofoam containers when out.",
+        "output": "False",
+        "predicted_output": "False",
+        "acc": 1.0
+    },
+    {
+        "category": "Commonsense Classification",
+        "instruction": "You will be given a piece of text either about an everyday event, or a general statement. If the event seems a plausible event to you, or the general statement makes sense matches your commonsense, output 'True', otherwise output 'False'.",
+        "input": "To keep documents safer in case of flood, it's better to put them in a plastic box instead of a cardboard box.",
+        "output": "True",
+        "predicted_output": "True",
+        "acc": 1.0
+    }
+]

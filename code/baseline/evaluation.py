@@ -1,4 +1,5 @@
 import json
+import os
 import torch
 from transformers import LlamaForCausalLM, LlamaTokenizer, BitsAndBytesConfig
 from datasets import load_dataset, load_metric
@@ -16,9 +17,9 @@ def prediction():
     model = LlamaForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16, quantization_config=BitsAndBytesConfig(load_in_8bit=True), device_map="auto")
     tokenizer = LlamaTokenizer.from_pretrained(tokenizer_path)
 
-    # 加载测试数据
-    test_data = load_dataset('json', data_files={'test': '/root/RAG_NLIBench/data/test_datasets/Translation_200.json'})['test']
-    
+    file_path = '/root/RAG_NLIBench/data/test_datasets/Named_Entity_Recognition_62.json'
+    test_data = load_dataset('json', data_files={'test': file_path})['test']
+                
     # 准备输出文件
     output_data = []
     i = 1
@@ -30,32 +31,15 @@ def prediction():
 ### Input:
 {data_point["input"]}
 """'''
-        # Textual Entailment prompt
-        '''inputs = f"""### Instruction
-Task: Determine the relationship between the two sentences provided. Choose the appropriate letter to represent the relationship:
-- E: Sentence 1 entails Sentence 2
-- C: Sentence 1 contradicts Sentence 2
-- N: The relationship is neutral (cannot be determined from the text alone)
-
-Indicate your answer by choosing E, C, or N based on the relationship between the two sentences. All you need to do is output E, N, and C. # noqa: E501
-
-### Input:
-{data_point["input"]}
-
-### Response:
-"""'''
-        '''inputs = f"""Below is an instruction that describes a Textual Entailment task. This task's goal is to determine the relationship between the two sentences provided, paired with an input that provides further context. You should choose the appropriate letter to represent the relationship.  # noqa: E501
+        
+        inputs = f"""Below is an instruction that describes a Named Entity Recognition (NER) task. This task's goal is to identify and classify named entities in the text into predefined categories such as PERSON, LOCATION, ORGANIZATION, etc. List all named entities from the text above along with their corresponding categories. # noqa: E501
 ### Instruction:
-{data_point["instruction"]}
+Identify and classify named entities in the text provided below. Use the following labels for classification: PERSON for individuals, LOCATION for places, ORGANIZATION for companies or institutions, etc.
+
 ### Input:
-{data_point["input"]}
-"""'''
-        inputs = f"""Below is an instruction that describes a Textual Entailment task. This task's goal is to translate the provided sentence from its original language into English, paired with an input that provides further context. You should focus on accuracy and fluency in your translation. .  # noqa: E501
-### Instruction:
-{data_point["instruction"]}
-### Input:
-{data_point["input"]}
+Text: {data_point["input"]}
 """
+
         input_ids = tokenizer(inputs, return_tensors="pt")
         input_ids = input_ids["input_ids"].to(device)
 
@@ -78,20 +62,20 @@ Indicate your answer by choosing E, C, or N based on the relationship between th
         decoded_preds = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
         try:
             #print(decoded_preds)
-            decoded_preds = decoded_preds.split("\n")[-1].strip()
+            decoded_preds = decoded_preds.split("### Output:")[1].strip()
             data_point['predicted_output'] = decoded_preds
         except (IndexError, RuntimeError) as e:
             print(decoded_preds)
             print(f"捕获到异常：{e}")
             continue
-        
+                    
         # 保存结果到数据结构
         output_data.append(data_point)
         i = i + 1
         print(i)
 
         # 保存修改后的数据集
-        with open('/root/RAG_NLIBench/results/result-0428/Translation_200_1.json', 'w', encoding='utf-8') as f:
+        with open('/root/RAG_NLIBench/results/result-0503/special prompt/exact_match/Named_Entity_Recognition_62.json', 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 def bleu(file_path):
@@ -190,10 +174,8 @@ def BERTScore(file_path):
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     print(f'BERTScore: {sum_bertscore / len(output_data)}')
 
-def Acc():
-    f1 = load_metric("f1")
-
-    with open('/root/autodl-tmp/Textual_Entailment_snli_100_1.json', 'r', encoding='utf-8') as f:
+def Acc(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     output_data = []
@@ -203,8 +185,8 @@ def Acc():
 
     dict_map = {
         "E": 0,
-        "C": 1,
-        "N": 2
+        "C": 2,
+        "N": 1,
     }
     for item in json_data:
         # 准备单个参考文本和预测文本
@@ -223,17 +205,15 @@ def Acc():
         output_data.append(item)
     
     # 保存修改后的数据集
-    with open('/root/autodl-tmp/Textual_Entailment_snli_100_1.json', 'w', encoding='utf-8') as f:
+    with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     
-    f1_score = f1.compute(predictions=pred, references=ref)
     print(f'Acc: {sum_acc / len(output_data)}')
-    print(f1_score['f1'])
 
-def exact_match():
+def exact_match(file_path):
     exact_match = load_metric("exact_match")
 
-    with open('/root/RAG_NLIBench/results/result-0428/Textual_Entailment_snli_100_2.json', 'r', encoding='utf-8') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
     ref = []
@@ -248,10 +228,27 @@ def exact_match():
     print(round(results["exact_match"], 2))
 
 if __name__ == '__main__':
-    prediction()
+    #prediction()
     #exact_match()
-    file_path = '/root/RAG_NLIBench/results/result-0428/Translation_200_1.json'
+    '''file_path = '/root/RAG_NLIBench/results/result-0503/special prompt/bleu_rouge_bertscore/Data_to_Text_50.json'
     bleu(file_path)
     rouge(file_path)
-    BERTScore(file_path)
+    BERTScore(file_path)'''
+    file_path = '/root/RAG_NLIBench/results/result-0503/special prompt/exact_match/Question_Answering_200.json'
+    #Acc(file_path)
+    exact_match(file_path)
 
+    '''with open('/root/RAG_NLIBench/results/result-0427/bleu_rouge_bertscore/Data_to_Text_50_1.json', 'r', encoding='utf-8') as f:
+        json_data = json.load(f)
+    output_data = []
+    for item in json_data:
+        data = {
+            "category": item['category'],
+            "instruction": item['instruction'],
+            "input": item['input'],
+            "output": item['output'],
+        }
+        output_data.append(data)
+    with open('/root/RAG_NLIBench/data/test_datasets/Data_to_Text_50.json', 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, indent=4, ensure_ascii=False)'''
+    

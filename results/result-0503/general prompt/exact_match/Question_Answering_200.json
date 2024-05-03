@@ -1,1202 +1,1402 @@
 [
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: a plant requires nutrients for survival. \nQuestion: What does a plant require for survival?",
         "output": "nutrients.",
-        "category": "Question Answering"
+        "predicted_output": "nutrients."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Differentiation is the process by which cells become neurones. \nQuestion: Differentiation is the process by which cells become what?",
         "output": "neurones.",
-        "category": "Question Answering"
+        "predicted_output": "neurones."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: natural disasters can cause migration. \nQuestion: Natural disasters can cause?",
         "output": "migration.",
-        "category": "Question Answering"
+        "predicted_output": "migration."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Something critical for regulating oxygen from hemoglobin may become unbalanced if the rate of breathing is too fast or too slow. \nQuestion: Something critical for regulating oxygen from hemoglobin may become unbalanced if breathing is what?",
         "output": "too fast or too slow.",
-        "category": "Question Answering"
+        "predicted_output": "too fast."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: aggression harms others. \nQuestion: what harms others?",
         "output": "aggression.",
-        "category": "Question Answering"
+        "predicted_output": "aggression."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: If a person falls ill it may be due to a pathogen. \nQuestion: If a person does what it may be due to a pathogen?",
         "output": "falls ill.",
-        "category": "Question Answering"
+        "predicted_output": "a person falls ill."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Weather refers to the conditions of a layer of gases around a planet. \nQuestion: The conditions of a layer of gases around a planet is called what?",
         "output": "weather.",
-        "category": "Question Answering"
+        "predicted_output": "weather."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: glass keeps plants warm. \nQuestion: what keeps plants warm?",
         "output": "glass.",
-        "category": "Question Answering"
+        "predicted_output": "glass."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: human beings have a backbone. \nQuestion: what have a backbone?",
         "output": "human beings.",
-        "category": "Question Answering"
+        "predicted_output": "human beings."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Fungi can cause disease. \nQuestion: What can fungi do?",
         "output": "Spread disease.",
-        "category": "Question Answering"
+        "predicted_output": "cause disease."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Adult sponges are attached permanently, immobile. \nQuestion: Adult sponges are?",
         "output": "immobile.",
-        "category": "Question Answering"
+        "predicted_output": "immobile."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Ancestors of hagfish are thought to have been the earliest creatures with bones. \nQuestion: Ancestors of hagfish are thought to have been the earliest creatures with what?",
         "output": "bones.",
-        "category": "Question Answering"
+        "predicted_output": "bones."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Complex rituals are behavior that are intended to attract a mate. \nQuestion: What are behavior that is intended to attract a mate?",
         "output": "Complex rituals.",
-        "category": "Question Answering"
+        "predicted_output": "complex rituals."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Cells secrete acids and bases to keep the proper pH for phosphatases to work properly. \nQuestion: What is needed from cells for phosphatases to keep the proper pH?",
         "output": "secretion of acids and bases.",
-        "category": "Question Answering"
+        "predicted_output": "acids and bases."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: echinoids lack a respiratory system. \nQuestion: what do echinoids lack?",
         "output": "respiratory system.",
-        "category": "Question Answering"
+        "predicted_output": "a respiratory system."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: crossing two living things with blue eyes causes their offspring to have blue eyes. \nQuestion: Crossing two living things with blue eyes causes their offspring to have what?",
         "output": "Blue eyes.",
-        "category": "Question Answering"
+        "predicted_output": "blue eyes."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: electrocution causes harm to animals. \nQuestion: what does electrocution cause harm to?",
         "output": "animals.",
-        "category": "Question Answering"
+        "predicted_output": "animals."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Incinerated mercury harms the respiratory and circulatory systems. \nQuestion: What harms the respiratory and circulatory systems?",
         "output": "incinerated mercury.",
-        "category": "Question Answering"
+        "predicted_output": "mercury."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: without oxygen the body dies. \nQuestion: What happens to the body without oxygen?",
         "output": "dies.",
-        "category": "Question Answering"
+        "predicted_output": "it dies."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Animals protect themselves from predators by blending in with their surroundings. \nQuestion: Why do animals blend in with their surroundings?",
         "output": "To protect themselves.",
-        "category": "Question Answering"
+        "predicted_output": "to protect themselves from predators."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Water can be deceptive. \nQuestion: What can be deceptive?",
         "output": "water.",
-        "category": "Question Answering"
+        "predicted_output": "water."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Plucking a string on a guitar creates sound. \nQuestion: How does a guitar create sound?",
         "output": "Plucking a string.",
-        "category": "Question Answering"
+        "predicted_output": "plucking a string on a guitar creates sound."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Insectivorous birds typically travel long distances. \nQuestion: Insectivorous birds typically do what?",
         "output": "travel long distances.",
-        "category": "Question Answering"
+        "predicted_output": "travel long distances."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Scientists who find and study fossils build fires with natural vegetation. \nQuestion: Scientists who find and study fossils build fires with what?",
         "output": "natural vegetation.",
-        "category": "Question Answering"
+        "predicted_output": "natural vegetation."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Air carries moisture that causes a liquid to form. \nQuestion: Air carries moisture that causes a what to form?",
         "output": "liquid.",
-        "category": "Question Answering"
+        "predicted_output": "liquid"
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Birds have high levels of intelligence and are wired to learn. \nQuestion: What have high levels of intelligence and are wired to learn?",
         "output": "birds.",
-        "category": "Question Answering"
+        "predicted_output": "birds."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: gametes pass out of the body through the urethra. \nQuestion: What pass out of the body through the urethra?",
         "output": "gametes.",
-        "category": "Question Answering"
+        "predicted_output": "gametes."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: oxygen and heat are transported to other parts of the body. \nQuestion: What is transported to other parts of the body?",
         "output": "oxygen and heat.",
-        "category": "Question Answering"
+        "predicted_output": "oxygen and heat."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Clusters form around hydrothermal vents to ensure survival. \nQuestion: How is survival ensured around hydrothermal vents?",
         "output": "Being in a cluster.",
-        "category": "Question Answering"
+        "predicted_output": "by clustering"
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Polyps usually reproduce several different ways. \nQuestion: Polyps usually reproduce how?",
         "output": "several different ways.",
-        "category": "Question Answering"
+        "predicted_output": "several different ways."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: animals hunt prey in order to eat. \nQuestion: animals hunt prey for what reason?",
         "output": "to eat.",
-        "category": "Question Answering"
+        "predicted_output": "to eat."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Replication occurs in the cellular material inside the plasma membrane. \nQuestion: What occurs in the cellular material inside the plasma membrane?",
         "output": "replication.",
-        "category": "Question Answering"
+        "predicted_output": "replication."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Most frogs breathe with gills as larvae and with lungs as adults. \nQuestion: What breathes with gills as larvae and with lungs as adults.?",
         "output": "Frogs.",
-        "category": "Question Answering"
+        "predicted_output": "frogs."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: a dam can form a lake. \nQuestion: What can a dam form?",
         "output": "lake.",
-        "category": "Question Answering"
+        "predicted_output": "a lake."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Plants detect and respond to diurnal cycles. \nQuestion: What is the name of the light cycle that plants detect?",
         "output": "diurnal.",
-        "category": "Question Answering"
+        "predicted_output": "diurnal."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: sea turtles and fish share sources of food. \nQuestion: What shares a food source with fish?",
         "output": "sea turtles.",
-        "category": "Question Answering"
+        "predicted_output": "sea turtles."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Recycling reduces negative impacts on the environment. \nQuestion: How does recycling impact the environment?",
         "output": "reduces negative impacts.",
-        "category": "Question Answering"
+        "predicted_output": "positive."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Making cardboard from newsprint has a positive impact on the environment. \nQuestion: Making cardboard from what has a positive impact on the environment?",
         "output": "newsprint.",
-        "category": "Question Answering"
+        "predicted_output": "newsprint"
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: changes in successive generations of a species occur in response to a change in the environment. \nQuestion: Change happens to what of a species in response to changes in the environment?",
         "output": "successive generations.",
-        "category": "Question Answering"
+        "predicted_output": "genes."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: development is rapid in childhood. \nQuestion: what is rapid in childhood?",
         "output": "development.",
-        "category": "Question Answering"
+        "predicted_output": "development."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Animals communicate with pheromones. \nQuestion: What are pheromones used for?",
         "output": "Communication.",
-        "category": "Question Answering"
+        "predicted_output": "to attract mates."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Forming coal requires bruised or damaged vegetables. \nQuestion: Forming coal requires what?",
         "output": "bruised or damaged vegetables.",
-        "category": "Question Answering"
+        "predicted_output": "bruised or damaged vegetables."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Chlamydia is not caused by a virus. \nQuestion: What is not caused by a virus?",
         "output": "chlamydia.",
-        "category": "Question Answering"
+        "predicted_output": "chlamydia."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: most modern evergreens are trees with woody trunks. \nQuestion: what type of trees have woody trunks?",
         "output": "evergreens.",
-        "category": "Question Answering"
+        "predicted_output": "evergreens."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: The windiest side of a mountainous peninsula would have the most precipitation. \nQuestion: The windiest side of a mountainous peninsula also has the most of what?",
         "output": "precipitation.",
-        "category": "Question Answering"
+        "predicted_output": "precipitation."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: if weather is stormy then there is a greater chance of precipitation. \nQuestion: If the weather is stormy then there is a greater chance of what?",
         "output": "precipitation.",
-        "category": "Question Answering"
+        "predicted_output": "precipitation."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: cancer of a parent's cells can cause a new trait to appear in their offspring. \nQuestion: what can happen to a parent's cells to cause a new trait in the offspring?",
         "output": "cancer.",
-        "category": "Question Answering"
+        "predicted_output": "cancer."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Experiments are often done in a laboratory. \nQuestion: What is usually done in a laboratory?",
         "output": "science experiments.",
-        "category": "Question Answering"
+        "predicted_output": "experiments."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: disease-causing microorganisms have a negative impact on the body. \nQuestion: What has a negative impact on the body?",
         "output": "disease-causing microorganisms.",
-        "category": "Question Answering"
+        "predicted_output": "disease-causing microorganisms."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Sunlight is made out of energy. \nQuestion: Sunlight is made of?",
         "output": "energy.",
-        "category": "Question Answering"
+        "predicted_output": "energy."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Body fat makes up a steroid hormone. \nQuestion: what exists in some steroids?",
         "output": "body fat.",
-        "category": "Question Answering"
+        "predicted_output": "body fat."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: perspiration reduces body heat. \nQuestion: what reduces body heat?",
         "output": "perspiration.",
-        "category": "Question Answering"
+        "predicted_output": "perspiration."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: hagfish have a backbone. \nQuestion: What do hagfish have?",
         "output": "A backbone.",
-        "category": "Question Answering"
+        "predicted_output": "a backbone."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Breaking down basalt from larger into smaller pieces by weather is weathering. \nQuestion: What is broken down from larger to smaller pieces by weather in weathering?",
         "output": "basalt.",
-        "category": "Question Answering"
+        "predicted_output": "basalt."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Viruses do not have walls and membranes. \nQuestion: What lacks walls and membranes?",
         "output": "viruses.",
-        "category": "Question Answering"
+        "predicted_output": "viruses."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: heat always flows to cooler objects as thermal conduction occurs. \nQuestion: When thermal conduction occurs, what always flows to what?",
         "output": "heat to cooler objects.",
-        "category": "Question Answering"
+        "predicted_output": "heat always flows to cooler objects."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Hormones and neurotransmitters behave in common ways. \nQuestion: Neurotransmitters and hormones are what in their function?",
         "output": "similar.",
-        "category": "Question Answering"
+        "predicted_output": "chemicals."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Toyota causes pollution. \nQuestion: What causes pollution?",
         "output": "Toyota.",
-        "category": "Question Answering"
+        "predicted_output": "Toyota."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: cigars cause direct damage to the lungs. \nQuestion: what causes direct damage to the lungs?",
         "output": "cigars.",
-        "category": "Question Answering"
+        "predicted_output": "cigars."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Stony is the most common type underwater anthozoa and has large colonies in shallow tropical water. \nQuestion: What is the most common type of anthozoa and has large colonies in shallow tropical water?",
         "output": "Stony.",
-        "category": "Question Answering"
+        "predicted_output": "stony."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: salamanders breathe with gills as larvae and lungs as adults. \nQuestion: what breathes with gills as larvae and lungs as adults?",
         "output": "salamanders.",
-        "category": "Question Answering"
+        "predicted_output": "salamanders."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Earth 's tilt on its rotating axis causes winter. \nQuestion: What is caused by Earth 's tilt on its rotating axis?",
         "output": "Winter.",
-        "category": "Question Answering"
+        "predicted_output": "winter."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: food can cause illness. \nQuestion: What is a source of  illness?",
         "output": "food.",
-        "category": "Question Answering"
+        "predicted_output": "food."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Cells are not the simplest organisms. \nQuestion: Are there organisms simpler than cells.?",
         "output": "yes.",
-        "category": "Question Answering"
+        "predicted_output": "Yes."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: frogs breathe with gills as larvae and lungs as adults. \nQuestion: what breathe with gills as larvae and lungs as adults?",
         "output": "frogs.",
-        "category": "Question Answering"
+        "predicted_output": "frogs."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Flowers attract pollinators like animals that eat apples and disperse the undigested seeds. \nQuestion: What attract pollinators like animals that eat apples and disperse the undigested seeds?",
         "output": "flowers.",
-        "category": "Question Answering"
+        "predicted_output": "Flowers."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Chromosomes contain genes, which code for body tissue. \nQuestion: Chromosomes contain genes, which code for?",
         "output": "body tissue.",
-        "category": "Question Answering"
+        "predicted_output": "body tissue."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Plants release oxygen during the day and alter their position to sleep in the evening. \nQuestion: Plants release oxygen during the day and alter their position to what?",
         "output": "sleep.",
-        "category": "Question Answering"
+        "predicted_output": "sleep"
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: platypuses reproduce by laying eggs. \nQuestion: What reproduces by laying eggs?",
         "output": "platypuses.",
-        "category": "Question Answering"
+        "predicted_output": "platypuses."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: frogs need their skin to survive. \nQuestion: What do frogs need to survive?",
         "output": "skin.",
-        "category": "Question Answering"
+        "predicted_output": "skin."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Protection for the eyes is mandatory in the laboratory. \nQuestion: What is often mandatory in the lab?",
         "output": "protection for the eyes.",
-        "category": "Question Answering"
+        "predicted_output": "protection for the eyes."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: meteorology requires studying weather. \nQuestion: What requires studying the weather?",
         "output": "meteorology.",
-        "category": "Question Answering"
+        "predicted_output": "meteorology."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Alveoli are used for breathing air by land animals. \nQuestion: What are used for breathing air by land animals?",
         "output": "alveoli.",
-        "category": "Question Answering"
+        "predicted_output": "alveoli."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Lemon juice changes the color of litmus paper from blue to red. \nQuestion: What changes the color of litmus paper from blue to red?",
         "output": "lemon juice.",
-        "category": "Question Answering"
+        "predicted_output": "lemon juice."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Lobsters do not have a backbone. \nQuestion: What do lobsters lack?",
         "output": "backbone.",
-        "category": "Question Answering"
+        "predicted_output": "backbone."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Vertebrates are animals that have a spinal column in their skeletal system. \nQuestion: If an animal has a spinal column in their skeletal system what is it called?",
         "output": "vertebrate.",
-        "category": "Question Answering"
+        "predicted_output": "vertebrate."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Birth may be followed by parental nurturing. \nQuestion: What do parents do after giving birth to their offspring?",
         "output": "nurture them.",
-        "category": "Question Answering"
+        "predicted_output": "nurturing."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Lung cancer is a consequence of tobacco fumes. \nQuestion: What is lung cancer a consequence of?",
         "output": "tobacco fumes.",
-        "category": "Question Answering"
+        "predicted_output": "tobacco fumes."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Mosses, liverworts and hornworts occupy niches in moist habitats. \nQuestion: What lives in moist habitats?",
         "output": "mosses, liverworts, hornworts.",
-        "category": "Question Answering"
+        "predicted_output": "mosses, liverworts and hornworts."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: fractures heal when multinucleated cells form new bone. \nQuestion: what forms new bone when fractures heal?",
         "output": "multinucleated cells.",
-        "category": "Question Answering"
+        "predicted_output": "multinucleated cells."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: whale sharks are therian mammals. \nQuestion: What are therian mammals?",
         "output": "whale sharks.",
-        "category": "Question Answering"
+        "predicted_output": "mammals."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Wound healing requires protein. \nQuestion: what does wound healing require?",
         "output": "protein.",
-        "category": "Question Answering"
+        "predicted_output": "protein."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: marine environments have thick, slimy mucus. \nQuestion: what environments contain thick, slimy mucus?",
         "output": "marine.",
-        "category": "Question Answering"
+        "predicted_output": "marine environments."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Sea lions have a layer of blubber to insulate the body. \nQuestion: How do sea lions keep warm?",
         "output": "Blubber.",
-        "category": "Question Answering"
+        "predicted_output": "blubber."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: metling means changing from a solid into a liquid by adding something measured in calories. \nQuestion: Melting means changing from a solid to a liquid by adding what?",
         "output": "Something measured in calories.",
-        "category": "Question Answering"
+        "predicted_output": "calories."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: gold deposits are found in fissures. \nQuestion: Where are deposits of gold found?",
         "output": "fissures.",
-        "category": "Question Answering"
+        "predicted_output": "fissures."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: coliform are reduced with pasteurization. \nQuestion: what are reduced with pasteurization?",
         "output": "coliform.",
-        "category": "Question Answering"
+        "predicted_output": "coliform."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: ages 12-18 is a time of significant mental, emotional, and social changes. \nQuestion: what is a time of significant mental, emotional, and social changes?",
         "output": "ages 12-18.",
-        "category": "Question Answering"
+        "predicted_output": "ages 12-18."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Molecules of a person's genetic fingerprint are encoded with instructions that tell cells what to do. \nQuestion: Molecules of what are encoded with instructions that tell cells what to do?",
         "output": "A person's genetic fingerprint.",
-        "category": "Question Answering"
+        "predicted_output": "DNA."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: cows make nutritious fluid. \nQuestion: What do cows make?",
         "output": "nutritious fluid.",
-        "category": "Question Answering"
+        "predicted_output": "nutritious fluid."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Enphysema is often caused by exposure to tobacco smoke. \nQuestion: Emphysema is often cause by exposure to:?",
         "output": "tobacco smoke.",
-        "category": "Question Answering"
+        "predicted_output": "tobacco smoke."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: courtship precedes reproduction. \nQuestion: What precedes reproduction?",
         "output": "courtship.",
-        "category": "Question Answering"
+        "predicted_output": "courtship."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: When the muscles around the prostate gland contract, sperm is propelled from the epidiymes. \nQuestion: What happens when muscles around the prostate gland contracts?",
         "output": "Sperm leaves the epidiymes.",
-        "category": "Question Answering"
+        "predicted_output": "sperm is propelled from the epidiymes."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: High temperatures can cause toxic fumes. \nQuestion: What can create toxic fumes?",
         "output": "High temperatures.",
-        "category": "Question Answering"
+        "predicted_output": "high temperatures."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: cats require water for survival. \nQuestion: what requires water for survival?",
         "output": "cats.",
-        "category": "Question Answering"
+        "predicted_output": "cats."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Minerals are necessary for children's growths. \nQuestion: What is necessary for a growing child?",
         "output": "minerals.",
-        "category": "Question Answering"
+        "predicted_output": "minerals."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: fourty percent of the total mass of organisms at a trophic level is carbon. \nQuestion: What is fourty percent of the total mass of organisms at a trophic level?",
         "output": "carbon.",
-        "category": "Question Answering"
+        "predicted_output": "carbon."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: snakes produce amniotic eggs. \nQuestion: what produces amniotic eggs?",
         "output": "snakes.",
-        "category": "Question Answering"
+        "predicted_output": "snakes."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: Navigation requires maps for travelling. \nQuestion: Navigation requires what?",
         "output": "maps for travelling.",
-        "category": "Question Answering"
+        "predicted_output": "maps."
     },
     {
+        "category": "Question Answering",
         "instruction": "Write a correct answer to the given question based on its associated fact. Make sure that your answer is contained in the associated fact. Don't be creative and introduce any new word that is not mentioned in the associated fact! Remember that the associated fact has been rearranged to form the question. So, the correct answer words must lie within the associated fact. The correct answer can be a word, phrase, or even a sentence.",
         "input": "Fact: some insects can use their antennae to detect compressional waves. \nQuestion: what do some insects use their antennae to detect?",
         "output": "compressional waves.",
-        "category": "Question Answering"
+        "predicted_output": "compressional waves."
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: With fewer trees, the air is drier and droughts are more common.\n Question: John was looking at the weather data and making some observations. He saw that with less trees, droughts were \n Choices: A)Greater \nB)Lesser",
         "output": "Greater",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: For bases we can state the folllowing: The higher the pH of a substance, the more basic it is.\n Question: Sue measured water to be a pH of 7, and she measured bleach at a pH of 11. Which substance is more basic? \n Choices: A)water \nB)bleach",
         "output": "bleach",
-        "category": "Question Answering"
+        "predicted_output": "bleach"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more rope segments on a pully that are helping to do the lifting work, the less force that is needed for the job.\n Question: Bob increased the rope segments on his pully; this means he will need to use _____ force on it. \n Choices: A)more \nB)less",
         "output": "less",
-        "category": "Question Answering"
+        "predicted_output": "less"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The voice becomes deeper as the larynx in the throat grows larger.\n Question: If your larynx were to grow, your voice would become _____ deep. \n Choices: A)more \nB)less",
         "output": "more",
-        "category": "Question Answering"
+        "predicted_output": "less"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Acids have pH values below 7. The lower the pH value, the more strongly acidic the substance.\n Question: If Mary is cleaning her pool and she increases the pH value of the water, what happens to the acidity of the water? \n Choices: A)increases \nB)decreases",
         "output": "decreases",
-        "category": "Question Answering"
+        "predicted_output": "increases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The closer to the surface an aquifer is, the easier it is to get the water.\n Question: An aquifer deep down will provide _____ access to its water than one near the surface. \n Choices: A)easier \nB)harder",
         "output": "harder",
-        "category": "Question Answering"
+        "predicted_output": "harder"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: For a given medium such as air, sound has a slower speed at lower temperatures.\n Question: Mike wants his voice to travel slowly, so he will speak in a room that is \n Choices: A)colder \nB)warmer",
         "output": "colder",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: In the larger container we will still have the same number of gas particles, but now they are filling a much larger space.\n Question: If Jim has a container of hydrogen gas that is 50 liters in volume and he moves the gas to a container that is 40 liters in volume, what happens to the density of the gas? \n Choices: A)increases \nB)decreases",
         "output": "increases",
-        "category": "Question Answering"
+        "predicted_output": "increases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Larger alkenes have lower boiling and melting points, so they are liquids or waxy solids at room temperature.\n Question: The largest alkenes should have the _____ boiling and melting points. \n Choices: A)lowest \nB)highest",
         "output": "lowest",
-        "category": "Question Answering"
+        "predicted_output": "highest"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Thicker resistors offer less resistance than thinner resistors.\n Question: The thinner a resistor equals _____ resistance. \n Choices: A)less \nB)more",
         "output": "more",
-        "category": "Question Answering"
+        "predicted_output": "more"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: As more resistors are added in series, the total resistance of the circuit increases.\n Question: Causing a series to lose resistors will result in a/an _____ in the total resistance of the circuit. \n Choices: A)increase \nB)decrease",
         "output": "decrease",
-        "category": "Question Answering"
+        "predicted_output": "increase"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: More particles inside the container means more collisions, and more collisions mean a higher pressure.\n Question: Sara is in a container representing an object. Her container has 30 balls flying around, representing particles. Tyler is in another container, and his contains 5 balls. Which person's container likely would be under the least pressure? \n Choices: A)Sara's \nB)Tyler's",
         "output": "Tyler's",
-        "category": "Question Answering"
+        "predicted_output": "B"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: When we add resistors in parallel to each other the total resistance decreases and the current increases.\n Question: Eric adds resistors in parallel to a circuit. The total current \n Choices: A)increases \nB)decreases",
         "output": "increases",
-        "category": "Question Answering"
+        "predicted_output": "decreases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: An increase in predators, the emergence of a new disease, or the loss of habitat are just three possible problems that will decrease a population.\n Question: The population of coyotes has risen in Michigan, this raise in opportunistic predators has made the cat population \n Choices: A)raise \nB)lower.",
         "output": "lower.",
-        "category": "Question Answering"
+        "predicted_output": "lower"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: A thinner wire is more difficult for electrons to move through than a thicker wire.\n Question: If you use a thin piece of wire then electrons move \n Choices: A)easier \nB)harder",
         "output": "harder",
-        "category": "Question Answering"
+        "predicted_output": "harder"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The surface is heated by the Sun and some of that heat radiates back into the air. This makes the temperature higher near the surface than at higher altitudes.\n Question: Devon's cat, Fluffy, is looking for a nice warm spot to lay out in the sun. Because of how the sun heats the earth, and how some heat radiates into the air, the cat laying high up in a tree branch, rather than on the ground, would keep the cat \n Choices: A)cooler \nB)warmer",
         "output": "cooler",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: At higher temperatures, particles of reactants have more energy, so they move faster. They are more likely to bump into one another and to collide with greater force.\n Question: When something gets very hot does it move \n Choices: A)slower \nB)faster",
         "output": "slower",
-        "category": "Question Answering"
+        "predicted_output": "faster"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: In an inverse relationship, when one variable increases, the other variable decreases.\n Question: As goats are removed from an area with grass what will happen to the grass levels? \n Choices: A)increase \nB)decrease",
         "output": "increase",
-        "category": "Question Answering"
+        "predicted_output": "decrease"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: If the gas is heated, the particles will move faster as they gain more energy.\n Question: Tina cools some oxygen gas. The oxygen particles will move \n Choices: A)faster \nB)slower",
         "output": "slower",
-        "category": "Question Answering"
+        "predicted_output": "faster"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The bigger the waves are and the more sediment they carry, the more erosion they cause.\n Question: Karly is studying two rivers and how they are affecting the rock around them. If the 2nd river she looks at is half as big as the first river she is studying, then Karly would expect to see _____ erosion caused by the 2nd river. \n Choices: A)more \nB)less",
         "output": "less",
-        "category": "Question Answering"
+        "predicted_output": "less"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Wave frequency can be measured by counting the number of crests or compressions that pass the point in 1 second or other time period. The higher the number is, the greater is the frequency of the wave.\n Question: If Milo increases the number of crests of his wave, what happens to the frequency of his wave? \n Choices: A)increases \nB)decreases",
         "output": "increases",
-        "category": "Question Answering"
+        "predicted_output": "increases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The higher the pH value is, the stronger the base.\n Question: If Jim decreases the pH value of his swimming pool, the base becomes \n Choices: A)stronger \nB)weaker",
         "output": "weaker",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: A stronger acid produces a greater concentration of ions than a weaker acid.\n Question: John was looking at the substances and noticed something. The stronger that the acid was, the concentration of Ions became \n Choices: A)Larger \nB)Smaller",
         "output": "Larger",
-        "category": "Question Answering"
+        "predicted_output": "Smaller"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Longer length resistors will offer more resistance than shorter resistors.\n Question: If you have a wire that is long it will have \n Choices: A)low resistance \nB)high resistance",
         "output": "high resistance",
-        "category": "Question Answering"
+        "predicted_output": "high resistance"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The further objects are away from each other, the smaller the gravitational force.\n Question: Planets coming closer means there will be _____ gravitational force between them. \n Choices: A)more \nB)less",
         "output": "more",
-        "category": "Question Answering"
+        "predicted_output": "less"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Natural selection is the process by which living things with beneficial traits produce more offspring, so their traits become more common over time.\n Question: Ray analyzed the color of moths for a project. He notices that black moths produce more adult offspring than white ones. The white moth's traits will likely become _____ common over time. \n Choices: A)less \nB)more",
         "output": "less",
-        "category": "Question Answering"
+        "predicted_output": "more"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: More people also means more clearing of land for agriculture and development.\n Question: A city will grow smaller when the number of people who are there \n Choices: A)grows \nB)shrinks",
         "output": "shrinks",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more energy the particles in matter have, the faster and more strongly they vibrate.\n Question: Compared to a block of ice , would the water molecules in a kettle of boiling water move \n Choices: A)faster? \nB)slower",
         "output": "faster?",
-        "category": "Question Answering"
+        "predicted_output": "faster"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Higher frequency waves have greater energy.\n Question: If Jim changes his radio transmitter to a higher frequency, the energy produced is \n Choices: A)greater \nB)smaller",
         "output": "greater",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The bigger the waves are and the more sediment they carry, the more erosion they cause.\n Question: When there are a lot of waves things are eroded \n Choices: A)faster \nB)slower",
         "output": "faster",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Solar power is expensive, but as demand increases technology improves and costs decrease.\n Question: Years from now, solar power will be _____ than it is today. \n Choices: A)more expensive \nB)less expensive",
         "output": "less expensive",
-        "category": "Question Answering"
+        "predicted_output": "less expensive"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The farther apart you move your hands, the stronger the force of the rubber band pulling your hands together.\n Question: As you pull on a string the harder that you pull it the _____ the force. \n Choices: A)greater \nB)weaker",
         "output": "greater",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The closer objects are to each other, the stronger the gravitational force between them.\n Question: When a star is moving away from a planet, the star will be pulled into it if the gravitational force is \n Choices: A)weaker \nB)stronger",
         "output": "weaker",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Smoking reduces the amount of oxygen available for diffusion at the lungs, so less oxygen gets absorbed and blood is oxygenated to a lesser degree.\n Question: Suppose that Mary smokes cigarettes for 20 years. If you measured the oxygen levels in her blood before she started smoking and compared them to oxygen levels later in her life, what would you find? \n Choices: A)less oxygen in her blood later in life \nB)more oxygen in her blood later in life",
         "output": "less oxygen in her blood later in life",
-        "category": "Question Answering"
+        "predicted_output": "more oxygen in her blood later in life"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Water near shore generally has more dissolved nutrients than water farther from shore.\n Question: Chris is studying Lake Michigan. He takes soil samples from the Lake in two places. The first sample he takes from right near the shore. The second sample is taken from the middle of the lake. The _____ sample will have greater dissolved nutrients in it. \n Choices: A)first \nB)second",
         "output": "first",
-        "category": "Question Answering"
+        "predicted_output": "first"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Older age, male gender, and a family history of cardiovascular disease all increase the risk of developing cardiovascular diseases and cant be controlled.\n Question: Rich is 60 years old and Tony is 30 years old. _____ has a greater risk of developing cardiovascular disease. \n Choices: A)Rich \nB)Tony",
         "output": "Rich",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Light-skinned people get sunburned more quickly than people with darker skin.\n Question: Two people are standing out in the sunlight; one with dark skin, one with light skin. The person with dark skin will be burned \n Choices: A)more \nB)less",
         "output": "less",
-        "category": "Question Answering"
+        "predicted_output": "less"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The longer the resistor, the more resistance it has.\n Question: It Jim makes his resistor longer, the resistance is exhibits is \n Choices: A)smaller \nB)greater",
         "output": "greater",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Electrons at lower energy levels, which are closer to the nucleus, have less energy.\n Question: Sally has an electron. Sue has an electron that is farther from the nucleus. Whose electron has lower energy? \n Choices: A)Sally \nB)Sue",
         "output": "Sally",
-        "category": "Question Answering"
+        "predicted_output": "Sue"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The warmer a climate is, the more types of vegetation it will have and the greater the rate of biological weathering.\n Question: If Mona is exploring different continents and she notices that Africa is cooler then North America, which continent will have more types of vegetation? \n Choices: A)North America \nB)Africa",
         "output": "North America",
-        "category": "Question Answering"
+        "predicted_output": "Africa"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Solar power is expensive, but as demand increases technology improves and costs decrease.\n Question: If demand for solar power were to fall, the power would become _____ expensive. \n Choices: A)less \nB)more",
         "output": "more",
-        "category": "Question Answering"
+        "predicted_output": "more"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The older a person is, the greater their chance of developing a cardiovascular disease.\n Question: Derek's dad was now at a reduced risk of getting a cardiovascular disease, even though nothing about his lifestyle or diet changed. The thing that did change is that his dad is now considered to be at a \n Choices: A)larger age \nB)smaller age",
         "output": "smaller age",
-        "category": "Question Answering"
+        "predicted_output": "larger age"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Nations that have more industry produce more hazardous waste.\n Question: If America has a bigger industrial sector then China, which country will produce more hazardous waste? \n Choices: A)America \nB)China",
         "output": "America",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Larger telescopes can collect more light.\n Question: To view the most stars, use a larger telescope because it can collect \n Choices: A)more or \nB)less light.",
         "output": "more or",
-        "category": "Question Answering"
+        "predicted_output": "less light"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: If salt is added to a volume of water, there are more molecules in the same volume, so the water is denser.\n Question: Peter removed salt to his juice one morning. The mixture became _____ dense. \n Choices: A)more \nB)less",
         "output": "less",
-        "category": "Question Answering"
+        "predicted_output": "less"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The upper rock layers are much younger.\n Question: Tom was digging in his backyard one day, after two inches he picked up an oval shaped rock. Tom kept digging and after twelve inches he picked up a square shaped rock, which rock was younger? \n Choices: A)The Oval Shaped Rock \nB)The Square Shaped Rock",
         "output": "The Oval Shaped Rock",
-        "category": "Question Answering"
+        "predicted_output": "The Square Shaped Rock"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Exercising muscles increases their size, and bigger muscles have greater strength.\n Question: Dwayne Johnson is weaker than Kevin Hart because he exercises less and therefore his muscles have grown \n Choices: A)larger or \nB)smaller.",
         "output": "smaller.",
-        "category": "Question Answering"
+        "predicted_output": "larger"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more rope segments on a pully that are helping to do the lifting work, the less force that is needed for the job.\n Question: If Jim decreases the number of segments on a rope he is using as a pully, the amount of force that he needs to apply when lifting something with the rope \n Choices: A)increases \nB)decreases",
         "output": "increases",
-        "category": "Question Answering"
+        "predicted_output": "decreases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more basic a solution is, the closer its pH value will be to 14.\n Question: When a number on the pH scale is very low it is said to be \n Choices: A)acidic \nB)basic",
         "output": "acidic",
-        "category": "Question Answering"
+        "predicted_output": "B"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Objects with greater mass have a stronger force of gravity.\n Question: Greta lost weight after eating food. Her force of gravity \n Choices: A)increased \nB)decreased",
         "output": "decreased",
-        "category": "Question Answering"
+        "predicted_output": "decreased"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The greater the objects mass, the greater the force of gravitational attraction.\n Question: If Mona adds some mass to the object she is creating for her school project, what happens to the gravitational attraction of that object? \n Choices: A)increase \nB)decrease",
         "output": "increase",
-        "category": "Question Answering"
+        "predicted_output": "increase"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Exhaling, or breathing out, decreases the size of the chest, which increases air pressure inside the lungs.\n Question: If Mary is running and race and begins to breathe hard, what happens to the air pressure in her lungs as she constricts her chest? \n Choices: A)increases \nB)decreases",
         "output": "increases",
-        "category": "Question Answering"
+        "predicted_output": "decreases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: As humidity increases, the water potential gradient across the inside and outside the leaf become more equal, and so the rate of transpiration decreases.\n Question: Milo operates a greenhouse for profit. One day he turns down the humidity controls. What will happen to the rate of transpiration of the plants in the greenhouse? \n Choices: A)increase \nB)decrease",
         "output": "increase",
-        "category": "Question Answering"
+        "predicted_output": "decrease"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: If you are standing on the shore and a ship is going out to sea, the ship gets smaller as it moves further away from you.\n Question: Dan is watching the ship leave the dock. While the ship is near him, it is massive. However, as the ship floats away, it begins to look \n Choices: A)bigger \nB)smaller",
         "output": "smaller",
-        "category": "Question Answering"
+        "predicted_output": "smaller"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: We also saw that adding resistors to a series circuit increases the total resistance of the circuit, causing the current to decrease.\n Question: Jim loves to build circuits. One day he builds a circuit that has less resistors then any other circuit he has built. Since the circuit has less resistors the amount of current in the circuit is \n Choices: A)reduced \nB)increased",
         "output": "increased",
-        "category": "Question Answering"
+        "predicted_output": "increased"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more rope segments on a pully that are helping to do the lifting work, the less force that is needed for the job.\n Question: Will has a pully with 5 rope segments. Alan's pully has an equal size rope with 7 segments. Which person needs less force to do the same job? \n Choices: A)Will \nB)Alan",
         "output": "Alan",
-        "category": "Question Answering"
+        "predicted_output": "Alan"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The smaller a population is, the more allele frequencies may drift.\n Question: If Milo is part of a larger population then Jerry is, which person's population will experience greater drifting of allele frequencies? \n Choices: A)Milo \nB)Jerry",
         "output": "Jerry",
-        "category": "Question Answering"
+        "predicted_output": "Jerry"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Light-skinned people get sunburned more quickly than people with darker skin.\n Question: A person that is white will get _____ than an African American person at the beach. \n Choices: A)less sunburned \nB)more sunburned",
         "output": "more sunburned",
-        "category": "Question Answering"
+        "predicted_output": "less sunburned"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Nations that have more industry produce more hazardous waste.\n Question: The United States manufactured many more products last year than Belize did. This results in _____ producing a higher amount of hazardous waste. \n Choices: A)Belize \nB)the United States",
         "output": "the United States",
-        "category": "Question Answering"
+        "predicted_output": "B"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Higher-frequency waves have more energy.\n Question: Andy is noticing that all of the waves in the area are higher-frequency waves. Andy can then deduce that these waves have energy that is \n Choices: A)more \nB)less",
         "output": "more",
-        "category": "Question Answering"
+        "predicted_output": "more"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: As you increase the number of carbon atoms in a hydrocarbon, the number of isomers quickly increases.\n Question: Jeffrey increases the number of carbon atoms to a natural gas hydrocarbon in a lab. The isomers \n Choices: A)increase \nB)decrease",
         "output": "increase",
-        "category": "Question Answering"
+        "predicted_output": "increase"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: When two skateboarders push against each other, it causes them to move apart. The harder they push together, the farther apart they move.\n Question: When you use more force to move a car it will \n Choices: A)move less \nB)move further",
         "output": "move further",
-        "category": "Question Answering"
+        "predicted_output": "move further"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Exhaling, or breathing out, decreases the size of the chest, which increases air pressure inside the lungs.\n Question: When people breathe out their chest becomes \n Choices: A)larger \nB)smaller",
         "output": "smaller",
-        "category": "Question Answering"
+        "predicted_output": "smaller"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more field lines that are drawn, the stronger the field.\n Question: Dana draws many field lines on the chart. The field she is representing is likely \n Choices: A)strong \nB)weak",
         "output": "strong",
-        "category": "Question Answering"
+        "predicted_output": "weak"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Muscles that are exercised are bigger and stronger than muscles that are not exercised.\n Question: If a muscle is not exercised, it will become \n Choices: A)bigger \nB)smaller",
         "output": "smaller",
-        "category": "Question Answering"
+        "predicted_output": "smaller"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Increasing the number of resistors in a series circuit increases the overall resistance of the circuit.\n Question: If Jim removes resistors from the circuit he is building for his school science project, what will happen to the overall resistance of the circuit? \n Choices: A)it will increase \nB)it will decrease",
         "output": "it will decrease",
-        "category": "Question Answering"
+        "predicted_output": "it will increase"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more curved the surface of a lens is, the more it refracts the light that passes through it.\n Question: In a science class, the professor demonstrates refraction to the class. First, the professor shows a curved lens from a binocular, and then a flat pane of glass, demonstrating that \n Choices: A)the curved lens refracts more light \nB)the flat pane refracts more light.",
         "output": "the curved lens refracts more light",
-        "category": "Question Answering"
+        "predicted_output": "the curved lens refracts more light"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The rocket goes upwards because the hot gases shoot downwards out of the nozzle. The faster the gases go downwards, the faster the rocket goes upwards.\n Question: Will launches a rocket off the ground. As the speed of the gas that comes from the boosters increases, the rocket's height reached \n Choices: A)decreases \nB)increases",
         "output": "increases",
-        "category": "Question Answering"
+        "predicted_output": "increases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: As more resistors are added in series, the total resistance of the circuit increases.\n Question: If Ed adds a resistor to the circuit, the resistance will be \n Choices: A)greater \nB)lower.",
         "output": "greater",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: More pollutants mean poorer air quality.\n Question: You would find worse air near a \n Choices: A)factory \nB)wooded area.",
         "output": "factory",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Machines make work easier by increasing the amount of force that is applied, increasing the distance over which the force is applied, or changing the direction in which the force is applied.\n Question: Kate makes a machine that is very unproductive, and it gets work done slowly, because it uses force in amounts that are \n Choices: A)lesser \nB)greater",
         "output": "lesser",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: As you increase the number of carbon atoms in a hydrocarbon, the number of isomers quickly increases.\n Question: Jeffrey decreases the number of carbon atoms to a natural gas hydrocarbon in a lab. The isomers \n Choices: A)increase \nB)decrease",
         "output": "decrease",
-        "category": "Question Answering"
+        "predicted_output": "decrease"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Wave frequency can be measured by counting the number of crests or compressions that pass the point in 1 second or other time period. The higher the number is, the greater is the frequency of the wave.\n Question: Ron watches a wave for 10 seconds and notices 10 crests. He watches another wave for 10 seconds and sees 5 crests. Which wave has a greater frequency? \n Choices: A)10 crests \nB)5 crests",
         "output": "10 crests",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Nations that have more industry produce more hazardous waste.\n Question: When you have a lot of factories in an area the level of trash will \n Choices: A)increase \nB)decrease",
         "output": "increase",
-        "category": "Question Answering"
+        "predicted_output": "decrease"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Areas near the equator are warmer than areas near the poles because they receive more direct sunlight.\n Question: Places that are near the middle of earth are generally \n Choices: A)colder \nB)warmer",
         "output": "warmer",
-        "category": "Question Answering"
+        "predicted_output": "warmer"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The darker the urine, the less water it contains.\n Question: A doctor took two urine samples from Kyle, one on Tuesday and one on Wednesday. The Tuesday sample was a darker color than the Wednesday sample, which means that there was more water in \n Choices: A)the Tuesday sample \nB)the Wednesday sample.",
         "output": "the Wednesday sample.",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: An increase in predators, the emergence of a new disease, or the loss of habitat are just three possible problems that will decrease a population.\n Question: Lizzie visited a village where no predator wiped people out. The population got \n Choices: A)larger \nB)smaller",
         "output": "larger",
-        "category": "Question Answering"
+        "predicted_output": "smaller"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: On a hot day, an endotherm may give off more heat by increasing blood flow to the surface of the body.\n Question: When it gets cold out what happens to our blood flow? \n Choices: A)decreases \nB)increases",
         "output": "decreases",
-        "category": "Question Answering"
+        "predicted_output": "increases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Longer wavelength electromagnetic waves have lower frequencies, and shorter wavelength waves have higher frequencies.\n Question: Low frequency bass notes have what length wavelengths \n Choices: A)long \nB)short",
         "output": "long",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Solar power is expensive, but as demand increases technology improves and costs decrease.\n Question: Ryan noticed that a popular solar panel is _____ expensive than it was. \n Choices: A)more \nB)less",
         "output": "less",
-        "category": "Question Answering"
+        "predicted_output": "less"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The development of better missiles fostered better rocket technologies.\n Question: Ollie is a rocket scientist and was testing missiles. Better missiles likely result in _____ rockets. \n Choices: A)worse \nB)better",
         "output": "better",
-        "category": "Question Answering"
+        "predicted_output": "better"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: By using multiple stages, empty fuel containers could drop away. This reduced the mass of the rocket so that it could fly higher.\n Question: David is getting ready to fly into space on a rocket. As the rocket shoots upwards, part of the mass attaches, allowing the rocket to go \n Choices: A)higher \nB)lower",
         "output": "lower",
-        "category": "Question Answering"
+        "predicted_output": "higher"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The surface is heated by the Sun and some of that heat radiates back into the air. This makes the temperature higher near the surface than at higher altitudes.\n Question: If Jim climbs to the bottom of a mountain and takes the temperature after taking the temperature at the top of the mountain, which area will he get a higher reading at? \n Choices: A)top of the mountain \nB)bottom of the mountain",
         "output": "bottom of the mountain",
-        "category": "Question Answering"
+        "predicted_output": "top of the mountain"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Better farming techniques and machines increased the food supply and the distribution of food.\n Question: Jeff noticed the food supply changed over time in his city. The destruction of farming machines likely caused the food supply to \n Choices: A)decrease \nB)increase",
         "output": "decrease",
-        "category": "Question Answering"
+        "predicted_output": "increase"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: By using multiple stages, empty fuel containers could drop away. This reduced the mass of the rocket so that it could fly higher.\n Question: A rocket should be able to fly higher if its mass were \n Choices: A)higher \nB)lower",
         "output": "lower",
-        "category": "Question Answering"
+        "predicted_output": "lower"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: As the distance between the objects increases the magnetic force of attraction decreases.\n Question: Lisa is hitting a tennis ball against the wall. As the tennis ball bounces towards the wall and away from her, the magnetic force of attraction between the wall and the ball \n Choices: A)increases \nB)decreases.",
         "output": "increases",
-        "category": "Question Answering"
+        "predicted_output": "decreases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: As the Universe expands, galaxies move further and further apart.\n Question: When a city expands the distance across the city \n Choices: A)decreases \nB)increases",
         "output": "increases",
-        "category": "Question Answering"
+        "predicted_output": "increases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more extreme the amount of metamorphism, the more difficult it is to tell what the original rock was.\n Question: If pressure has exerted more force on a rock and increased it's metamorphism, would it be \n Choices: A)easier to determine what the original rock was \nB)harder to determine what the original rock was?",
         "output": "harder to determine what the original rock was?",
-        "category": "Question Answering"
+        "predicted_output": "harder to determine what the original rock was?"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: When your brain senses that your body temperature is increasing, it sends messages to the blood vessels in the skin to increase in diameter.\n Question: Derek felt cold as he stood in the shade, and since his body was cooling down, he knew that his blood vessels in his skin were \n Choices: A)expanding \nB)contracting",
         "output": "contracting",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: With higher frequencies, the microwaves also have more energy.\n Question: Tim adjusted his microwave so that it was at a lower frequency. This resulted in the waves inside the microwave to have \n Choices: A)less energy \nB)more energy.",
         "output": "less energy",
-        "category": "Question Answering"
+        "predicted_output": "more energy"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Electrons at lower energy levels, which are closer to the nucleus, have less energy.\n Question: Sally has an electron. Sue has an electron that is closer to the nucleus. Whose electron has lower energy? \n Choices: A)Sally \nB)Sue",
         "output": "Sue",
-        "category": "Question Answering"
+        "predicted_output": "Sue"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The farther you stretch the band, the greater the resistance is.\n Question: Jim is playing with a rubber band by stretching and releasing it. Would he feel more resistance stretching the band to \n Choices: A)40 cm or \nB)30 cm",
         "output": "40 cm or",
-        "category": "Question Answering"
+        "predicted_output": "A"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more tightly packed the particles inside the material are, the more dense we say they are.\n Question: If Mona is unpacking coffee into a tin and she continues to remove more coffee, what happens to the density of the coffee inside the tin? \n Choices: A)increases \nB)decreases",
         "output": "decreases",
-        "category": "Question Answering"
+        "predicted_output": "decreases"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more extreme the amount of metamorphism, the more difficult it is to tell what the original rock was.\n Question: Evan is picking up rocks on the beach. Some rocks are very basic small ones, and others are large, clumpy stones with different textures. The rocks that are less difficult to identify had amounts of metamorphism that were \n Choices: A)more extreme \nB)less extreme",
         "output": "less extreme",
-        "category": "Question Answering"
+        "predicted_output": "less extreme"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The more an elastic object is stretched or compressed, the greater its elastic potential energy is.\n Question: An object with little elastic potential energy _____ be easily stretched. \n Choices: A)will \nB)won't",
         "output": "will",
-        "category": "Question Answering"
+        "predicted_output": "won't"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The harder the batter hits the ball, the greater will be its acceleration.\n Question: If you use less force when accelerating a car it will go \n Choices: A)slower \nB)faster",
         "output": "slower",
-        "category": "Question Answering"
+        "predicted_output": "faster"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Light-skinned people get sunburned more quickly than people with darker skin.\n Question: A dark-skinned person will sunburn _____ than a pale person. \n Choices: A)slower \nB)faster",
         "output": "slower",
-        "category": "Question Answering"
+        "predicted_output": "faster"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: Gravity is a pull which all matter exerts on all other matter, the more mass, the stronger the pull.\n Question: During a game of tug-o-war, two teams are pulling a rope, the team that will pull the least has people who weigh \n Choices: A)more \nB)less",
         "output": "less",
-        "category": "Question Answering"
+        "predicted_output": "less"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: The closer together the particles in a longitudinal wave are, the greater the amplitude.\n Question: Causing particles in a longitudinal wave to come together causes the amplitude to \n Choices: A)decrease \nB)increase",
         "output": "increase",
-        "category": "Question Answering"
+        "predicted_output": "increase"
     },
     {
+        "category": "Question Answering",
         "instruction": "You are given a short paragraph, a question and two choices to answer from. Choose the correct answer based on the paragraph and write the answer(not the key).",
         "input": "Paragraph: People in the richer nations of the world use far more energy, especially energy from fossil fuels, than people in the poorer nations do.\n Question: Jan lives in a great country and she is rich. Compared to another person in a poorer country, Jan will use an amount of energy that is \n Choices: A)greater \nB)lesser",
         "output": "greater",
-        "category": "Question Answering"
+        "predicted_output": "lesser"
     }
 ]

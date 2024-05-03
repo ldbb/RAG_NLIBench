@@ -1,602 +1,1178 @@
 [
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: A behavioural method of habit reversal, in combination with a hydrocortisone cream, was compared with the use of cream alone in the treatment of 17 patients with atopic dermatitis. The patients were assigned randomly to two groups, one of which received the combination treatment and the other regular ointment treatment. The patients' skin status was assessed before and after treatment, and the patients recorded their scratching during the study. Both groups improved, but the group which received habit-reversal therapy improved significantly more. A strong correlation was found between reduction in scratching and improvement in skin status.",
         "output": "Behavioural treatment of scratching in patients with atopic dermatitis.",
-        "category": "Title Generation"
+        "predicted_output": "A behavioural method of habit reversal in the treatment of atopic dermatitis.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.5714285714285715,
+        "ROUGE_2": 0.2105263157894737,
+        "ROUGE_l": 0.4761904761904762,
+        "BERTScore_f1": 0.9385600686073303
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Percutaneous absorption of hydrocortisone was studied in 18 children (aged from 6 weeks to 14 1/2 years) with atopic or seborrhoeic dermatitis, by measuring their serum cortisol before and after application of 1% hydrocortisone cream. Endogenous secretion of cortisol was suppressed with dexamethasone. A 24 h absorption test was performed on nine children. In six, percutaneous absorption was detected. The highest serum cortisol level was reached within the first 6 h. A 4 h absorption test was developed on the basis of the 24 h test. This short absorption test was performed on nine children, and in eight of them absorption of hydrocortisone was detected. The rise of serum cortisol ranged from 98 to 2669 nmol/l. The 2 h ACTH test was performed to evaluate the effect of previous treatment with topical glucocorticoids. Suppressed adrenocortical function was found in five of 13 children, and was associated significantly with high post-application serum cortisol levels. This occurred more often in infants with a severe skin disorder than in older children or in those with mild or moderate skin disease.",
         "output": "Effect of percutaneous absorption of hydrocortisone on adrenocortical responsiveness in infants with severe skin disease.",
-        "category": "Title Generation"
+        "predicted_output": "A study of percutaneous absorption of hydrocortisone in children with atopic or seborrhoeic dermatitis.",
+        "BLEU": 0.26924333182417304,
+        "ROUGE_1": 0.4827586206896552,
+        "ROUGE_2": 0.29629629629629634,
+        "ROUGE_l": 0.4827586206896552,
+        "BERTScore_f1": 0.9115564823150635
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: We succeeded in reproducing an eczematous lesion on the apparently normal skin of a patient with atopic dermatitis by scratching and continuous application of an ointment containing ferritin-labelled mite antigen. Percutaneous entry of mite antigen was demonstrated in skin biopsies by Fe-staining. Scratched skin first showed an urticarial reaction typical of type I allergy which later changed into an eczematous reaction typical of type IV allergy. This change was also shown histologically.",
         "output": "Challenge reactions in atopic dermatitis after percutaneous entry of mite antigen.",
-        "category": "Title Generation"
+        "predicted_output": "Scratching and continuous application of mite antigen cause eczematous lesions in atopic dermatitis.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.4999999999999999,
+        "ROUGE_2": 0.3636363636363636,
+        "ROUGE_l": 0.24999999999999994,
+        "BERTScore_f1": 0.8918496370315552
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: We describe a patient with secondary syphilis and facial skin lesions which resembled Sweet's syndrome clinically and histologically. We suggest serological tests for syphilis in patients with Sweet's syndrome.",
         "output": "Secondary syphilis mimicking Sweet's syndrome.",
-        "category": "Title Generation"
+        "predicted_output": "Sweet's syndrome and secondary syphilis: a case report.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.6666666666666667,
+        "ROUGE_2": 0.4615384615384615,
+        "ROUGE_l": 0.4,
+        "BERTScore_f1": 0.8803408741950989
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: We present the case of an 11-month-old baby with a burn that healed normally over a month, but subsequently developed successive crops of blisters over the scar. There were no changes in his general condition. Clinical, immunological, histological and ultrastructural studies provided a diagnosis of mechanical dermatitis produced by microtrauma. Electron microscopy studies revealed the sub-epidermal nature of the blisters and the presence of underlying fibrin deposits.",
         "output": "Blisters over burn scars in a child.",
-        "category": "Title Generation"
+        "predicted_output": "A case of mechanical dermatitis in a burn scar.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.375,
+        "ROUGE_2": 0.14285714285714288,
+        "ROUGE_l": 0.25,
+        "BERTScore_f1": 0.9081273078918457
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Retrospective analysis of 82 pregnancies in women with either ulcerative colitis or Crohn's disease suggested that, in general, neither disease had a major effect on pregnancy outcome. The birth-weights of babies born to women with inflammatory bowel disease were marginally lower than those born to women in a control group matched for age and parity, but the difference was statistically significant only in women with Crohn's disease. In both disease groups there was a higher frequency of low haemoglobin levels in pregnancy than in the matched control groups. There were no statistically significant effects of ulcerative colitis or Crohn's disease on duration of pregnancy, mode of delivery or raised blood pressure and/or proteinuria. In the absence of a relapse, a diagnosis of inflammatory bowel disease should not influence obstetric management.",
         "output": "The effects of inflammatory bowel disease on pregnancy: a case-controlled retrospective analysis.",
-        "category": "Title Generation"
+        "predicted_output": "Inflammatory bowel disease and pregnancy outcome.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.42105263157894735,
+        "ROUGE_2": 0.23529411764705882,
+        "ROUGE_l": 0.42105263157894735,
+        "BERTScore_f1": 0.8935571312904358
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The concentration of interferon-alpha was measured by a specific two-site immunoradiometric assay in a variety of fluids and tissues collected during human pregnancy. Maternal blood and blood and tissues from non-pregnant adults contained little or no interferon-alpha. Fetal blood, fetal organs, placenta, membranes, amniotic fluid and decidua all contained significant and roughly equivalent amounts ranging from 1.1 to 10 u/ml (or per g of tissue). These findings demonstrate that the fetus and its immediate surroundings are permeated with interferon. It is suggested that this may play a role in regulation of the maternal-fetal graft relation.",
         "output": "Alpha interferon in human pregnancy.",
-        "category": "Title Generation"
+        "predicted_output": "Interferon-alpha in human pregnancy.",
+        "BLEU": 0.0,
+        "ROUGE_1": 1.0,
+        "ROUGE_2": 0.5,
+        "ROUGE_l": 0.8000000000000002,
+        "BERTScore_f1": 0.9354079961776733
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The phagocytic activity of peripheral blood mononuclear phagocytes for Staphylococcus epidermis of healthy non-pregnant and pregnant women throughout pregnancy was examined in relation to gestational age. The study included 30 healthy non-pregnant women and 90 healthy pregnant women equally distributed across the three trimesters. Two variables were investigated: the number of mononuclear cells in phagocytosis and the average number of bacteria per monocyte in phagocytosis. As pregnancy progressed a gradual and significant increase was found in the number of monocytes in phagocytosis and a significantly higher proportion of macrophages with six or more bacteria per phagocyte.",
         "output": "Enhanced phagocytosis of mononuclear phagocytes in pregnancy.",
-        "category": "Title Generation"
+        "predicted_output": "The phagocytic activity of peripheral blood mononuclear phagocytes for Staphylococcus epidermis of healthy non-pregnant and pregnant women throughout pregnancy was examined in relation to gestational age.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.2941176470588235,
+        "ROUGE_2": 0.0625,
+        "ROUGE_l": 0.23529411764705882,
+        "BERTScore_f1": 0.898383378982544
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Random-dot stereograms were found to be capable of producing fusional vergence amplitudes in the absence of monocular contours. These vergence amplitudes are not an artefact of monocular contours provided by the target borders or test instrument and are comparable in range to vergence amplitudes measured clinically with second degree fusion targets in an amblyoscope. We conclude that diplopia of monocularly recognisable contours is not necessary for producing fusional vergence amplitudes.",
         "output": "Vergence amplitudes with random-dot stereograms.",
-        "category": "Title Generation"
+        "predicted_output": "Fusional vergence amplitudes in the absence of monocular contours.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.26666666666666666,
+        "ROUGE_2": 0.15384615384615385,
+        "ROUGE_l": 0.26666666666666666,
+        "BERTScore_f1": 0.8979334831237793
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The case for capsular bag fixation of the Sinsky-Kratz type of posterior chamber intraocular implant lens is presented, and the various methods in use to position implant lenses are outlined. The new forceps are described and the rationale for their adoption and use is given in an illustrated, step-by-step fashion. Their additional use in anterior chamber intraocular lens implantation is mentioned. There is a brief summary of the author's experience with this instrument.",
         "output": "Posterior chamber intraocular lens implantation--a new forceps to simplify capsular bag fixation.",
-        "category": "Title Generation"
+        "predicted_output": "Capsular bag fixation of the Sinsky-Kratz type of posterior chamber intraocular implant lens.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.5185185185185186,
+        "ROUGE_2": 0.32,
+        "ROUGE_l": 0.29629629629629634,
+        "BERTScore_f1": 0.8736708760261536
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Labrador keratopathy (LK) is an acquired corneal degeneration thought to be caused by chronic exposure to solar irradiation. Reports so far suggest that it is a progressive or at least a stationary condition. There are no detailed reports on recommended therapy. A prospective clinical study was conducted to show regression of LK following extracapsular cataract extraction. Seventeen black patients (26 eyes) with LK and mature cataracts underwent extracapsular cataract extraction. The severity of the LK was recorded photographically pre- and postoperatively. The follow-up ranged from 6 to fifteen months. Twenty-four eyes (92%) showed regression of the LK. The reduction in exposure to ultraviolet light as a result of aphakic photophobia could be one of the factors which have led to the regression of the LK.",
         "output": "Regression of Labrador keratopathy following cataract extraction.",
-        "category": "Title Generation"
+        "predicted_output": "Labrador keratopathy regression following extracapsular cataract extraction.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.8571428571428571,
+        "ROUGE_2": 0.3333333333333333,
+        "ROUGE_l": 0.7142857142857143,
+        "BERTScore_f1": 0.9405571818351746
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: To assess the prevalence of sports eye injuries in our area a register was kept over the 18 months from October 1982 to March 1984. Squash, association football, badminton, and tennis were the main offenders. The severest injury was from a golf ball, involving a fractured zygoma. There was one retinal dialysis, and one lens dislocation requiring extraction. Spectacles were broken in six cases and a contact lens in one. Glass fragments needed operative removal in one case, but there were no penetrating injuries. The value of eye protection, not worn by any of our patients, is emphasised.",
         "output": "Sussex Eye Hospital sports injuries.",
-        "category": "Title Generation"
+        "predicted_output": "Sports eye injuries in a district general hospital.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.6153846153846154,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.3076923076923077,
+        "BERTScore_f1": 0.8975169658660889
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Beading of a retinal vein draining a choroidal melanoma is reported, showing that the endothelial proliferation producing the beading is a response to some blood borne factor(s) traversing the vein and that retinal capillary non-perfusion adjacent to the beaded vein is not a necessary part of the process.",
         "output": "Inferences from beading of a retinal vein draining a choroidal melanoma.",
-        "category": "Title Generation"
+        "predicted_output": "Beading of a retinal vein draining a choroidal melanoma.",
+        "BLEU": 0.6913086465463162,
+        "ROUGE_1": 0.9,
+        "ROUGE_2": 0.888888888888889,
+        "ROUGE_l": 0.9,
+        "BERTScore_f1": 0.9583146572113037
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The four methods of illumination in the use of slit-lamp biomicroscopy of the anterior segment, described first by Vogt, are equally useful in the posterior part of the eye. Examination of the ocular fundus is more difficult. In particular, photography of the central and peripheral parts of the fundus demands additional technical arrangements if all the appearances of biomicroscopy are to be recorded.",
         "output": "Photographic recording of slit-lamp appearances of the ocular fundus.",
-        "category": "Title Generation"
+        "predicted_output": "The Fundus of the Eye: A Study of the Anterior and Posterior Segments by Slit-Lamp Biomicroscopy.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.4444444444444445,
+        "ROUGE_2": 0.16,
+        "ROUGE_l": 0.22222222222222224,
+        "BERTScore_f1": 0.8695816397666931
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: A suggestion that protective eye gear can pose a threat either to the crystalline lens or to the retina is examined from an epidemiological point of view. It is concluded that it may accentuate a pre-existing high-risk hazard but has little significance for low-risk hazards.",
         "output": "Sunglasses--an ocular hazard?",
-        "category": "Title Generation"
+        "predicted_output": "Protective eye gear may pose a threat to the crystalline lens or to the retina.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8639266490936279
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Five insulin dependent diabetic patients are reported on who had a few small retinal cotton-wool spots or 'soft exudates' either totally isolated or associated with fewer than 10 microaneurysms. These observations suggest that cotton-wool spots may be an early finding in diabetic retinopathy. Significant biological abnormalities in these patients were high levels of glycosylated haemoglobin and mild increases in thrombin generation, indicating slight activation of the coagulation system. The possible significance of these clinical and biological findings is discussed.",
         "output": "Retinal cotton-wool spots: an early finding in diabetic retinopathy?",
-        "category": "Title Generation"
+        "predicted_output": "Diabetic retinopathy: cotton-wool spots and thrombin generation.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.5555555555555556,
+        "ROUGE_2": 0.375,
+        "ROUGE_l": 0.33333333333333326,
+        "BERTScore_f1": 0.9015551209449768
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Bilateral optic atrophy is reported in two patients who, although they were long-standing users of the leaves of Catha edulis, had chewed larger quantities than usual. Since the leaves of this plant are used widely throughout its native area as the source of a mildly stimulant narcotic, the effect in these cases may be an idiosyncratic reaction to an unusually large dose.",
         "output": "The presumed neurotoxic effects of Catha edulis--an exotic plant now available in the United Kingdom.",
-        "category": "Title Generation"
+        "predicted_output": "Bilateral optic atrophy in two patients who had chewed large quantities of Catha edulis leaves.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.2580645161290323,
+        "ROUGE_2": 0.1379310344827586,
+        "ROUGE_l": 0.19354838709677422,
+        "BERTScore_f1": 0.8851813077926636
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Clinical and histopathological studies of two patients with distinctly different inherited juvenile retinal dystrophies indicate that the ocular defect in mitochondrial cytopathy involves the underlying pigment epithelium, whereas in the Laurence-Moon-Biedl syndrome the photoreceptor cells are primarily affected.",
         "output": "Histopathology of mitochondrial cytopathy and the Laurence-Moon-Biedl syndrome.",
-        "category": "Title Generation"
+        "predicted_output": "Mitochondrial cytopathy and Laurence-Moon-Biedl syndrome: clinical and histopathological studies.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.6666666666666666,
+        "ROUGE_2": 0.5263157894736842,
+        "ROUGE_l": 0.6666666666666666,
+        "BERTScore_f1": 0.9382548332214355
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The murine IgG2a monoclonal antibody 6-19 binds to a wide variety of nonhematopoietic cells including human marrow-derived stromal cells but does not bind to marrow or peripheral blood cells. We studied the effects of this antibody and rabbit complement on marrow cells. Fibroblast colonies were eliminated from light density marrow cells by a single incubation with monoclonal antibody 6-19 and complement. The growth and composition of granulocytic and erythroid colonies were unaffected. Specific complement mediated cytotoxicity of the antibody was confirmed on passaged human fibroblasts derived from marrow (more than 99.6% of fibroblasts are killed by a single treatment). Similar results were obtained with human umbilical cord endothelial cells. In addition, such treatment abolished the initiation of Dexter culture stroma. Incubation of bone marrow cell suspensions with this antibody and complement will allow the study of stroma-free marrow cells in long-term liquid cultures.",
         "output": "Lysis of human fibroblast colony-forming cells and endothelial cells by monoclonal antibody (6-19) and complement.",
-        "category": "Title Generation"
+        "predicted_output": "The effects of monoclonal antibody 6-19 and rabbit complement on marrow cells.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.5333333333333333,
+        "ROUGE_2": 0.28571428571428575,
+        "ROUGE_l": 0.4666666666666667,
+        "BERTScore_f1": 0.9106993079185486
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Lymphocytes from 18 patients with the Wiskott-Aldrich Syndrome (WAS) were examined by scanning electron microscopy (SEM). Most peripheral blood lymphocytes from normal individuals are covered with slender microvillus projections, but a large proportion of lymphocytes from WAS patients were found to be relatively devoid of microvilli. A lymphocyte morphology scoring system was developed to quantify the density of microvilli: Grade 4 classified those lymphocytes with greater than 75% of the surface covered with microvilli with progressive decrements to grade 1, which were those without microvilli. The mean lymphocyte morphology score of eight normal individuals was 3.62 +/- .22. The mean lymphocyte score of WAS patients was substantially lower (2.89 +/- .27, P less than .001). In addition, WAS lymphocytes often were qualitatively abnormal, with short, blunted microvilli. These morphological criteria were used to diagnose WAS from the cord blood lymphocytes of one \"at-risk\" patient. Thus, WAS is the first primary immunodeficiency in which morphological abnormalities have been identified that can aid in diagnosis.",
         "output": "Morphological abnormalities in the lymphocytes of patients with the Wiskott-Aldrich syndrome.",
-        "category": "Title Generation"
+        "predicted_output": "Wiskott-Aldrich Syndrome: A Primary Immunodeficiency with Morphological Abnormalities of Lymphocytes.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.6956521739130435,
+        "ROUGE_2": 0.28571428571428564,
+        "ROUGE_l": 0.2608695652173913,
+        "BERTScore_f1": 0.894498884677887
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: We have studied the hematology, hemoglobin composition, and globin gene arrangements in one young Turkish boy with a beta zero-thalassemia homozygosity and in 11 of his relatives. Evidence is presented that the chromosome with the beta zero-thalassemia determinant carries a gamma-globin gene quadruplication, perhaps in a -G gamma-G gamma-G gamma-A gamma-gene arrangement. The eight gamma-globin genes in this patient produced G gamma and A gamma chains in a 95 to 5 ratio, and nearly 99% of the patient's hemoglobin was of the fetal type. The clinical condition resembled that of a thalassemia intermedia. HbF levels in eight beta-thalassemia heterozygotes varied between 0.5 and 4.2% and the percentages of G gamma in this HbF averaged at 87% or 95%; this level is to some extent related to the haplotype of the normal chromosome. All subjects carried four alpha-globin genes; a new BglII polymorphism was observed within the psi alpha-globin gene.",
         "output": "Beta zero-thalassemia in association with a gamma-globin gene quadruplication.",
-        "category": "Title Generation"
+        "predicted_output": "A beta zero-thalassemia homozygote with a gamma-globin gene quadruplication.",
+        "BLEU": 0.46713797772820004,
+        "ROUGE_1": 0.8181818181818182,
+        "ROUGE_2": 0.7,
+        "ROUGE_l": 0.8181818181818182,
+        "BERTScore_f1": 0.9505751132965088
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The total sialic acid concent of retinoic acid (RA)-resistant or 6-thioguanine (6TG)-resistant HL-60 cells was more than tenfold lower and of dimethylsulfoxide (DMSO)-resistant HL-60 cells was approximately twofold lower than that of parental, wild-type (wt) HL-60 cells. Neuraminidase-inaccessible, ie residual cell-associated sialic acid after neuraminidase treatment, was four- to twelvefold lower in the three differentiation-inducer-resistant sublines than in the parent line. Neuraminidase treatment of 125I-labeled surface membrane glycoproteins (SMGs) from wt HL-60 cells converted the two-dimensional gel electrophoretic pattern to one having features in common with RA- and 6TG-resistant cells. However, neuraminidase treatment did not alter the sensitivity of wt HL-60 cells to differentiation induction by RA, hypoxanthine (purine base), or DMSO. These results indicate that differences in peripheral, neuraminidase-accessible sialic acids are important determinants of the gel electrophoretic mobility of the SMGs of the HL-60 line and sublines but are not likely related to the differentiation-resistance mechanism. Further studies are required to determine if hyposialylation of cryptic, neuraminidase-inaccessible sites has functional significance.",
         "output": "Hyposialylation of differentiation-inducer-resistant HL-60 cells.",
-        "category": "Title Generation"
+        "predicted_output": "Resistance to differentiation induction in HL-60 cells is associated with hyposialylation of surface membrane glycoproteins.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.5,
+        "ROUGE_2": 0.27272727272727276,
+        "ROUGE_l": 0.3333333333333333,
+        "BERTScore_f1": 0.8896100521087646
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: We examined the activity of defensins, cysteine-rich cationic peptides that are abundant in the cytoplasmic granules of human and rabbit granulocytes, against various tumor targets. The three human defensins, HNP-1, HNP-2, and HNP-3, lysed human and murine targets in chromium release and dye exclusion assays. Defensin-mediated tumor cell lysis was concentration-dependent, inhibited by serum, and dependent on temperature-sensitive events. Lysis was first detected by three hours of incubation and it reached a plateau between eight and 14 hours. In vitro exposure of murine teratocarcinoma cells to HNP 1-3 abrogated their oncogenicity in vivo. Nonmalignant target cells were also susceptible to defensin-mediated lysis. Four rabbit granulocyte defensins exerted marked (NP-1, NP-2) or moderate (NP-3a, NP-3b) cytotoxic activity, whereas defensin NP-5 was not cytotoxic. When tumor cells were incubated with human defensins in combination with hydrogen peroxide, synergistic cytotoxicity was detected. As defensins are released from granulocytes by various stimuli, their release could contribute to extracellular cytotoxicity which is independent of reactive oxygen intermediates.",
         "output": "In vitro tumor cell cytolysis mediated by peptide defensins of human and rabbit granulocytes.",
-        "category": "Title Generation"
+        "predicted_output": "Human and rabbit defensins are cytotoxic to tumor cells.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.43478260869565216,
+        "ROUGE_2": 0.1904761904761905,
+        "ROUGE_l": 0.2608695652173913,
+        "BERTScore_f1": 0.8874567151069641
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The reported incidence of peptic ulcer disease (PUD) in patients with rheumatoid arthritis (RA) is higher than that of the general population. Unusual susceptibility to PUD in RA, independent of therapy, has been suggested. To compare RA patients with others who had similar drug exposure but no known predisposition to PUD, 120 patients hospitalized for treatment of severe arthritis (65 with RA, 55 with osteoarthritis) were assessed by questionnaire for PUD history, drug history and other relevant variables. The relationship of PUD to sex distribution, smoking, alcohol consumption and anti-inflammatory therapy followed expected patterns. We found high but similar PUD rates in RA and osteoarthritis (OA) patients (RA 15%, OA 18%). This suggests that a common factor (probably drugs) is responsible. We feel that the documented high incidence of PUD in RA is most probably related to drug therapy. Available methods cannot determine if PUD ever occurs as a primary manifestation of RA.",
         "output": "Peptic ulcer in rheumatoid arthritis--intrinsic or related to drug therapy?",
-        "category": "Title Generation"
+        "predicted_output": "Rheumatoid arthritis and peptic ulcer disease: a comparison of two groups of patients with similar drug exposure.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.35714285714285715,
+        "ROUGE_2": 0.15384615384615385,
+        "ROUGE_l": 0.21428571428571427,
+        "BERTScore_f1": 0.8764064311981201
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Rates of superoxide (SA) generation by blood monocytes stimulated ex vivo were studied before and during corticosteroid treatment of rheumatoid arthritis (RA) patients, in control patients and in healthy controls. The direct effect on stimulated SA production of pre-incubating cells with prednisolone in vitro was also studied. Significant inhibition of monocyte SA output stimulated with IgG-treated zymosan (ITZ) and fluoride ion (F), but not serum-treated zymosan (STZ) was demonstrated following steroid therapy in RA. No inhibitory effect of prednisolone could be demonstrated in vitro, using ITZ, STZ and F as stimuli. Our data on blood monocyte yields, size and cytochemistry suggest that the in vivo effect is due to a shift in blood monocyte traffic.",
         "output": "Effect of corticosteroid therapy on blood monocyte superoxide generation in rheumatoid arthritis: studies in vitro and ex vivo.",
-        "category": "Title Generation"
+        "predicted_output": "Corticosteroids inhibit superoxide generation by blood monocytes in rheumatoid arthritis.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.42857142857142855,
+        "ROUGE_2": 0.23076923076923078,
+        "ROUGE_l": 0.35714285714285715,
+        "BERTScore_f1": 0.9125879406929016
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Methotrexate (MTX) appears to be useful in patients with rheumatoid arthritis (RA) refractory to other drugs but its long-term toxicity and efficacy are uncertain. A retrospective study of MTX in such patients in comparison with the purine analogues, azathioprine and 6-mercaptopurine was made using life-table analysis. Eighty-four patients took MTX in a median dose of 7.5 mg/week whilst 55 received purine analogues, 100 mg/day (median). By 12 months, 19.3% of patients had ceased MTX due to toxicity, compared with 29.3% for purine analogues. Toxicity severe enough to warrant stopping therapy was uncommon after 8 months with either drug. At 12 months 61.5% of the MTX patients had achieved defined criteria of improvement compared with 25.6% for the purine analogues (p less than 0.05). The number of patients improving on purine analogues did not increase substantially after 6 months, whereas the number improving with MTX continued to 12 months. MTX in a low-dose regimen is useful in refractory RA and superior to low-dose purine analogues.",
         "output": "Comparison of methotrexate with azathioprine or 6-mercaptopurine in refractory rheumatoid arthritis: a life-table analysis.",
-        "category": "Title Generation"
+        "predicted_output": "Methotrexate is superior to low-dose purine analogues in refractory rheumatoid arthritis.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.35714285714285715,
+        "ROUGE_2": 0.23076923076923075,
+        "ROUGE_l": 0.35714285714285715,
+        "BERTScore_f1": 0.8891565799713135
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Cells with mutations at the hypoxanthine-guanine phosphoribosyl transferase (HPRT) locus may be detected in vitro by their resistance to the toxic effects of thioguanine. We have assessed HPRT mutants in peripheral blood lymphocytes of patients with connective tissue diseases who have been treated for long periods with cytotoxic drugs. The results from patients treated with cyclophosphamide were abnormal suggesting the presence of drug-induced mutations. The results from patients treated with chlorambucil or azathioprine did not differ from controls--either these drugs have not induced mutations or, more likely, the technique is not sufficiently sensitive to detect them. These possibilities are discussed. Specific mutations induced by cytotoxic drugs in patients with connective tissue diseases have not been previously recorded.",
         "output": "Thioguanine-resistant mutations induced by cytotoxic drugs in lymphocytes of patients with connective tissue diseases.",
-        "category": "Title Generation"
+        "predicted_output": "Cytotoxic drugs and HPRT mutations in patients with connective tissue diseases.",
+        "BLEU": 0.30040009257419575,
+        "ROUGE_1": 0.6923076923076923,
+        "ROUGE_2": 0.41666666666666663,
+        "ROUGE_l": 0.6153846153846153,
+        "BERTScore_f1": 0.8964986205101013
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Twelve patients with intractable rheumatoid arthritis were treated with antilymphocyte globulin (ALG), prednisolone and a cytotoxic agent, usually azathioprine, and were followed for 1 year. There was a significant (p less than 0.05) improvement in the mean score for early-morning stiffness, grip strength and the severity of nodules and vasculitis at 6 weeks and 3 months when compared to the initial visit. However, in most patients, this benefit was not sustained despite continued cytotoxic and steroid therapy. A rise in the haemoglobin and fall in ESR was maintained throughout the study period.",
         "output": "Intensive immunosuppression in intractable rheumatoid arthritis.",
-        "category": "Title Generation"
+        "predicted_output": "Twelve patients with intractable rheumatoid arthritis were treated with antilymphocyte globulin (ALG), prednisolone and a cytotoxic agent, usually azathioprine, and were followed for 1 year. There was a significant (p less than 0.05) improvement in the mean score for early-morning stiffness, grip strength and the severity of nodules and vasculitis at 6 weeks and 3 months when compared to the initial visit. However, in most patients,",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.10810810810810811,
+        "ROUGE_2": 0.05555555555555556,
+        "ROUGE_l": 0.0810810810810811,
+        "BERTScore_f1": 0.8392742872238159
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Five clinical tests in common use for diagnosis of carpal tunnel syndromes have been shown to have little diagnostic value, either individually or in various combinations. No physical sign is useful in the diagnosis of this condition, which should be suspected on the basis of presenting symptoms and confirmed by electrodiagnosis using standard median nerve conduction tests.",
         "output": "Clinical tests for carpal tunnel syndrome: an evaluation.",
-        "category": "Title Generation"
+        "predicted_output": "Carpal tunnel syndrome: diagnostic value of five clinical tests.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.5882352941176471,
+        "ROUGE_2": 0.39999999999999997,
+        "ROUGE_l": 0.35294117647058826,
+        "BERTScore_f1": 0.9007197618484497
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: We report a case of monoarthropathy in a patient with Hodgkin's disease, due to invasion of the synovium, with apparently normal juxta-articular bone.",
         "output": "Synovial involvement in Hodgkin's disease.",
-        "category": "Title Generation"
+        "predicted_output": "Monoarthropathy in Hodgkin's disease.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.7272727272727272,
+        "ROUGE_2": 0.6666666666666665,
+        "ROUGE_l": 0.7272727272727272,
+        "BERTScore_f1": 0.8944099545478821
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Episodic arthritis is an uncommon manifestation of cystic fibrosis. We describe the case of a 21-year-old man with cystic fibrosis who suffered from episodic arthritis associated with vasculitic skin lesions. Aetiology is discussed with reference to the possible role of immune complex disease.",
         "output": "Episodic arthritis in cystic fibrosis: a case report.",
-        "category": "Title Generation"
+        "predicted_output": "Episodic arthritis in cystic fibrosis.",
+        "BLEU": 0.3670124608961283,
+        "ROUGE_1": 0.7692307692307693,
+        "ROUGE_2": 0.7272727272727273,
+        "ROUGE_l": 0.7692307692307693,
+        "BERTScore_f1": 0.9685008525848389
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The excretion of four inhibitors of urinary stone formation (zinc, magnesium, citrates and glycosaminoglycans (GAG) was studied in 20 normal controls and 40 recurrent calcium stone formers who were placed on a fixed diet restricted in calcium, oxalates and purines. We were unable to show any abnormality in the excretion of Zn, Mg or GAG. In 11 patients, a low level of urinary citrate was a significant feature that was associated in most cases with a urinary pH value above 6. Citrate concentration (per litre) and output (per 24 h) were found to be lower than in the controls in 19 and 33% respectively of the determinations. The overall ratio of average urinary citrate concentration in patients and controls was 0.56, a figure in agreement with previous data.",
         "output": "Inhibitors of urinary stone formation in 40 recurrent stone formers.",
-        "category": "Title Generation"
+        "predicted_output": "The excretion of four inhibitors of urinary stone formation (zinc, magnesium, citrates and glycosaminoglycans (GAG) was studied in 20 normal controls and 40 recurrent calcium stone formers who were placed on a fixed diet restricted in calcium, oxalates and purines. We were unable to show any abnormality in the excretion of Zn, Mg or GAG. In 11 patients, a low level of urinary citrate was a significant feature that was associated in",
+        "BLEU": 0.040124580001620225,
+        "ROUGE_1": 0.24390243902439027,
+        "ROUGE_2": 0.15,
+        "ROUGE_l": 0.24390243902439027,
+        "BERTScore_f1": 0.8529642820358276
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Fistula or deep sinus formation as a complication of xanthogranulomatous pyelonephritis (XPN) has not been described previously in the British literature. We present the clinicopathological features of one case of a nephrodiaphragmatic sinus complicating XPN, and three cases of nephrocolic fistula, including the first recorded case of fistula in childhood XPN. The detailed clinical, radiological and pathological features of XPN and its complications are reviewed. Total nephrectomy, together with primary excision of sinuses or fistulae, is the treatment of choice.",
         "output": "Fistula and sinus formation in xanthogranulomatous pyelonephritis. A clinicopathological review and report of four cases.",
-        "category": "Title Generation"
+        "predicted_output": "Xanthogranulomatous pyelonephritis: a case report and review of the literature.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.56,
+        "ROUGE_2": 0.17391304347826086,
+        "ROUGE_l": 0.4,
+        "BERTScore_f1": 0.9243654608726501
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Five cases of clinically manifest solitary and bilateral renal lesions metastatic from the lung are presented. These cases are unusual in that renal metastases are usually silent lesions discovered at autopsy. Review of the autopsy data from this hospital identified renal metastases in 19% of patients who died from carcinoma of the lung. This incidence parallels that of other series. A solid renal lesion which is identified in a patient with a history of pulmonary carcinoma should raise the suspicion of renal metastases, especially if computed tomography of the mass demonstrates relative homogeneity and minimal enhancement. More frequent use of the abdominal CT scan in staging patients with lung cancer will render metastatic carcinoma from lung to kidney a more frequent ante mortem diagnosis.",
         "output": "Renal metastases from carcinoma of the lung.",
-        "category": "Title Generation"
+        "predicted_output": "Renal metastases from lung cancer: a report of five cases.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.588235294117647,
+        "ROUGE_2": 0.26666666666666666,
+        "ROUGE_l": 0.47058823529411764,
+        "BERTScore_f1": 0.9406415224075317
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Over a 1-year period, rigid ureteroscopy has been used to retrieve ureteric calculi in 120 patients. The technical details, causes of failure and the complications are described. An initial success rate of 78% was obtained. It was concluded that ureteroscopy should replace blind procedures for the extraction of ureteric stones.",
         "output": "Rigid ureteroscopy for the treatment of ureteric calculi: experience in 120 cases.",
-        "category": "Title Generation"
+        "predicted_output": "Ureteroscopy for the removal of ureteric calculi.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.631578947368421,
+        "ROUGE_2": 0.4705882352941177,
+        "ROUGE_l": 0.631578947368421,
+        "BERTScore_f1": 0.9324214458465576
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Eleven patients with vesicoureteric reflux secondary to neuropathic bladder were treated by endoscopic injection of pyrolised polytetrafluoroethylene (Polytef) paste. Thirteen of the 15 ureters treated showed disappearance of reflux after one injection. The amount of Polytef paste injected varied from 0.2 to 0.9 ml (mean 0.45 ml). There were no complications, except in one ureter where distension of the collecting system was slightly increased compared with the pre-operative urogram.",
         "output": "Endoscopic correction of vesicoureteric reflux secondary to neuropathic bladder.",
-        "category": "Title Generation"
+        "predicted_output": "Endoscopic injection of Polytef paste for vesicoureteric reflux.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.47058823529411764,
+        "ROUGE_2": 0.13333333333333333,
+        "ROUGE_l": 0.47058823529411764,
+        "BERTScore_f1": 0.9226983785629272
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The influence of serotonin (5-hydroxytryptamine) on human detrusor and on pig detrusor, trigone, bladder neck and urethral smooth muscle was explored in a series of in vitro experiments. Serotonin evoked a dose-dependent and reversible contraction of the detrusor. The reverse response was triggered in trigone, bladder neck and urethral smooth muscle--a dose-dependent and reversible relaxation. The maximum amplitude of this relaxation was 85 +/- 15% of the relaxation produced by electrical nerve stimulation. The effect of serotonin was unaltered by blockade of ganglia, alpha- and beta-adrenergic receptors, cholinergic receptors and prostaglandin synthesis. The serotonin antagonists ketanserin, methysergide and cyproheptadine partly inhibited the effect of serotonin. The antagonism differed in potency on strips of different origin. The antagonists were ineffective or minimally effective in blocking responses to nerve stimulation. The effect of serotonin was probably mediated by specific serotonin receptors different from the serotonin-S2-receptors predominating in vascular smooth muscle. Serotonin is a potential neurotransmitter in lower urinary tract smooth muscle, but its importance in micturition physiology and pathophysiology is unknown.",
         "output": "Influence of serotonin on lower urinary tract smooth muscle in vitro.",
-        "category": "Title Generation"
+        "predicted_output": "Serotonin-induced relaxation of human detrusor and pig detrusor, trigone, bladder neck and urethral smooth muscle.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.2962962962962963,
+        "ROUGE_2": 0.08,
+        "ROUGE_l": 0.2222222222222222,
+        "BERTScore_f1": 0.8647695183753967
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: A graphic representation of the micturition cycle by a pressure-volume plot has been obtained in 120 women, both incontinent patients and normal controls. The pattern of contraction during voiding allowed prediction of the outcome of treatment. Patients with urethral sphincter incompetence and a sustained detrusor contraction had a good result from colposuspension even if detrusor instability was found during filling. Where the urethral sphincter was competent, patients with urge incontinence with or without detrusor instability during filling cystometry had a good response to drugs, providing a sustained detrusor contraction was present during voiding. Urethral sphincter incompetence was characterised by a low detrusor voiding pressure.",
         "output": "The pressure-volume plot and prediction of treatment outcome in female incontinence.",
-        "category": "Title Generation"
+        "predicted_output": "A graphic representation of the micturition cycle by a pressure-volume plot has been obtained in 120 women, both incontinent patients and normal controls. The pattern of contraction during voiding allowed prediction of the outcome of treatment. Patients with urethral sphincter incompetence and a sustained detrusor contraction had a good result from colposuspension even if detrusor instability was found during filling. Where the urethral sphincter was competent, patients with urge incontinence with or without",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.2558139534883721,
+        "ROUGE_2": 0.09523809523809523,
+        "ROUGE_l": 0.2093023255813954,
+        "BERTScore_f1": 0.8667793273925781
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Eighty-four patients with haematuria were seen during 1976 and 1977. This symptom was investigated but no definite cause could be found. Five or more years later they were followed up. Although some patients had experienced further urological symptoms, none was found to have developed a malignancy in the genito-urinary tract. Possible causes of their bleeding are discussed.",
         "output": "A 5-year follow-up of undiagnosed haematuria.",
-        "category": "Title Generation"
+        "predicted_output": "Haematuria: a symptom of uncertain significance.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.42857142857142855,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.28571428571428575,
+        "BERTScore_f1": 0.8689643740653992
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Two hundred and seventy-seven patients with advanced prostatic cancer were treated by either orchiectomy or oestrogen. During the 2-year follow-up period, the response to treatment was considered more favourable in the oestrogen group, and this response was particularly emphasised in patients with poorly differentiated tumour and metastases at the time of diagnosis. Further evaluations included the cardiovascular side effects of oestrogen therapy.",
         "output": "Comparison of primary orchiectomy with oestrogen therapy in advanced prostatic cancer. A 2-year follow-up report of a national, prospective prostatic cancer study.",
-        "category": "Title Generation"
+        "predicted_output": "Oestrogen therapy in advanced prostatic cancer.",
+        "BLEU": 0.052796005801316374,
+        "ROUGE_1": 0.4,
+        "ROUGE_2": 0.3571428571428571,
+        "ROUGE_l": 0.4,
+        "BERTScore_f1": 0.9055750370025635
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Twenty-five patients with fracture of the penis were treated surgically between 1968 and 1984. Long-term follow-up was obtained in 17. In no case were there any early post-operative complications. All patients stated that they were achieving normal, painless erections; two patients developed a slight penile curvature but this did not affect their sexual activities. We strongly recommend early surgical intervention because of these encouraging results. Urethral injury associated with the fracture did not occur in this series.",
         "output": "Fracture of the penis and long-term results of surgical treatment.",
-        "category": "Title Generation"
+        "predicted_output": "Surgical treatment of fracture of the penis.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.7777777777777778,
+        "ROUGE_2": 0.5,
+        "ROUGE_l": 0.4444444444444444,
+        "BERTScore_f1": 0.9127593636512756
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Spastic patients were instructed to make accurate, rapid ankle dorsiflexion and plantarflexion movements over different distances to a target. Ankle position and surface electromyograms (EMGs) from tibialis anterior (TA) and soleus (SOL) muscles were recorded. In 3 of 8 spastic patients tested, dorsiflexion evoked velocity-dependent activation of the antagonist (SOL) muscle which impeded the movement to the extent that the limb unintentionally reversed movement direction. We propose that this activation is reflex in origin since it is tightly synchronized, has a large peak amplitude, occurs about 50 ms after the initiation of the movement, and is velocity dependent. One of the 3 patients who had reflex-induced antagonist activation in dorsiflexion also demonstrated sustained clonus during plantarflexion. This usually occurred only if the target had been overshot so that the return of the limb stretched the soleus muscle and triggered clonus. We conclude that in some patients, hyperactive stretch reflexes cause movement deficits.",
         "output": "Movement deficits caused by hyperexcitable stretch reflexes in spastic humans.",
-        "category": "Title Generation"
+        "predicted_output": "Spastic patients with hyperactive stretch reflexes have movement deficits.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.5263157894736842,
+        "ROUGE_2": 0.23529411764705882,
+        "ROUGE_l": 0.2105263157894737,
+        "BERTScore_f1": 0.9071864485740662
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The study was designed to investigate the changes in axonal transport that result from disturbances in protein synthesis. Doxorubicin, an antineoplastic drug which interferes with the function of DNA, has a selective effect on peripheral sensory nerves because of the high vascular permeability in the dorsal root ganglia. After the intravenous administration of a moderate dose (4 mg/kg) to male Wistar rats, the transport of slow component a (SCa) was found to be retarded, transport velocity being decreased by 17% (0.85 +/- 0.06 mm/day vs 1.03 +/- 0.06 mm/day in controls). The transport kinetics of the fast anterograde and retrograde components (aFC and rFC) were unchanged after the administration of a dose of 6 mg/kg, although the relative amount of aFC was decreased by 27% (3.2 +/- 0.9% vs 4.4 +/- 1.1% in controls). It is suggested that the neuronopathy induced by doxorubicin is mediated by changes in axonal transport.",
         "output": "The effect of doxorubicin on slow and fast components of the axonal transport system in rats.",
-        "category": "Title Generation"
+        "predicted_output": "Doxorubicin-induced changes in axonal transport in the rat dorsal root ganglion.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.35714285714285715,
+        "ROUGE_2": 0.07692307692307691,
+        "ROUGE_l": 0.28571428571428575,
+        "BERTScore_f1": 0.900902271270752
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: The clinical features of 66 patients with histologically defined mitochondrial myopathy are described. The age of onset of symptoms ranged from birth to 68 years, but was before 20 years in 61%. Nineteen patients had similarly affected relatives. Three groups of cases could be identified clinically: a combination of progressive external ophthalmoplegia and weakness of the limbs induced or increased by exertion (55%); such limb weakness alone (18%); and those with clinical features, such as ataxia, dementia, deafness, involuntary movements and seizures, predominantly or exclusively arising from the CNS (27%). There was considerable overlap between these groups, and pigmentary retinopathy, present in 36% of patients, occurred in all three. At a mean disease duration of twenty years, 9 patients (all from Group 3) were severely disabled but 42 were still able to work. In vitro studies of mitochondrial metabolism, performed in 33 cases, most commonly showed deficiencies of the mitochondrial respiratory chain localized to complex I (18 patients) or complex III (9). No typical clinical picture emerged for any of the identifiable biochemical defects.",
         "output": "The clinical features of mitochondrial myopathy.",
-        "category": "Title Generation"
+        "predicted_output": "Progressive external ophthalmoplegia and weakness of the limbs induced or increased by exertion.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.21052631578947367,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.10526315789473684,
+        "BERTScore_f1": 0.8581194877624512
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: In a three-dimensional study of the distribution of anterior horn cells in the C8 segment of the human spinal cord we have recognized lateral and medial zones of motor neuron groupings, but have not been able to recognize subgroups of neurons within these groupings resembling the anatomical columns described by earlier investigators. This observation does not invalidate the concept of functional groupings within these anterior horn cell pools. In studies of the same segment in cords obtained at autopsy from patients with motor neuron disease, zones of focal loss of motor neurons were identified, without consistent severity or distribution at different sectional levels. These findings imply varying resistance to the disease in different pools of motor neurons.",
         "output": "Focal loss of anterior horn cells in the cervical cord in motor neuron disease.",
-        "category": "Title Generation"
+        "predicted_output": "The distribution of anterior horn cells in the human spinal cord.",
+        "BLEU": 0.351520275689857,
+        "ROUGE_1": 0.56,
+        "ROUGE_2": 0.4347826086956522,
+        "ROUGE_l": 0.56,
+        "BERTScore_f1": 0.9300942420959473
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Five children, aged 6 to 16 years, were tested for unilateral discrimination and interhemispheric transfer of tactile information as well as tactuomotor learning at various intervals before and after therapeutic callosotomy. Comparison of preoperative and postoperative capacities revealed that younger children are considerably less affected by the interruption of callosal transmission than older children. Bilateral organization of speech and participation of the anterior commissure can largely be excluded as possible compensatory mechanisms. The most plausible explanation for the excellent preservation of interhemispheric integration of tactile functions in the younger patients appears to be continued reliance on ipsilateral pathways. The relatively greater deficits observed in the older children, on the other hand, suggest that sensorimotor functions come to depend more extensively on contralateral pathways as the corpus callosum reaches functional maturity.",
         "output": "Effects of early and late transection of the corpus callosum in children. A study of tactile and tactuomotor transfer and integration.",
-        "category": "Title Generation"
+        "predicted_output": "Tactile discrimination and interhemispheric transfer of tactile information in children after therapeutic callosotomy.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.35294117647058826,
+        "ROUGE_2": 0.125,
+        "ROUGE_l": 0.23529411764705882,
+        "BERTScore_f1": 0.8684222102165222
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Previous serial measurements of lymphocyte subpopulations in individuals with multiple sclerosis (MS) have demonstrated periodic reductions in the number of OKT8 positive (T8+) cells. In this longitudinal study, involving twice monthly samples from each participant and carried out in two phases lasting at least six and three months respectively, we have confirmed that fluctuations in T8+ cells occur in patients with MS and also found a significant reduction in this lymphocyte subpopulation in patients' spouses but not their siblings, compared with unrelated controls. The changes observed in spouses were related in time to those occurring in patients on 10/13 occasions from 5/9 families; no temporal relationship occurred in the remainder. Taking two or more low T8+ values as significant, 12/13 patients, 7/9 spouses, 6/13 siblings and 4/13 controls (chi 2 = 12.5; P less than 0.01) were abnormal at some stage. Our results provide indirect evidence for the role of environmental factors in determining certain immunological abnormalities present in patients with MS and illustrate the role of family studies in determining the specificity of these changes to the disease.",
         "output": "Suppressor T cells in family members of patients with multiple sclerosis.",
-        "category": "Title Generation"
+        "predicted_output": "The role of environmental factors in determining certain immunological abnormalities present in patients with multiple sclerosis.",
+        "BLEU": 0.16943571815930883,
+        "ROUGE_1": 0.4444444444444444,
+        "ROUGE_2": 0.24,
+        "ROUGE_l": 0.3703703703703703,
+        "BERTScore_f1": 0.8900735974311829
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Previous research on visuospatial function in Parkinson's disease is reviewed. The present experiment was designed to test two fundamental aspects of spatial ability, namely right-left discrimination and the manipulation of those concepts in different spatial perspectives. Measures of accuracy and reaction time were taken. The performance of patients with Parkinson's disease did not differ from that of normal subjects in the spatial components of the task. Neither a review of the literature, nor the results of the present study, give support to the idea of a generalized visuospatial deficit in Parkinson's disease.",
         "output": "Visuospatial function in Parkinson's disease.",
-        "category": "Title Generation"
+        "predicted_output": "Parkinson's disease and spatial ability: a review and a study.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.3529411764705882,
+        "ROUGE_2": 0.26666666666666666,
+        "ROUGE_l": 0.3529411764705882,
+        "BERTScore_f1": 0.8644934892654419
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: A rabbit inhalation injury model using a dual tracer radioactive isotope technique (Rowland et al., 1986), has been utilized with small- and medium-sized molecular weight tracers. There is oedema formation at 2 h after smoke inhalation or fluid resuscitation and especially with the combination of inhalation injury and fluid resuscitation [corrected]. This oedema appears to have decreased by 24 h post-injury. There does not appear to be any difference between the small- and medium-sized tracers in the transit times of tracer in the lung vascular compartment. The increases in extravascular water volume have been confirmed by gravimetric analyses of the lungs. Thus the pulmonary oedema in the rabbit animal model is detectable within 2 h post-injury, with a return towards normal values some time within 24 h if fluid challenged for short periods. Fluid resuscitation exacerbates the amount of oedema that developed. The onset of pulmonary oedema may therefore be earlier than previously seen clinically, and fluid resuscitation modifications may be of benefit in smoke inhalation injury.",
         "output": "Early detection of extravascular lung water in an inhalation injury animal model [published erratum appears in Burns Incl Therm Inj 1987 Feb;13(1):82]",
-        "category": "Title Generation"
+        "predicted_output": "The onset of pulmonary oedema may therefore be earlier than previously seen clinically, and fluid resuscitation modifications may be of benefit in smoke inhalation injury.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.16,
+        "ROUGE_2": 0.041666666666666664,
+        "ROUGE_l": 0.16,
+        "BERTScore_f1": 0.8188645839691162
     },
     {
+        "category": "Title Generation",
         "instruction": "Given an abstract of a paper, generate a title for this paper such that conveys the key focus of the paper.",
         "input": "Abstract: Using succinate as a substrate, the respiratory control ratios of liver mitochondria from burned male Sprague-Dawley rats with full skin thickness burns covering 20 per cent of the body surface area were increased at 15, 30, 45 and 60 min after burn, the peak being at 30 min post-burn. A sham group acted as control. In comparison with the sham group, the specific activity of succinic dehydrogenase was slightly decreased and the activities of cytochromes b and c + c were decreased significantly 30 min after burning. All the results suggest a lack of increased metabolic activity during the early phase of burn injury.",
         "output": "Functional changes in rat-liver mitochondria during the early phase of burn injury.",
-        "category": "Title Generation"
+        "predicted_output": "The early phase of burn injury is characterized by a lack of increased metabolic activity.",
+        "BLEU": 0.16451929399933107,
+        "ROUGE_1": 0.42857142857142855,
+        "ROUGE_2": 0.3846153846153846,
+        "ROUGE_l": 0.42857142857142855,
+        "BERTScore_f1": 0.9118208885192871
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: i am on my period and have a cold. i was in the bathroom getting ready to take a shower so i was completely naked. i sneezed and blood (the mucus kind) basically shot out of my who-ha and went all down my legs and all over the rug. kind of horrific, mostly impressive.",
         "output": "TIFU by sneezing on my period",
-        "category": "Title Generation"
+        "predicted_output": "i sneezed and blood shot out of my who-ha",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.125,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.125,
+        "BERTScore_f1": 0.8435878157615662
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: just happened at work.\n\nmy coworker left work early two days ago to go to a wake, and wasn't in yesterday. so just now i come in and see him at his desk and ask, \"hey dude! how was your wake n bake?\" \n\nhis reply: \"wake n bake? do you even know what a fucking wake is?\"\n\nme: \"...\"\n\nother coworker: \"(a wake is a funeral)\"\n\nme: \"...oh... i thought it had something to do with a baptism...\"\n\nall of us: \"...\"\n\nin the awkward silence i sidled off and am now sitting at my desk eating my sausage and egg mcmuffin.",
         "output": "TIFU by not knowing what a \"wake\" is",
-        "category": "Title Generation"
+        "predicted_output": "Wake n bake? Do you even know what a fucking wake is?",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.4,
+        "ROUGE_2": 0.2222222222222222,
+        "ROUGE_l": 0.4,
+        "BERTScore_f1": 0.863066554069519
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: today i was on a date with a cute girl i met on tinder.  as we were walking from the restaurant i spotted woman walking her shiba inu, and without thinking exclaimed \"it's a doge!\".  clearly the girl i was with was not familiar with internet memes because the look she gave me implied she either thought i was insane or mentally retarded.  i then attempted to stammer an explanation, but i don't think it helped remedy the situation.  i highly doubt i'll be getting a 2nd date.",
         "output": "TIFU by pointing out a doge to someone who didn't know what that meant",
-        "category": "Title Generation"
+        "predicted_output": "i was on a date with a cute girl i met on tinder.  as we were walking from the restaurant i spotted woman walking her shiba inu, and without thinking exclaimed \"it's a doge!\".  clearly the girl i was with was not familiar with internet memes because the look she gave me implied she either thought i was insane or mentally retarded.  i then attempted to stammer an explanation, but i don't think it helped remedy the situation.  i highly doubt i'll be getting a 2nd date.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0761904761904762,
+        "ROUGE_2": 0.019417475728155338,
+        "ROUGE_l": 0.0761904761904762,
+        "BERTScore_f1": 0.8145498633384705
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: this happened several months ago, but i just decided to post it here.\n\nso a few months ago someone at my school committed suicide, the 2nd one in less than a month, obviously it was a very tough time for everyone. at his funeral, 2 kids were joking around (this may sound inappropriate, but it was appropriate, you'd have to be there) and one of them said \"everyone hates you!\" in a joking manner. i said (oh jesus...), \"careful, we don't want another one!\" both their faces immediately went serious and they walked away. oops. i couldn't even apologize because i couldn't spit out any words after i said it. the worst part was i said it rather loudly so everyone around me heard it too, i could feel their stares burning into me.",
         "output": "Several months ago IFU by making a suicide joke at a kid who committed suicide's funeral...",
-        "category": "Title Generation"
+        "predicted_output": "2 kids were joking around and one of them said \"everyone hates you!\"",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8360213041305542
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so this happened about an hour ago. i had left my coffee mug next to me in bed while i smoked bowls. i used a straw to stir the coffee and left it in the mug. even though the giant orange mug was clearly in my view i temporarily forgot about it. i turned to put the bong down. although the real fuck up didn't occur,  hilariousness ensued. the mug must have teetered a bit causing a bit of coffee to shoot out through the straw. well the coffee was luke warm at best but when it hit my arm and me not knowing wtf it was, i jumped up like something bit me causing the real fuck up. 2/3 of the coffee splashed all over my white sheets, pillows and remote. luckily and miraculously it didn't fall on my laptop.",
         "output": "tifu by leaving my coffee on my bed",
-        "category": "Title Generation"
+        "predicted_output": "i forgot about my coffee mug and it spilled all over my bed.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.380952380952381,
+        "ROUGE_2": 0.2105263157894737,
+        "ROUGE_l": 0.380952380952381,
+        "BERTScore_f1": 0.8761712312698364
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: i love me some finger foods.  \n\ni would love to tell you that this was only my first time sacrificing taste buds and roof-of-mouth cohesion in favor of digit dexterity - alas, this happens fairly regularly.  \n\n\"but the laws of temperature and gravity work!\" you might argue - indicating that 1) said tenders will not float away or cease to exist, and 2) they will cool sufficiently on their own.  alas, i don't have time for such analyses.  i'm hungry.  and this shit smells delicious.",
         "output": "TIFU by deciding \"Damn, this chicken tender is really hot... I should put it into my mouth to avoid burning my fingers.\"",
-        "category": "Title Generation"
+        "predicted_output": "i love me some finger foods.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.07142857142857144,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.07142857142857144,
+        "BERTScore_f1": 0.8294395804405212
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: a little backstory - my grandfather passed away a year ago, leaving a car behind. the deal was then that provided i would drive my little sister to and from school every day, i could use the car untill i moved out of the house. i was 18 at the time and had just gotten my driver licence, so this was a sweet deal.\n\nfast forward two years, i have now moved away, so the time came to give back the car. my perent's planned on selling it since i didn't need it anymore. so in order for it to be nice and shiny, i decided to wash it.\n\nhaving limited supplies (i only juuuust moved in) i decided to just use a washcloth and some soap. but since the front end had some grime on it that i could not get off, my brain turns off and i decided to use a scourer. you can imagine the outcome. i feel like a moron.",
         "output": "TIFU Washing parents car",
-        "category": "Title Generation"
+        "predicted_output": "i washed my car with a scourer.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.18181818181818182,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.18181818181818182,
+        "BERTScore_f1": 0.8526562452316284
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: today in school me and my friend were playing this card game, i think it was called \"egyptian rat king\" or something like that. anyway he wins first round which leaves me a little salty, so i demanded a rematch and bet him that if i won, he would have to call me \"grand master slam\" for the rest of the school year. he agreed to my bet, but suggests that if he were to win i would have to call him \"cocksmith\" for the rest of the year. we shake on it and 15 minutes later cocksmith won.",
         "output": "TIFU by making a ridiculous bet( and losing).",
-        "category": "Title Generation"
+        "predicted_output": "i lost a bet to a friend and now i have to call him cocksmith for the rest of the year.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.20689655172413796,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.20689655172413796,
+        "BERTScore_f1": 0.8577215075492859
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so i just got back from my trip and i had met some new people while i was there so i decided to facebook stalk who i had met. i then saw a really hot photo of the girl so i started jerking off and as i was pulling up my shirt i accidentally hit the like button so i had to quickly unlike it hoping that she wouldn't see that i liked it",
         "output": "TIFU Facebook Stalking",
-        "category": "Title Generation"
+        "predicted_output": "i accidentally liked a girl's photo on facebook",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.16666666666666666,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.16666666666666666,
+        "BERTScore_f1": 0.8358575105667114
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so i was on the toilet taking a shit, when i noticed a small white bug on my leg. i thought no big deal, since i live in australia, and bugs in the toilet are normal, but then i saw some more on my leg. then i was like oh shit. i then began to feel them crawl around my body and near by butthole, and it was at that moment my toilet seat broke. i had multiple splinters in my ass and there was a fair amount of blood. i called over my girlfriend who had this simultaneous look of amusement and shock, due to the blood everywhere and the fact that my ass had fallen into the toilet and it was touching my shit. she called an ambulance out of panic, and i had to stay in the hospital for the next 2 days while they stitched my ass. i also had fun explaining to them what happened.",
         "output": "TIFU by buying a wooden toilet seat",
-        "category": "Title Generation"
+        "predicted_output": "i was on the toilet taking a shit, when i noticed a small white bug on my leg. i thought no big deal, since i live in australia, and bugs in the toilet are normal, but then i saw some more on my leg. then i was like oh shit. i then began to feel them crawl around my body and near by butthole, and it was at that moment my toilet seat broke. i had multiple splinters in my ass and there was a fair amount of blood. i called over my girlfriend who had this simultane",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.07619047619047617,
+        "ROUGE_2": 0.01941747572815534,
+        "ROUGE_l": 0.05714285714285714,
+        "BERTScore_f1": 0.8087912797927856
     },
     {
-        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
-        "input": "Text: so i jumped in the shower this morning. threw in a nice playlist, got the water all nice and hot for a good relaxing shower. \n\nnow, my favorite soap is a nice vegan lemon soap that contains a shit ton of real citrus products. lemon oil, orange oil, lemon chunks. the whole shebang. i begin to scrub up when i realize i forgot to grab my shaving/llady bits cleaning soap which is much milder and smells like candy and i was too lazy to go get it. \n\nso i decide to use my lemon soap. \n\ni start to wash the lady bits.\n\n\ncue burning and stinging. ow ow. ow. i do my best to rinse it out and it still stings.",
-        "output": "Tifu by using my favorite vegan lemon soap on my whole body",
-        "category": "Title Generation"
-    },
-    {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: goddamnit i hoped i'd never have to do more than laugh at everyone else's stories on here. but, today i fucked up. i was having some me time (complete with porn and my little lipstick tube looking vibrator) out on my couch while my parents weren't home. when i was all done, i got tired and fell asleep, and i must've forgotten all about the little toy. now i was looking for it and realized the last place i had it... and my parents have been in the living room all day. i went out there to nonchalantly look around and didn't see it. no wonder my parents have been acting really strange toward me, they probably found it and realized what it was and threw it out. i need to crawl in a hole and die, guys.",
         "output": "TIFU by forgetting about my vibrator",
-        "category": "Title Generation"
+        "predicted_output": "i fucked up.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8522328734397888
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: i was trying to update my mac, and sync all of the family devices, but time machine wasn't working.  in an effort to get a current backup, i deleted the hard drive i regularly use, and other files on there thinking they were backed up on my other hard drive.  rather than check before deleting, i deleted years worth of flip movies, cell phone pics and movies, etc.  i felt my heart drop when i checked the older hard drive to confirm the files were there, and it was empty.  my ocd really jammed me up.  i emptied the trash can too.  sometimes, there's no coming back from being an idiot.",
         "output": "TIFU by deleting my family hard drive backup.",
-        "category": "Title Generation"
+        "predicted_output": "i deleted my hard drive and now i'm an idiot.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.3157894736842105,
+        "ROUGE_2": 0.11764705882352941,
+        "ROUGE_l": 0.3157894736842105,
+        "BERTScore_f1": 0.889127254486084
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: actually yesterday on the way home from work, but i'm at a computer for the first time since. the deer in my neighborhood are used to people, and cars, so they're like big hoofed dogs ... except when their tiny brains unexpectedly throw them into panic mode for no reason, at which point they run into the road and die. this happened last night, except not quite; i was only going about 25 or 30, so this doe is thrown up over the hood and bounces off the windshield. she made it to her feet and limped off into a residential neighborhood, but she's a goner, with at least one broken leg.\n\nthen i saw the fawns, still little enough to have spots. have you ever made eye contact with two bambis right after you killed their mother in front of them? probably not. it sucks.",
         "output": "TIFU by orphaning two fawns",
-        "category": "Title Generation"
+        "predicted_output": "deer in my neighborhood are used to people, and cars, so they're like big hoofed dogs ... except when their tiny brains unexpectedly throw them into panic mode for no reason, at which point they run into the road and die.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8068949580192566
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: will edit when sober.",
         "output": "TIFU by drinking purple drank",
-        "category": "Title Generation"
+        "predicted_output": "will edit when sober.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8301414847373962
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: ok, this actually happened last december.\n\nmy 38 weeks pregnant wife asked me who i would fuck if i could fuck anyone in the world. without thinking i said \"mila kunis before she got pregnant\".  \n\nimmediate cringe, followed by a quiet ride home.  we now have a beautiful healthy 7 month old and my wife still gives me shit for this comment.\n\nedit: i just want to clarify since some people seem to be missing the point.  it was the \"before she got pregnant\" part of my answer that was the fuck up.  simply saying \"mila kunis\" would have been fine.  my wife jokingly gives me shit about it.  i swear my wife is hotter post-pregnancy.",
         "output": "TIFU by being honest with my pregnant wife",
-        "category": "Title Generation"
+        "predicted_output": "my wife still gives me shit for this comment.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.23529411764705882,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.23529411764705882,
+        "BERTScore_f1": 0.8544121980667114
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: firstly, it's important to note that this did in fact happen today. \n\nthe story begins with my usual coffee run to starbucks during the last 20 or so minutes of my lunch break. i ordered a grande dark roast, and when the barista asked if i wanted room for cream, i said no, as i prefer my coffee black. big mistake apparently.\n\nunbeknownst to me, the barista damaged the lid when putting it on the cup. he also filled the cup up to the brim. as i began my 15 minute walk back to my office, the scalding hot coffee slowly began to leak onto my hand in the 90 degree heat. my hand was covered in coffee by the time i got back.\n\nnext time i'll just ask for room.",
         "output": "TIFU by Saying NO to Room for Cream",
-        "category": "Title Generation"
+        "predicted_output": "coffee scalds hand",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8105360865592957
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so this actually happened last year.\n\ni was walking down the hall, and then i saw this girl that i was romantically interested in.\n\nsuddenly, she stretched out her arms as if to give a hug and said \"honey!\". for some reason, i thought she was referring to me, so i said something across the lines of \"woah, you like me to?\" as i stretched my arms out to embrace her too.\n\nthen, she gave me a really weird look as she walked right past me and hugged one of her female friends, who had been walking behind me. \n\nshe then told everyone about what happened and i was the laughing stock of the class for two weeks.\n\ni quickly got over her and only worked with her when the teacher paired me with her for school work.",
         "output": "TIFU by accidentally letting my crush know that I like her.",
-        "category": "Title Generation"
+        "predicted_output": "i was walking down the hall, and then i saw this girl that i was romantically interested in.\n\nsuddenly, she stretched out her arms as if to give a hug and said \"honey!\". for some reason, i thought she was referring to me, so i said something across the lines of \"woah, you like me to?\" as i stretched my arms",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.13888888888888887,
+        "ROUGE_2": 0.028571428571428574,
+        "ROUGE_l": 0.08333333333333333,
+        "BERTScore_f1": 0.8321346044540405
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: my husband is somewhat of a whiskey connoisseur and has a pretty solid collection. he has told me i'm welcome to drink some whenever i like but i never do as i'm not much of a drinker and rarely feel like it. well, i was feeling really depressed last night and decided to go ahead and make some drinks to see if i could forget things for a few hours. i ended up making two bourbon sours and they were pretty good but didn't give me much of a buzz since i only used about two ounces of alcohol. \n\nmy husband came home, noticed the clean shaker and strainer drying in the kitchen and asked me what i had made, what alcohol i used, etc. when i told him, he asked me if i was kidding and then started raaaaaaging. apparently, i wasn't supposed to use the $100 bottle of van winkle to make my shitty little mixed drink. i went right to bed after that, in a worse mood than at the beginning of the night. oops.",
         "output": "TIFU by mixing a drink with $100 whiskey",
-        "category": "Title Generation"
+        "predicted_output": "i used a $100 bottle of whiskey to make a mixed drink.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.4,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.3,
+        "BERTScore_f1": 0.902046263217926
     },
     {
-        "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
-        "input": "Text: i have a big problem with not being able to start something or do it for the first time. for example if i needed to go to the bank i'd procrastinate leaving and once i got to the bank sit in my car and contemplate if i need to go inside or not.well for the past few months this feeling has stopped me from getting my oil changed.\n\nreddit, it's been 1 year and 6 months and i haven't changed my oil and now the fear of something being wrong with my car and extra fees i can't pay is keeping me from still getting it changed...",
-        "output": "TIFU by being an introvert",
-        "category": "Title Generation"
-    },
-    {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: this happened about ten minutes ago. it being friday, our office is very quiet. a new email came out regarding a new customer service improvement forum titled the \"melting pot\". i don't suffer fools gladly and immediately announced loudly how stupid the whole thing sounded (expect my actual wording used the words \"off\" and \"fuck\". the guy who wrote it was less than ten feet away and as soon as i said it he popped his head up, and i went bright red and tried to back pedal. this was obviously difficult owing to my choice of words. \n\noh great. hopefully i'll still have a job on monday morning.",
         "output": "TIFU by criticizing a new initiative at work while the person who wrote it sat less than 10 feet away.",
-        "category": "Title Generation"
+        "predicted_output": "New Customer Service Improvement Forum: The Melting Pot",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.14285714285714288,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.14285714285714288,
+        "BERTScore_f1": 0.8071419596672058
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: this happened about an hour ago and she still doesn't know that i saw anything. it's not about cheating. girlfriend aka anonymous is a recovered addict and hasn't used in over a year. i opened her phone to use the flashlight and saw a text she sent to a friend asking for zanex. it really hurt and worried me. anonymous is supposed to take them for anxiety but says she doesn't want to take any narcotics because of her past. i don't know what to do or how i go about saying anything. sitting here wishing i never opened the phone. also i'm not sure if i'm posting this in the right place but i feel like ifu.",
         "output": "Tifu by checking my girls phone",
-        "category": "Title Generation"
+        "predicted_output": "i opened my girlfriends phone and saw a text about zanex.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.23529411764705885,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.23529411764705885,
+        "BERTScore_f1": 0.8558266758918762
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so tifu when i had been on this great early-night walk. i had just come home and was about take of my jacket. the headphone cable i had running down my stomach was disconnected from my iphone and just hanging there. the jacket which is made of this plastic, very conductive kind of plastic just touched the other end of the headphones, and gave out a small charge that electrocuted my inner ear and fuck, it hurt alot!",
         "output": "TIFU by getting a huge shock in my ear while wearing headphones",
-        "category": "Title Generation"
+        "predicted_output": "i got electrocuted by my headphones",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.3333333333333333,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.3333333333333333,
+        "BERTScore_f1": 0.883425235748291
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: throwaway because this is disgusting and i'm still a little scarred. today i was in the [public] bathroom and was changing lady products like normal. then somehow i managed to not only drop the used tampon i was holding, but *fling* it on the floor where it rolled into the adjacent stall (that someone was using) before i could pick it up. at that point i was terrified that i'd be identified so i finished up and ran out of the bathroom faster than a hungry cat who had just heard a can open.",
         "output": "TIFU by dropping a tampon",
-        "category": "Title Generation"
+        "predicted_output": "i accidentally threw a used tampon into the next stall in the bathroom",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.2222222222222222,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.2222222222222222,
+        "BERTScore_f1": 0.8620690107345581
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: had some sheets to clean so i was going to toss them in the washer, saw my roommates wet clothes in there so i put them in the dryer on air dry. roommate comes home and tells me i've ruined his clothes and have been ruining his clothes for months! why was i never told?! i feel like shit now.",
         "output": "TIFU by doing laundry",
-        "category": "Title Generation"
+        "predicted_output": "roommate ruined my clothes",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8382607698440552
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: this happened during the cowboys eagles game. (not a fan of either team but was rooting for the eagles.) i am spending thanksgiving with my god parents and my parents and we are all watching the game. the eagles defense made a stop with a pretty hard hit and we were all getting into the game so i shouted \"git fuckin rekt\". my godmother proceeds to grab a bible from the other room and comes back and starts tapping my shoulders and head and recites \"our father please rid this child of his demons that make him feel the need to use profanity.\" she does this for what seemed like an enternity but really was about 2 minutes. longest 2 minutes of my life.",
         "output": "TIFU by screaming \"git fukin rekt\" in front of my super religious god parents...",
-        "category": "Title Generation"
+        "predicted_output": "i shouted \"git fuckin rekt\" during the cowboys eagles game.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.16666666666666666,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.16666666666666666,
+        "BERTScore_f1": 0.8718465566635132
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: turns out you should wear underpants when doing this experiment. i removed mine to preserve audio clarity. fortunately my phone is washable so it spent a good five minutes under the tap.\n\nedit: thanks to /u/ben_uk for pointing out that this is recorded in google's history. i've uploaded the event for your enjoyment: http://picosong.com/sedc/ (doesn't sound very impressive from here but there was a deposit). audio cuts out before i say fuuuu....",
         "output": "TIFU by seeing if Google Now can understand a fart",
-        "category": "Title Generation"
+        "predicted_output": "i tried to make a waterfall with a water bottle",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.10000000000000002,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.10000000000000002,
+        "BERTScore_f1": 0.8566669225692749
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: yea well, happened like 2 minutes ago.\n\nim at my archery shooting range right now to do some training, since its one of those days its not raining, weird. so when i arrived i first made my way to the bushes next to the range to have a wee pee. there was this huge plant of nettles in front of me so by male instinct i had to pee on the leafs. very soon i would regret, because in a very fast pace the whole spawn of satan bend over right to my..yes. it rested his itchy leaf on my best parts. because i was in the middle of the act i could not just do a backflip or something, took me by surprise. \n\nso now my pantsnake is itching and i dont even know how im supposed to hold a steady bow, i hope it wears off soon. never even thought something like this could happen. it looks and feels like i caught a nasty std.",
         "output": "Tifu by getting nettles on my schlong",
-        "category": "Title Generation"
+        "predicted_output": "i caught a nasty std.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8316406011581421
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so i was just relaxing, and getting my weekly dose of dancing with the stars, when i hear a window opening and a man stepping into my house. i run downstairs, grab a knife and hide around the corner of a wall. the man walks around the corner, wearing a ski mask and black clothing. \n\ni grab my knife and stab the man, leaving a big pool of blood all over my nice wooden floors. i lean over and pull of his ski mask. then i was like **oh shit** it's my sisters boyfriend. \n\n \n\nedit 1: he's not dead, just in the hospital.",
         "output": "TIFU by stabbing my sister's boyfriend.",
-        "category": "Title Generation"
+        "predicted_output": "i stabbed my sisters boyfriend.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.3333333333333333,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.3333333333333333,
+        "BERTScore_f1": 0.9288845062255859
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: little bit of backstory; it's midterm week amd today we have 2 so we were allowed to hang out  outside of the school. \ni went to the tennis court where my friends were playing tennis with my best friend luis watching them i saw a football and decided to play catch with luis. a little while later he came up with the idea to kick the ball after i threw it seemed easy enough. i threw he kicked it he then threw i tried to kick it. i kicked over my head and at that moment my left leg decided to pull out from underneath me and i subsequently fell onto the concrete tennis court hitting my right hand left wrist and my right knee it is now extremely bruised and probably fractured\n\ni now have to take my english midterm with a numb writing hand",
         "output": "TIFU by trying to kick a ball",
-        "category": "Title Generation"
+        "predicted_output": "i now have to take my english midterm with a numb writing hand",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.2,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.2,
+        "BERTScore_f1": 0.8349074125289917
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so this fu happened about 2 years ago. i was at a theme part with 3 other friends and we decided to go on the go-cart track. \n\nwe are casually driving around the track when the timer goes off for us to park it and get out. \n\nso as we are all trying to get in line, i turn into the parking area and am trying to slow down but i was going too fast(breaks really sucked on these things), so i try to slam on the breaks.\n\nturns out i hit the gas and floored it. i went full speed into the back of some 50 year old guy in front of about 75 people. he sat there rubbing his neck the whole time while im sitting here getting yelled at by the person who worked there.\n\ni did get out and apologized profusely. i still feel terrible.",
         "output": "TIFU by rear-ending someone with a go-cart.",
-        "category": "Title Generation"
+        "predicted_output": "i hit the gas and floored it.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8478973507881165
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: from the naked jafar doll ps battle thread:\n\nhttp://www.reddit.com/r/photoshopbattles/comments/2f8xrh/psbattle_naked_jafar_doll/ck6zwal\n\nspecifically rbuieb's \"jeezusth crythst\" reply\nhttp://www.reddit.com/r/photoshopbattles/comments/2f8xrh/psbattle_naked_jafar_doll/ck72ykc\n\ni read it out loud in a very yiddish/'cowardly lion' voice.  since i had headphones on, didn't realize just how loud i said it until the office basically stopped what they were doing and looked at me, inception-dream-realization-moment style.\n\nmy boss gave me the stink eye and shook his head.  yes, the same boss i left stranded at the airport a few weeks ago.\n\nand now i just a meeting invite from him with one of our hr reps. brb\n\nedit: was told i have to take a sensitivity training course (video), and a sharepoint based 'exam' for compliance as recommended by hr.  what?",
         "output": "TIFU by reading someones reddit post aloud at the office with my headphones on, not realizing I said it aloud. Loudly.",
-        "category": "Title Generation"
+        "predicted_output": "i read it out loud in a very yiddish/'cowardly lion' voice.  since i had headphones on, didn't realize just how loud i said it until the office basically stopped what they were doing and looked at me, inception-dream-realization-moment style.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.24615384615384614,
+        "ROUGE_2": 0.12698412698412698,
+        "ROUGE_l": 0.15384615384615383,
+        "BERTScore_f1": 0.8572392463684082
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: met this girl in a nightclub, seemed fairly into me from the get go but playing a little hard to get. club closes and she's basically sticking with me the whole time. she's with a couple of friends but says she lives on the other side of the city. we goof around for a while in the city and get with each other a few times then eventually get the metro towards her place. \n\nwe get off the metro and her and her friends all just randomly leg it. i follow for a bit, and they just laugh and keep running. turn a few more corners and they are gone. now i'm on the other side of the city and its 4am...$40 taxi back to where i've come from.\n\ni've had games played before...but really would you drag a guy halfway across the city just to run away and see his reaction?!",
         "output": "TIFU by getting played for a fool by a girl for 4 hours",
-        "category": "Title Generation"
+        "predicted_output": "Girl runs away from guy in nightclub",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.1,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.1,
+        "BERTScore_f1": 0.855867862701416
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: they're right there. i fucking see them the little fuckers. waiting for some sketchy ass russian to come unlock it for me.",
         "output": "TIFU by locking my keys in my car",
-        "category": "Title Generation"
+        "predicted_output": "i fucking see them the little fuckers.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.821930468082428
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so this happened earlier this week at my university where i was running a bit late for my lecture. right outside the classroom there were two people fighting, a young lady in her late twenties and a man of about 40. the woman was clawing for the man's eyes and screaming \"kill him! kill him!\". the man was trying to pin her arms down and control her.\n\ninstead of intervening i walked up to them and asked if they wanted help. i was directing this to the man since people were standing around and one was calling for police. neither the man nor the woman replied and i continued in to my class. later when police came to the scene and i learned that the student had been banned from the school and had attacked the lecturer when he told her to leave it felt really silly that i hadn't helped him restrain her. it struck me much later how bizarre it was to ask two people fighting \"hey do you want some help?\"   ¯\\_(ツ)_/¯",
         "output": "TIFU by not intervening in a fight between professor and student",
-        "category": "Title Generation"
+        "predicted_output": "i asked a man and a woman fighting if they wanted help",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.17391304347826086,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.17391304347826086,
+        "BERTScore_f1": 0.8623221516609192
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: tifu by playing with molten tin in snow\nthis just happened 10 minutes ago.\ni have a propane torch i played with outside and melted some snow  outside our garage port and i decided to melt something more that just snow with it.\n\nso i got this big chunk of maybe 50 grams of tin that i put on in jar lid and melted. the lid was surrounded by snow since it melted through the snow down to the ground.\nso i decided to move the lid a bit to make it lay more even and not risking to tip over.\nand now i really goofed, i accidentally tipped the lid too much so the tin poured down on the snow.\npop! and since i was crouching over the tin splattered right all over my face.\n\ni feel incredibly stupid and my eyelid burns.",
         "output": "TIFU by playing with molten tin in snow",
-        "category": "Title Generation"
+        "predicted_output": "i melted tin in snow and it splattered on my face",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.3157894736842105,
+        "ROUGE_2": 0.23529411764705882,
+        "ROUGE_l": 0.3157894736842105,
+        "BERTScore_f1": 0.8472610116004944
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so my company uses an internal chat messenger program. i saw my coworker's status was online so i just assumed he was in his office and i could talk to him anytime. later in the day my manager asked me for a status update, and i told him i was working with my coworker to get it done. well i actually hadn't even started on it and went to my coworker's office to start talking about it. i looked inside... and he wasn't there! even though his chat status was online, he was actually working from home. just as i was about to leave, my boss was walking down the hallway and saw me in front of my coworker's office looking like an idiot. so now my boss realizes i was lying to him when i said i was talking with my coworker... because if i was actually talking to him, how the fuck did i not realize he was working from home? i am so fucked.",
         "output": "TIFU by not realizing my coworker was working from home",
-        "category": "Title Generation"
+        "predicted_output": "i am so fucked.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8482389450073242
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so today me and my friends had a settlers of catan day at the house where the girl i like and invited to go on a date lives. her parents are very religious and have banned any cursing at their house. today they had a bunch of their church friends over to play catan. before the day started she told use this and i completely set my mind up for it so i would not mess up.\n\nafter we were all done and back home i found out she had removed me from her facebook so i sent her a message asking why. come to find out at some point i said \"dammit\"....\n\nso yeah her parents got pretty mad at her. so there goes my chances with her....",
         "output": "TIFU By cursing at the girl I like parents house.",
-        "category": "Title Generation"
+        "predicted_output": "i said dammit and lost my girlfriend",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.11764705882352941,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.11764705882352941,
+        "BERTScore_f1": 0.83286052942276
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so, 2 days ago netflix expended their reach to 130 new countries, and mine was one of them. i was really excited, eve though i knew i was gonna keep pirating content (arrr!) after my free trial expires because of reasons.\n\nanyway, in my excitement, today i sent a girl a message saying only: 'netflix and chill?' she says yes, and comes over. yeey, finally a real world meme coming to life outside of the us. she comes over, we fool around, have a good time.\n\nnow, my understanding of 'netflix and chill' is just  a hookup. wasn't looking for anything else, don't really have the time. as she leaves, i walk her to the bus station, and by the time i get back, i see a relationship request in my facebook notifications. so as much as i thought she was familiar with a lot of memes, obviously i misplayed.",
         "output": "TIFU by accidentally getting a girlfriend",
-        "category": "Title Generation"
+        "predicted_output": "'netflix and chill' meme comes to life, but i'm not interested in a relationship.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.09523809523809522,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.09523809523809522,
+        "BERTScore_f1": 0.8472062349319458
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: woke up with a raging boner, went to pee and made a mess on the floor, decided to use a very used and very wet towel since it wouldn't be used anymore before washing. fast forward to 2-3 hours later when i go to take a shower, don't find any clean towels and decide to use one of the used ones...\n\ni had an epiphany with a pissed towel on my face.",
         "output": "TIFU by pissing with a boner",
-        "category": "Title Generation"
+        "predicted_output": "i had an epiphany with a pissed towel on my face.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.23529411764705885,
+        "ROUGE_2": 0.13333333333333333,
+        "ROUGE_l": 0.23529411764705885,
+        "BERTScore_f1": 0.8487940430641174
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: this happened back in 2010 when i was with a friend, it was the summer and we where both 12 years old. we both had passes to the local swimming pool. one day we are both getting changed in separate changing rooms, we would always grab 2 disabled one's because there was more space, friend gets changed really fast and has left his changing room. i didn't hear and didn't realise that a mentally retarded man had gone in the changing cubical he had just been in. during this he started to make loud moaning sounds, to which i thought it was my friend doing, so being immature 12 year old i was, i started to make them back thinking it was him, did it for about 3-4 minutes when i finally left the changing cubical i walked out to be greeted by friend wetting himself laughing about how he wasn't in the cubical and it was someone who was actually ill.",
         "output": "TIFU by accidentally picking on someone with mental retardation",
-        "category": "Title Generation"
+        "predicted_output": "A mentally retarded man was in the changing cubical with me.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.09999999999999999,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.09999999999999999,
+        "BERTScore_f1": 0.8384972810745239
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: actually happened last night.  my wife and i were going to get jiggy with it, but i had drank a couple beers and she hates the smell on my breath.  no biggie, figured i would just swish some listerine.  the problem is, instead of the usual light flavor she usually buys, my wife had picked up the cinnamon flavor.  i found it intense as hell but i didn't think it would be an issue.  well i must have had some of it left on my tongue, cause when i went downtown to vaginatown she screamed bloody murder, accidentally kneed me in the face, and ran out of the room.  i found her in the kitchen rubbing an ice cube on her poontang.",
         "output": "TIFU by using Listerine before making sweet love to my wife",
-        "category": "Title Generation"
+        "predicted_output": "my wife hates the smell of cinnamon on my breath.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.1904761904761905,
+        "ROUGE_2": 0.10526315789473685,
+        "ROUGE_l": 0.1904761904761905,
+        "BERTScore_f1": 0.8689658045768738
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: a super old friend of my mom decided to come over and we had to make the house spik-span in less than two hours cos mom is adamant to show that we're living *the* middle class life.\n\nso we did all that vacuuming and changing sheets and putting the garden chair back in its proper place, a man even came over to clear dead leaves from the drain pipes ... huh, even i got into the game pretty deep. bunny skipped to the garage to get some super glue to put the wallpaper bits back and it ended up exploding in my hand, damn 99p glue!\n\nfriend finally arrived and i had to 'shake' her hand with the glue tube still stuck on my finger. mom gave me a dirty look but friend is a pretty chill person and said \"i know exactly what happened.\" afterwards mom served dinner in our normal plastic plates.\n\n\nfine^it's.not.as.exciting.as.getting.a.foot.stuck.in.the.toilet.bowl",
         "output": "TIFU by deciding to fix the peeling wallpaper",
-        "category": "Title Generation"
+        "predicted_output": "mom's friend came over and we had to make the house spik-span in less than two hours cos mom is adamant to show that we're living *the* middle class life.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0975609756097561,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0975609756097561,
+        "BERTScore_f1": 0.8212524652481079
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so, i threw a party last night. we were about 15-20 people, we had lots of fun until i fell asleep. 15 minutes after i fell asleep, spotify said \"lol no\" and decided to play the 3 calmest songs on my playlist on repeat (rezonate - canvas, direct - parallax & direct - lonely soul if you're interested) and obviously, you don't want chill songs on a party. so my friends tried to changed the song but my computer was locked because i always lock it when i have friends over, i don't really trust them tbh. so they were stuck with those 3 songs for the rest of the party. basically, i was told that everyone left after 30 minutes and i woke up with only my gf and my ex-bf (im bisexual dont judge me) and my friends kind of hate me...for some...reason...i dont know.",
         "output": "TIFU by Spotify fucking up at a party",
-        "category": "Title Generation"
+        "predicted_output": "i threw a party last night.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.28571428571428575,
+        "ROUGE_2": 0.16666666666666666,
+        "ROUGE_l": 0.28571428571428575,
+        "BERTScore_f1": 0.8627558946609497
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so today when i was longboarding down locust walk and coming to the corner of of a three way intersection right in the heart of upenn. there was this girl in a wheelchair like a regular wheelchair and i thought heh maybe she broke her leg and this is how some lazy upenn girl is getting around. now shes rolling down the path all by herself and here i come all awesome and shit cause well im on a longboard. i take my headphones out and as i'm about to pass her i say yeahhhh!! ridin on four wheels and extend my hand out for a \"high five\" needless to say she was a paraplegic and did not find the humor i saw in my actions.",
         "output": "TIFU by giving a high five to a girl in a wheelchair.",
-        "category": "Title Generation"
+        "predicted_output": "i was longboarding down locust walk and coming to the corner of of a three way intersection right in the heart of upenn.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.1714285714285714,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.1714285714285714,
+        "BERTScore_f1": 0.8388361930847168
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: i saw an old friend at walmart and we were bullshitting and catching up. he mumbled that his fiance' left him, but i couldn't quite hear him so i said \"what\" and he repeated himself while i kept repeating \"what\" because he kept mumbling. after the last time of him repeating himself, he said it loudly that his fiance' left him and i just said \"oh my god, i'm sorry\" and kind of had to walk away. i felt like an asshole.",
         "output": "TIFU by making a guy repeat that his fiance' left him four times.",
-        "category": "Title Generation"
+        "predicted_output": "i'm sorry, i couldn't hear you.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8247393369674683
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: was moving out of my house over a few day period, the last day not having access to a truck i was using my car with the seats folded down.  last few items were garage stuff, including a drip pan of motor oil from when i had changed my oil a few weeks prior.  i put it and some used rotors in a box to take up to oreilys.  box tips over due to the shifting weight of the rotors, cheap drip pan opens, glugglugglug....\n\nupdate: i had to buy new seats.",
         "output": "TIFU by spilling 3L of used motor oil into my back seats",
-        "category": "Title Generation"
+        "predicted_output": "i had to buy new seats.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.1111111111111111,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.1111111111111111,
+        "BERTScore_f1": 0.8579352498054504
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: (this didn't happen today, but the story still gets thrown around a lot at the dinner table)\n\n\ni was spending the night at my friend jonah's and letting my parents know where i was at the time had slipped my mind. my dad texted me that night demanding i tell him where i was, and i rushed to reply as my phone was at 1% and i didn't want it to die. so i said \"jonah's\" to keep it short and sweet. sadly i had autocorrect on and it changed it to \"no haha\". i did not realize the change and my phone died immediately after sending the text, so i didn't bother finding a charger. it wasn't until i plugged it back in that night that i saw what i had done. \n\nhttp://imgur.com/7mzhish\n\nhere is basically how it went down.",
         "output": "TIFU by texting my dad when my phone was at 1%",
-        "category": "Title Generation"
+        "predicted_output": "i was spending the night at my friend jonah's and letting my parents know where i was at the time had slipped my mind. my dad texted me that night demanding i tell him where i was, and i rushed to reply as my phone was at 1% and i didn't want it to die. so i said \"jonah's\" to keep it short and sweet. sadly i had autocorrect on and it changed it to \"no haha\". i did not realize the change and my phone died immediately after sending the",
+        "BLEU": 0.042536884553616025,
+        "ROUGE_1": 0.13333333333333333,
+        "ROUGE_2": 0.09708737864077671,
+        "ROUGE_l": 0.13333333333333333,
+        "BERTScore_f1": 0.8437922596931458
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: so this happened about half past midnight so technically today. myself and a bunch of people were at a club in our city and were getting progressively more drunk. there's a stripper pole on one of the floors of the club (there's 3 floors). one of our group was dancing on the pole, not hoisting himself up but just walking around it. i attempted to one-up him by grabbing the pole, leaning back and sticking my legs in the air. this of course causing my crown jewels to smack straight into the pole. luckily only my friends saw, but fuck did it hurt.",
         "output": "TIFU by trying to pole dance.",
-        "category": "Title Generation"
+        "predicted_output": "i stuck my balls on a stripper pole",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.14285714285714288,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.14285714285714288,
+        "BERTScore_f1": 0.8657994866371155
     },
     {
+        "category": "Title Generation",
         "instruction": "In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with \"TIFU by\", followed by a situation that caused humor. The title should contain 7-12 words, ideally.",
         "input": "Text: really, this is a series of fuckups on my part. for one, i neglected my teeth enough that i had a small cavity that needed to be filled. in addition, i woke up late and didn't have time to eat before my class (i'm a student), and my appointment to have my cavity filled was 10 minutes after my class ended, so i didn't have time to eat right before the appointment (plus, i would feel bad for having a dirty mouth for the dentist). now, i guess i should have expected that they wouldn't let me eat after the filling. they said to wait till the numbing was gone. now it's been about 2 hours, and it hasn't worn off. i have to go to work (at a restaurant no less) in a few more hours, i'm just hoping my fuckups mean i don't go hungry in a building full of food.",
         "output": "TIFU by not eating before going to the dentist.",
-        "category": "Title Generation"
+        "predicted_output": "i'm a fuckup.",
+        "BLEU": 0.0,
+        "ROUGE_1": 0.0,
+        "ROUGE_2": 0.0,
+        "ROUGE_l": 0.0,
+        "BERTScore_f1": 0.8718553781509399
     }
 ]
